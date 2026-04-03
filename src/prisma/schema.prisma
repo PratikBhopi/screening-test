@@ -1,0 +1,175 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+/* ======================
+   ENUMS
+   ====================== */
+
+/*
+ * Role — drives all access control decisions.
+ * Stored directly on User (no separate roles table).
+ * Three fixed levels, no dynamic creation at runtime.
+ */
+enum Role {
+  ADMIN
+  ANALYST
+  VIEWER
+}
+
+/*
+ * UserStatus — controls whether a user can authenticate.
+ * INACTIVE = deactivated by admin.
+ * SUSPENDED = temporarily blocked.
+ * Checked in auth.service before issuing a JWT.
+ */
+enum UserStatus {
+  ACTIVE
+  INACTIVE
+  SUSPENDED
+}
+
+/*
+ * TransactionType — encodes direction of money movement.
+ * Amount is always positive. Type carries the sign.
+ */
+enum TransactionType {
+  INCOME
+  EXPENSE
+}
+
+/*
+ * TypeHint — tells the dashboard which bucket a category belongs to
+ * without re-scanning every record. Used in aggregation queries.
+ */
+enum TypeHint {
+  INCOME
+  EXPENSE
+  BOTH
+}
+
+/* ======================
+   MODELS
+   ====================== */
+
+/*
+ * User
+ * Central identity model. Every action in the system is attributable
+ * to a user. Users are never hard deleted — use status INACTIVE instead.
+ * Hard deletes would break audit log foreign keys.
+ */
+model User {
+  id           String     @id @default(uuid())
+  username     String     @unique
+  email        String     @unique
+  passwordHash String
+  role         Role       @default(VIEWER)
+  status       UserStatus @default(ACTIVE)
+  lastLogin    DateTime?  // null = never logged in
+
+  records   FinancialRecord[]
+  auditLogs AuditLog[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([email])
+  @@index([role])
+  @@index([status])
+}
+
+/*
+ * Category
+ * Fixed taxonomy managed by Admins.
+ * typeHint lets the dashboard group categories without inspecting
+ * every financial record's type field — critical for aggregation speed.
+ */
+model Category {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  typeHint    TypeHint  @default(BOTH)
+  description String?
+
+  records FinancialRecord[]
+
+  createdAt DateTime @default(now())
+}
+
+/*
+ * FinancialRecord
+ * The core ledger. Every money movement is one row.
+ *
+ * Soft delete: deletedAt only — no isDeleted boolean.
+ * Having both creates a split-brain bug where isDeleted = true
+ * but deletedAt = null (or vice versa). One field, one truth.
+ * Query active records: WHERE deletedAt IS NULL
+ *
+ * transactionDate has no default — callers must supply it explicitly.
+ * Defaulting to now() would silently accept missing dates.
+ */
+model FinancialRecord {
+  id              String          @id @default(uuid())
+  amount          Decimal         @db.Decimal(19, 4)
+  type            TransactionType
+  transactionDate DateTime        // no default — required input
+  description     String?
+
+  categoryId  Int
+  category    Category @relation(fields: [categoryId], references: [id])
+
+  createdById String
+  createdBy   User   @relation(fields: [createdById], references: [id])
+
+  // Soft delete — deletedAt IS NULL means active
+  deletedAt DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([transactionDate])
+  @@index([createdById])
+  @@index([categoryId])
+  @@index([deletedAt])   // dashboard always filter WHERE deletedAt IS NULL
+  @@index([type])
+}
+
+/*
+ * AuditLog
+ * Append-only compliance trail. Never updated, never deleted.
+ * One row per write action anywhere in the system.
+ *
+ * userId is optional — if a user record is ever removed the audit
+ * entry must survive. In practice users are only deactivated,
+ * but the nullable FK makes the table resilient either way.
+ *
+ * entityId is String (not a typed FK) because it must hold both
+ * UUID strings (FinancialRecord, User) and integers (Category).
+ *
+ * oldValue / newValue store row snapshots for change reconstruction.
+ * oldValue is null on CREATE. newValue is null on DELETE.
+ */
+model AuditLog {
+  id         BigInt  @id @default(autoincrement())
+  userId     String? // optional — see comment above
+  user       User?   @relation(fields: [userId], references: [id])
+
+  action     String  // CREATE_RECORD | UPDATE_RECORD | DELETE_RECORD
+             		  // UPDATE_USER_ROLE | UPDATE_USER_STATUS
+  entityType String  // FinancialRecord | User | Category
+  entityId   String  // holds UUID strings and integer ids
+
+  oldValue   Json?
+  newValue   Json?
+
+  ipAddress  String?
+  createdAt  DateTime @default(now())
+
+  @@index([userId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
