@@ -120,17 +120,23 @@ async function saveRecords(validRows, requestingUser) {
   for (let i = 0; i < validRows.length; i += CHUNK_SIZE) {
     const chunk = validRows.slice(i, i + CHUNK_SIZE);
 
-    const saved = await prisma.$transaction(
-      chunk.map(row => {
-        const { rowNumber, ...data } = row;
-        return prisma.financialRecord.create({
-          data: { ...data, createdById: requestingUser.userId },
-          include: { createdBy: { select: { username: true } } }
-        });
-      })
-    );
-
-    allSaved.push(...saved);
+    try {
+      const saved = await prisma.$transaction(
+        chunk.map(row => {
+          const { rowNumber, ...data } = row;
+          return prisma.financialRecord.create({
+            data: { ...data, createdById: requestingUser.userId },
+            include: { createdBy: { select: { username: true } } }
+          });
+        })
+      );
+      allSaved.push(...saved);
+    } catch (err) {
+      if (err.code === 'P2003' && err.meta?.constraint?.includes('createdById')) {
+        throw new AppError('Authenticated user not found in database. Please log in again.', 401);
+      }
+      throw err;
+    }
   }
 
   return allSaved;
