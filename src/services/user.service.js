@@ -1,7 +1,3 @@
-/*
- * User service handling business logic for fetching and updating users.
- * Enforces business constraints like self-modification guards.
- */
 const userRepository = require('../repositories/user.repository');
 const AppError = require('../errors/AppError');
 const { toUserDto } = require('../dtos/user.dto');
@@ -30,11 +26,6 @@ async function getUserById(id) {
 
 /**
  * Updates a user's role.
- * 
- * Self-modification Guard:
- * We prevent a user from changing their own role to prevent an admin from 
- * accidentally demoting themselves and locking themselves out of the system.
- * 
  * @param {string} targetUserId 
  * @param {string} newRole Enum Role
  * @param {string} requestingUserId 

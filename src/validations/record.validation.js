@@ -10,7 +10,7 @@ const { z } = require('zod');
 exports.createRecordSchema = z.object({
   amount: z.number().positive("Amount must be greater than 0"),
   type: z.enum(['INCOME', 'EXPENSE']),
-  categoryId: z.number().int().positive(),
+  category: z.string().trim().min(1, "Category is required").max(100),
   transactionDate: z.coerce.date(),
   description: z.string().trim().max(500).optional()
 });
@@ -25,7 +25,7 @@ exports.updateRecordSchema = exports.createRecordSchema.partial().refine(
 
 exports.filterRecordSchema = z.object({
   type: z.enum(['INCOME', 'EXPENSE']).optional(),
-  categoryId: z.coerce.number().int().optional(),
+  category: z.string().trim().optional(),
   startDate: z.coerce.date().optional(),
   endDate: z.coerce.date().optional(),
   page: z.coerce.number().int().min(1).default(1),

@@ -1,32 +1,28 @@
+/**
+ * Shapes a FinancialRecord before sending it to the caller.
+ * VIEWER gets basic fields only. ADMIN/ANALYST get the full picture.
+ *
+ * @param {Object} record
+ * @param {string} role - ADMIN | ANALYST | VIEWER
+ */
 const toRecordDto = (record, role = 'VIEWER') => {
   if (!record) return null;
-  
-  // Basic record data for everyone including view-only
+
   const dto = {
     id: record.id,
     amount: record.amount,
     type: record.type,
-    category: record.category ? { 
-      id: record.category.id, 
-      name: record.category.name 
-    } : null,
-    transactionDate: record.transactionDate,
+    category: record.category ?? null,
+    transactionDate: record.transactionDate
   };
 
-  // Give Analysts and Admins full visibility including operational details
   if (role === 'ADMIN' || role === 'ANALYST') {
-    dto.description = record.description;
-    if (record.createdBy) {
-      dto.createdBy = { 
-        id: record.createdBy.id, 
-        username: record.createdBy.username 
-      };
-    }
-    // Also include timestamps if they exist
+    dto.description = record.description ?? null;
+    dto.createdBy = record.createdBy ? { username: record.createdBy.username } : null;
     if (record.createdAt) dto.createdAt = record.createdAt;
     if (record.updatedAt) dto.updatedAt = record.updatedAt;
   }
-  
+
   return dto;
 };
 

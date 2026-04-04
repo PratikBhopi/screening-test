@@ -2,7 +2,7 @@ require('dotenv').config();
 
 // Ensure BigInt serializes properly in JSON responses
 BigInt.prototype.toJSON = function () {
-  return this.toString();
+    return this.toString();
 };
 
 const app = require('./src/app');
@@ -24,12 +24,13 @@ async function seedAdmin() {
             });
             console.log("✅ Seed: Initial Admin created [admin@fintrack.com / Admin@123]");
         }
-    } catch(e) {
+    } catch (e) {
         console.error("Seed error:", e.message);
     }
 }
 
-app.listen(8000, async () => {
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, async () => {
     await seedAdmin();
-    console.log("Server Running on port 8000.");
+    console.log(`Server Running on port ${PORT}.`);
 });

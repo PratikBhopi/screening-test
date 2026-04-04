@@ -1,0 +1,6 @@
+amount,type,category,transactionDate,description
+2500.00,INCOME,Salary,2024-03-01,March salary
+120.50,EXPENSE,Transport,2024-03-02,Uber to office
+45.00,EXPENSE,Food,2024-03-03,Team lunch
+8000.00,INCOME,Freelance,2024-03-05,Client project payment
+300.00,EXPENSE,Utilities,2024-03-07,Electricity bill

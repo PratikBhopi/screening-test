@@ -44,13 +44,19 @@ enum TransactionType {
 }
 
 /*
- * TypeHint — tells the dashboard which bucket a category belongs to
- * without re-scanning every record. Used in aggregation queries.
+ * ImportJobStatus — lifecycle states for a background bulk import job.
+ * PENDING     = job created, waiting in queue
+ * PROCESSING  = worker has picked it up
+ * COMPLETED   = all rows saved successfully
+ * PARTIAL     = some rows saved, some failed (partial mode only)
+ * FAILED      = unrecoverable error or atomic mode with validation errors
  */
-enum TypeHint {
-  INCOME
-  EXPENSE
-  BOTH
+enum ImportJobStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  PARTIAL
+  FAILED
 }
 
 /* ======================
@@ -70,10 +76,12 @@ model User {
   passwordHash String
   role         Role       @default(VIEWER)
   status       UserStatus @default(ACTIVE)
+  mustChangePassword Boolean @default(false)
   lastLogin    DateTime?  // null = never logged in
 
-  records   FinancialRecord[]
-  auditLogs AuditLog[]
+  records    FinancialRecord[]
+  auditLogs  AuditLog[]
+  importJobs ImportJob[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -84,25 +92,13 @@ model User {
 }
 
 /*
- * Category
- * Fixed taxonomy managed by Admins.
- * typeHint lets the dashboard group categories without inspecting
- * every financial record's type field — critical for aggregation speed.
- */
-model Category {
-  id          Int       @id @default(autoincrement())
-  name        String    @unique
-  typeHint    TypeHint  @default(BOTH)
-  description String?
-
-  records FinancialRecord[]
-
-  createdAt DateTime @default(now())
-}
-
-/*
  * FinancialRecord
  * The core ledger. Every money movement is one row.
+ *
+ * category is stored as a plain string (e.g. "Salary", "AWS Bill").
+ * There is no Category table or foreign key — this avoids JOINs in
+ * aggregation queries and lets callers freely name their categories.
+ * Dashboard grouping is done directly via GROUP BY category.
  *
  * Soft delete: deletedAt only — no isDeleted boolean.
  * Having both creates a split-brain bug where isDeleted = true
@@ -116,11 +112,9 @@ model FinancialRecord {
   id              String          @id @default(uuid())
   amount          Decimal         @db.Decimal(19, 4)
   type            TransactionType
+  category        String          // free-form string, e.g. "Salary", "Transport"
   transactionDate DateTime        // no default — required input
   description     String?
-
-  categoryId  Int
-  category    Category @relation(fields: [categoryId], references: [id])
 
   createdById String
   createdBy   User   @relation(fields: [createdById], references: [id])
@@ -133,8 +127,8 @@ model FinancialRecord {
 
   @@index([transactionDate])
   @@index([createdById])
-  @@index([categoryId])
-  @@index([deletedAt])   // dashboard always filter WHERE deletedAt IS NULL
+  @@index([category])
+  @@index([deletedAt])
   @@index([type])
 }
 
@@ -148,7 +142,7 @@ model FinancialRecord {
  * but the nullable FK makes the table resilient either way.
  *
  * entityId is String (not a typed FK) because it must hold both
- * UUID strings (FinancialRecord, User) and integers (Category).
+ * UUID strings (FinancialRecord, User) and integers.
  *
  * oldValue / newValue store row snapshots for change reconstruction.
  * oldValue is null on CREATE. newValue is null on DELETE.
@@ -160,8 +154,9 @@ model AuditLog {
 
   action     String  // CREATE_RECORD | UPDATE_RECORD | DELETE_RECORD
              		  // UPDATE_USER_ROLE | UPDATE_USER_STATUS
-  entityType String  // FinancialRecord | User | Category
-  entityId   String  // holds UUID strings and integer ids
+             		  // BULK_IMPORT_RECORD | BULK_IMPORT_COMPLETE
+  entityType String  // FinancialRecord | User
+  entityId   String  // holds UUID strings
 
   oldValue   Json?
   newValue   Json?
@@ -171,5 +166,46 @@ model AuditLog {
 
   @@index([userId])
   @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+// ImportJob
+// Tracks the lifecycle of a bulk financial record import.
+//
+// fileBuffer stores the raw uploaded file so the async queue worker
+// can retrieve and process it without needing a filesystem or object store.
+// In production this would be an S3 key — the buffer would live in object
+// storage and only the reference would be stored here.
+//
+// errorLog stores the full array of row-level validation errors as JSON.
+// For files within the 50MB cap this is acceptable. In production with
+// very large files this would move to a separate table or S3 object.
+//
+// mode is stored as a string so the async worker knows which processing
+// mode was requested at upload time (atomic vs partial).
+model ImportJob {
+  id         String          @id @default(uuid())
+  uploadedBy String
+  user       User            @relation(fields: [uploadedBy], references: [id])
+
+  filename   String
+  fileBuffer Bytes
+  mimetype   String
+
+  status      ImportJobStatus @default(PENDING)
+  mode        String          @default("atomic")
+
+  totalRows   Int  @default(0)
+  savedCount  Int  @default(0)
+  failedCount Int  @default(0)
+
+  errorLog Json?
+
+  startedAt   DateTime?
+  completedAt DateTime?
+  createdAt   DateTime @default(now())
+
+  @@index([uploadedBy])
+  @@index([status])
   @@index([createdAt])
 }

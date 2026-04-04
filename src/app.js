@@ -1,35 +1,56 @@
 const express = require('express');
 const cors = require('cors');
 
-const authRoutes = require('./routers/auth.routes');
-const userRoutes = require('./routers/user.routers');
-const recordRoutes = require('./routers/record.routes');
-const categoryRoutes = require('./routers/category.routes');
+const { startCleanupJob } = require('./utils/tokenBlacklist');
+const authRoutes = require('./routes/auth.routes');
+const userRoutes = require('./routes/user.routes');
+const recordRoutes = require('./routes/record.routes');
+const dashboardRoutes = require('./routes/dashboard.routes');
+const bulkRecordRoutes = require('./routes/bulk-record.routes');
+const authenticate = require('./middleware/authenticate');
+const requirePasswordChange = require('./middleware/requirePasswordChange');
+const setupSwagger = require('./utils/swagger');
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// Register API routes
+// API Documentation UI
+setupSwagger(app);
+
+// Start JWT Blacklist cleanup job
+startCleanupJob();
+
+// Public auth routes — no token required for login/register
 app.use('/api/v1/auth', authRoutes);
 
-app.use('/api/v1/users', userRoutes);
+/*
+ * All routes below this line require:
+ * 1. A valid JWT (authenticate)
+ * 2. The user must NOT have a pending password change (requirePasswordChange)
+ *
+ * The only exception is PATCH /auth/change-password which is handled
+ * separately inside auth.routes.js with authenticate only.
+ */
+app.use('/api/v1/users', authenticate, requirePasswordChange, userRoutes);
+app.use('/api/v1/records', authenticate, requirePasswordChange, recordRoutes);
+app.use('/api/v1/bulk-records', authenticate, requirePasswordChange, bulkRecordRoutes);
+app.use('/api/v1/dashboard', authenticate, requirePasswordChange, dashboardRoutes);
 
-app.use('/api/v1/records', recordRoutes);
-
-app.use('/api/v1/categories', categoryRoutes);
-
-
-// Global Error Handler
+// Global Error Handler - must be last
 app.use((err, req, res, next) => {
   if (err.isOperational) {
-    return res.status(err.statusCode || 400).json({
+    const body = {
       success: false,
       message: err.message
-    });
+    };
+    // Include field-level errors when present (set by parseRequest utility)
+    if (err.errors && err.errors.length > 0) {
+      body.errors = err.errors;
+    }
+    return res.status(err.statusCode || 400).json(body);
   }
-
 
   // Log unexpected errors internally
   console.error('Unhandled Exception:', err);
@@ -37,7 +58,7 @@ app.use((err, req, res, next) => {
   // Send generic response
   return res.status(500).json({
     success: false,
-    message: 'Something went wrong.'
+    message: 'Something went wrong. Please try again.'
   });
 });
 

@@ -1,0 +1,1001 @@
+amount,type,category,transactionDate,description
+9416.47,INCOME,Salary,2024-10-03,Monthly payment
+1226.28,EXPENSE,Freelance,2024-10-12,Q1 invoice
+2538.14,INCOME,Rent,2024-03-17,Recurring charge
+5446.70,EXPENSE,Transport,2024-08-17,One-time purchase
+9824.76,INCOME,Food,2023-10-20,Client project
+7688.22,EXPENSE,Utilities,2023-05-27,Team expense
+9053.41,INCOME,Healthcare,2023-03-23,Annual renewal
+812.66,EXPENSE,Insurance,2024-01-04,Ad-hoc purchase
+5765.41,INCOME,Entertainment,2023-12-02,Reimbursement
+5311.59,EXPENSE,AWS Bill,2023-05-09,Vendor payment
+3037.85,INCOME,Office Supplies,2023-11-01,Monthly payment
+9035.58,EXPENSE,Marketing,2023-02-27,Q1 invoice
+6220.02,INCOME,Travel,2023-08-01,Recurring charge
+2850.05,EXPENSE,Equipment,2023-03-15,One-time purchase
+828.15,INCOME,Training,2024-03-18,Client project
+7719.39,EXPENSE,Salary,2024-05-26,Team expense
+1803.52,INCOME,Freelance,2024-07-23,Annual renewal
+3685.11,EXPENSE,Rent,2023-05-27,Ad-hoc purchase
+1946.13,INCOME,Transport,2023-09-29,Reimbursement
+2073.75,EXPENSE,Food,2024-06-29,Vendor payment
+8593.20,INCOME,Utilities,2023-02-14,Monthly payment
+4152.80,EXPENSE,Healthcare,2023-06-07,Q1 invoice
+3879.68,INCOME,Insurance,2023-08-13,Recurring charge
+3179.00,EXPENSE,Entertainment,2024-08-08,One-time purchase
+7848.54,INCOME,AWS Bill,2023-08-26,Client project
+8112.03,EXPENSE,Office Supplies,2023-04-23,Team expense
+2233.06,INCOME,Marketing,2024-04-01,Annual renewal
+7475.51,EXPENSE,Travel,2023-07-25,Ad-hoc purchase
+3677.32,INCOME,Equipment,2023-03-02,Reimbursement
+5742.34,EXPENSE,Training,2024-04-22,Vendor payment
+4031.76,INCOME,Salary,2023-03-03,Monthly payment
+5817.73,EXPENSE,Freelance,2023-12-24,Q1 invoice
+8566.48,INCOME,Rent,2024-02-11,Recurring charge
+7367.08,EXPENSE,Transport,2024-08-01,One-time purchase
+9310.71,INCOME,Food,2024-05-08,Client project
+7627.98,EXPENSE,Utilities,2023-09-29,Team expense
+6805.79,INCOME,Healthcare,2023-09-25,Annual renewal
+1897.56,EXPENSE,Insurance,2023-05-26,Ad-hoc purchase
+2883.32,INCOME,Entertainment,2023-04-09,Reimbursement
+7389.50,EXPENSE,AWS Bill,2023-07-08,Vendor payment
+4620.28,INCOME,Office Supplies,2024-04-05,Monthly payment
+9917.29,EXPENSE,Marketing,2024-09-09,Q1 invoice
+2536.85,INCOME,Travel,2024-07-19,Recurring charge
+653.02,EXPENSE,Equipment,2024-02-17,One-time purchase
+258.50,INCOME,Training,2023-01-08,Client project
+7017.57,EXPENSE,Salary,2023-12-31,Team expense
+8866.81,INCOME,Freelance,2024-07-25,Annual renewal
+6915.99,EXPENSE,Rent,2024-05-13,Ad-hoc purchase
+3280.45,INCOME,Transport,2024-06-24,Reimbursement
+5279.50,EXPENSE,Food,2023-03-26,Vendor payment
+4509.18,INCOME,Utilities,2023-08-20,Monthly payment
+6640.88,EXPENSE,Healthcare,2024-10-16,Q1 invoice
+9648.93,INCOME,Insurance,2024-12-12,Recurring charge
+5227.58,EXPENSE,Entertainment,2023-12-24,One-time purchase
+3881.00,INCOME,AWS Bill,2023-02-24,Client project
+1992.82,EXPENSE,Office Supplies,2024-02-27,Team expense
+8731.86,INCOME,Marketing,2024-06-29,Annual renewal
+1540.16,EXPENSE,Travel,2024-09-18,Ad-hoc purchase
+2832.40,INCOME,Equipment,2024-10-10,Reimbursement
+2845.80,EXPENSE,Training,2024-05-24,Vendor payment
+4445.89,INCOME,Salary,2024-01-22,Monthly payment
+4652.49,EXPENSE,Freelance,2024-05-23,Q1 invoice
+431.61,INCOME,Rent,2023-12-20,Recurring charge
+6601.71,EXPENSE,Transport,2024-08-23,One-time purchase
+4499.20,INCOME,Food,2023-11-07,Client project
+6951.40,EXPENSE,Utilities,2023-03-24,Team expense
+187.07,INCOME,Healthcare,2023-05-23,Annual renewal
+2889.37,EXPENSE,Insurance,2024-08-29,Ad-hoc purchase
+3512.75,INCOME,Entertainment,2023-08-19,Reimbursement
+9094.25,EXPENSE,AWS Bill,2023-10-29,Vendor payment
+6038.36,INCOME,Office Supplies,2023-02-06,Monthly payment
+593.61,EXPENSE,Marketing,2023-06-28,Q1 invoice
+847.54,INCOME,Travel,2024-02-20,Recurring charge
+6645.73,EXPENSE,Equipment,2023-08-29,One-time purchase
+4284.62,INCOME,Training,2023-02-27,Client project
+8991.30,EXPENSE,Salary,2024-01-02,Team expense
+2634.58,INCOME,Freelance,2024-03-07,Annual renewal
+1211.58,EXPENSE,Rent,2023-07-13,Ad-hoc purchase
+4705.89,INCOME,Transport,2023-02-11,Reimbursement
+807.71,EXPENSE,Food,2024-11-01,Vendor payment
+4730.95,INCOME,Utilities,2024-10-30,Monthly payment
+759.19,EXPENSE,Healthcare,2024-10-24,Q1 invoice
+1780.26,INCOME,Insurance,2024-06-17,Recurring charge
+3616.69,EXPENSE,Entertainment,2024-07-02,One-time purchase
+7991.71,INCOME,AWS Bill,2024-09-08,Client project
+8077.58,EXPENSE,Office Supplies,2023-05-26,Team expense
+6913.91,INCOME,Marketing,2023-05-25,Annual renewal
+3982.64,EXPENSE,Travel,2024-05-08,Ad-hoc purchase
+2032.22,INCOME,Equipment,2024-11-03,Reimbursement
+2051.89,EXPENSE,Training,2024-05-20,Vendor payment
+5566.47,INCOME,Salary,2023-10-16,Monthly payment
+5705.53,EXPENSE,Freelance,2023-05-12,Q1 invoice
+6823.74,INCOME,Rent,2023-11-16,Recurring charge
+6213.65,EXPENSE,Transport,2024-05-20,One-time purchase
+2980.54,INCOME,Food,2024-04-16,Client project
+2140.99,EXPENSE,Utilities,2024-10-19,Team expense
+1259.86,INCOME,Healthcare,2024-02-09,Annual renewal
+1487.41,EXPENSE,Insurance,2023-07-04,Ad-hoc purchase
+2918.18,INCOME,Entertainment,2024-11-04,Reimbursement
+6193.42,EXPENSE,AWS Bill,2024-06-26,Vendor payment
+428.14,INCOME,Office Supplies,2024-04-03,Monthly payment
+2438.04,EXPENSE,Marketing,2023-02-22,Q1 invoice
+3401.44,INCOME,Travel,2023-12-17,Recurring charge
+5009.05,EXPENSE,Equipment,2024-10-20,One-time purchase
+8566.82,INCOME,Training,2024-05-04,Client project
+4377.60,EXPENSE,Salary,2023-06-07,Team expense
+2610.56,INCOME,Freelance,2024-05-24,Annual renewal
+357.35,EXPENSE,Rent,2024-06-21,Ad-hoc purchase
+4844.22,INCOME,Transport,2023-03-08,Reimbursement
+5083.02,EXPENSE,Food,2024-06-17,Vendor payment
+2222.89,INCOME,Utilities,2024-11-14,Monthly payment
+3138.48,EXPENSE,Healthcare,2024-07-10,Q1 invoice
+4514.57,INCOME,Insurance,2024-04-23,Recurring charge
+6565.70,EXPENSE,Entertainment,2023-11-13,One-time purchase
+8874.10,INCOME,AWS Bill,2023-01-22,Client project
+5458.17,EXPENSE,Office Supplies,2023-03-10,Team expense
+8636.70,INCOME,Marketing,2023-04-11,Annual renewal
+9847.30,EXPENSE,Travel,2023-05-18,Ad-hoc purchase
+8980.79,INCOME,Equipment,2023-06-01,Reimbursement
+7631.19,EXPENSE,Training,2024-04-07,Vendor payment
+9226.78,INCOME,Salary,2024-07-13,Monthly payment
+9037.13,EXPENSE,Freelance,2023-04-09,Q1 invoice
+4756.53,INCOME,Rent,2024-05-16,Recurring charge
+3350.37,EXPENSE,Transport,2023-03-17,One-time purchase
+117.94,INCOME,Food,2024-01-31,Client project
+9004.82,EXPENSE,Utilities,2024-11-26,Team expense
+4914.80,INCOME,Healthcare,2023-12-11,Annual renewal
+7234.08,EXPENSE,Insurance,2024-03-31,Ad-hoc purchase
+6692.53,INCOME,Entertainment,2023-07-23,Reimbursement
+6552.72,EXPENSE,AWS Bill,2024-01-24,Vendor payment
+3702.07,INCOME,Office Supplies,2023-05-07,Monthly payment
+159.66,EXPENSE,Marketing,2023-09-12,Q1 invoice
+1567.90,INCOME,Travel,2024-05-31,Recurring charge
+5716.32,EXPENSE,Equipment,2024-05-05,One-time purchase
+7640.21,INCOME,Training,2023-06-22,Client project
+1080.92,EXPENSE,Salary,2023-06-03,Team expense
+7023.93,INCOME,Freelance,2023-07-27,Annual renewal
+8591.89,EXPENSE,Rent,2024-07-27,Ad-hoc purchase
+7088.36,INCOME,Transport,2024-08-11,Reimbursement
+7411.94,EXPENSE,Food,2024-07-02,Vendor payment
+3554.07,INCOME,Utilities,2024-03-29,Monthly payment
+1108.94,EXPENSE,Healthcare,2023-12-31,Q1 invoice
+4884.69,INCOME,Insurance,2023-04-26,Recurring charge
+3387.61,EXPENSE,Entertainment,2024-02-06,One-time purchase
+7032.89,INCOME,AWS Bill,2023-12-17,Client project
+9128.99,EXPENSE,Office Supplies,2024-05-18,Team expense
+3779.53,INCOME,Marketing,2023-01-03,Annual renewal
+3130.31,EXPENSE,Travel,2024-09-15,Ad-hoc purchase
+5386.66,INCOME,Equipment,2023-09-28,Reimbursement
+1328.57,EXPENSE,Training,2024-12-05,Vendor payment
+3947.13,INCOME,Salary,2024-08-05,Monthly payment
+2801.78,EXPENSE,Freelance,2023-07-18,Q1 invoice
+6367.01,INCOME,Rent,2024-06-19,Recurring charge
+4702.03,EXPENSE,Transport,2024-12-04,One-time purchase
+5879.14,INCOME,Food,2023-10-18,Client project
+4969.45,EXPENSE,Utilities,2023-08-23,Team expense
+2329.02,INCOME,Healthcare,2023-04-04,Annual renewal
+9872.51,EXPENSE,Insurance,2023-09-20,Ad-hoc purchase
+4872.03,INCOME,Entertainment,2023-10-18,Reimbursement
+1589.10,EXPENSE,AWS Bill,2024-03-11,Vendor payment
+3095.18,INCOME,Office Supplies,2024-10-13,Monthly payment
+1387.34,EXPENSE,Marketing,2023-03-22,Q1 invoice
+3157.52,INCOME,Travel,2024-12-17,Recurring charge
+3097.22,EXPENSE,Equipment,2023-03-28,One-time purchase
+8580.82,INCOME,Training,2023-02-21,Client project
+6658.00,EXPENSE,Salary,2023-07-29,Team expense
+746.85,INCOME,Freelance,2024-01-06,Annual renewal
+1914.11,EXPENSE,Rent,2023-04-10,Ad-hoc purchase
+4650.70,INCOME,Transport,2024-09-06,Reimbursement
+7674.02,EXPENSE,Food,2023-03-16,Vendor payment
+5588.42,INCOME,Utilities,2024-10-06,Monthly payment
+4592.84,EXPENSE,Healthcare,2023-11-20,Q1 invoice
+5645.98,INCOME,Insurance,2024-08-23,Recurring charge
+3345.82,EXPENSE,Entertainment,2024-04-21,One-time purchase
+7474.26,INCOME,AWS Bill,2024-03-22,Client project
+1784.51,EXPENSE,Office Supplies,2023-02-20,Team expense
+7147.48,INCOME,Marketing,2024-02-07,Annual renewal
+4708.65,EXPENSE,Travel,2024-07-04,Ad-hoc purchase
+2772.71,INCOME,Equipment,2024-07-04,Reimbursement
+3516.58,EXPENSE,Training,2023-08-25,Vendor payment
+561.10,INCOME,Salary,2024-02-01,Monthly payment
+714.43,EXPENSE,Freelance,2024-12-12,Q1 invoice
+1187.72,INCOME,Rent,2023-05-23,Recurring charge
+5203.81,EXPENSE,Transport,2023-03-26,One-time purchase
+799.36,INCOME,Food,2023-06-22,Client project
+6619.70,EXPENSE,Utilities,2024-01-06,Team expense
+9292.92,INCOME,Healthcare,2024-10-02,Annual renewal
+2492.95,EXPENSE,Insurance,2023-07-20,Ad-hoc purchase
+5819.42,INCOME,Entertainment,2023-08-10,Reimbursement
+2503.32,EXPENSE,AWS Bill,2023-11-22,Vendor payment
+2532.79,INCOME,Office Supplies,2023-08-28,Monthly payment
+8334.61,EXPENSE,Marketing,2023-02-01,Q1 invoice
+3844.03,INCOME,Travel,2023-04-14,Recurring charge
+9245.27,EXPENSE,Equipment,2023-10-09,One-time purchase
+6479.81,INCOME,Training,2024-11-27,Client project
+5975.44,EXPENSE,Salary,2023-02-20,Team expense
+395.84,INCOME,Freelance,2023-01-31,Annual renewal
+8964.89,EXPENSE,Rent,2024-11-09,Ad-hoc purchase
+8104.78,INCOME,Transport,2024-06-04,Reimbursement
+3495.68,EXPENSE,Food,2023-09-02,Vendor payment
+2983.88,INCOME,Utilities,2024-04-21,Monthly payment
+5628.21,EXPENSE,Healthcare,2024-12-15,Q1 invoice
+5647.24,INCOME,Insurance,2023-07-07,Recurring charge
+209.46,EXPENSE,Entertainment,2023-09-29,One-time purchase
+6373.99,INCOME,AWS Bill,2024-11-17,Client project
+4191.02,EXPENSE,Office Supplies,2024-12-11,Team expense
+9952.45,INCOME,Marketing,2023-03-22,Annual renewal
+6797.08,EXPENSE,Travel,2024-06-14,Ad-hoc purchase
+9483.46,INCOME,Equipment,2024-10-13,Reimbursement
+4349.08,EXPENSE,Training,2024-12-23,Vendor payment
+4618.66,INCOME,Salary,2024-02-07,Monthly payment
+9690.44,EXPENSE,Freelance,2024-11-13,Q1 invoice
+9641.44,INCOME,Rent,2023-07-30,Recurring charge
+2097.91,EXPENSE,Transport,2024-06-24,One-time purchase
+4621.81,INCOME,Food,2023-04-17,Client project
+3831.53,EXPENSE,Utilities,2023-07-29,Team expense
+7516.01,INCOME,Healthcare,2023-07-06,Annual renewal
+9482.24,EXPENSE,Insurance,2024-11-19,Ad-hoc purchase
+5895.61,INCOME,Entertainment,2023-11-12,Reimbursement
+6333.33,EXPENSE,AWS Bill,2023-05-26,Vendor payment
+5299.22,INCOME,Office Supplies,2024-06-19,Monthly payment
+3095.66,EXPENSE,Marketing,2024-06-22,Q1 invoice
+6329.14,INCOME,Travel,2024-09-06,Recurring charge
+1729.43,EXPENSE,Equipment,2024-11-21,One-time purchase
+1411.72,INCOME,Training,2023-04-25,Client project
+2962.79,EXPENSE,Salary,2023-08-13,Team expense
+5703.33,INCOME,Freelance,2024-09-25,Annual renewal
+7517.73,EXPENSE,Rent,2023-09-08,Ad-hoc purchase
+6758.02,INCOME,Transport,2024-07-15,Reimbursement
+9679.14,EXPENSE,Food,2024-12-24,Vendor payment
+340.08,INCOME,Utilities,2024-02-09,Monthly payment
+9957.82,EXPENSE,Healthcare,2024-05-07,Q1 invoice
+9587.85,INCOME,Insurance,2024-02-26,Recurring charge
+3755.91,EXPENSE,Entertainment,2024-02-24,One-time purchase
+5998.58,INCOME,AWS Bill,2024-01-06,Client project
+5370.66,EXPENSE,Office Supplies,2024-05-21,Team expense
+914.93,INCOME,Marketing,2024-12-27,Annual renewal
+412.39,EXPENSE,Travel,2024-08-01,Ad-hoc purchase
+6743.15,INCOME,Equipment,2023-12-01,Reimbursement
+7003.44,EXPENSE,Training,2024-07-17,Vendor payment
+2221.27,INCOME,Salary,2023-11-15,Monthly payment
+3051.70,EXPENSE,Freelance,2023-10-17,Q1 invoice
+8102.13,INCOME,Rent,2023-10-03,Recurring charge
+2399.93,EXPENSE,Transport,2024-09-23,One-time purchase
+5850.82,INCOME,Food,2023-11-09,Client project
+8833.76,EXPENSE,Utilities,2024-03-26,Team expense
+2308.87,INCOME,Healthcare,2023-03-22,Annual renewal
+2745.08,EXPENSE,Insurance,2023-03-02,Ad-hoc purchase
+8786.38,INCOME,Entertainment,2023-07-03,Reimbursement
+7619.36,EXPENSE,AWS Bill,2023-02-15,Vendor payment
+4894.14,INCOME,Office Supplies,2024-04-20,Monthly payment
+9748.10,EXPENSE,Marketing,2023-08-18,Q1 invoice
+8856.84,INCOME,Travel,2024-10-06,Recurring charge
+3189.32,EXPENSE,Equipment,2024-10-27,One-time purchase
+5812.96,INCOME,Training,2023-08-08,Client project
+100.19,EXPENSE,Salary,2023-10-07,Team expense
+1532.25,INCOME,Freelance,2024-05-04,Annual renewal
+111.03,EXPENSE,Rent,2023-09-09,Ad-hoc purchase
+7168.93,INCOME,Transport,2023-03-24,Reimbursement
+3233.11,EXPENSE,Food,2023-08-31,Vendor payment
+6029.28,INCOME,Utilities,2023-05-05,Monthly payment
+1920.38,EXPENSE,Healthcare,2023-01-06,Q1 invoice
+2212.83,INCOME,Insurance,2024-12-13,Recurring charge
+3315.24,EXPENSE,Entertainment,2023-04-25,One-time purchase
+4691.11,INCOME,AWS Bill,2024-05-13,Client project
+3865.71,EXPENSE,Office Supplies,2023-04-25,Team expense
+750.20,INCOME,Marketing,2023-07-22,Annual renewal
+3409.05,EXPENSE,Travel,2024-10-26,Ad-hoc purchase
+603.97,INCOME,Equipment,2023-08-17,Reimbursement
+4005.98,EXPENSE,Training,2024-09-02,Vendor payment
+5103.37,INCOME,Salary,2024-06-30,Monthly payment
+4383.73,EXPENSE,Freelance,2023-02-12,Q1 invoice
+9503.59,INCOME,Rent,2024-09-05,Recurring charge
+9153.96,EXPENSE,Transport,2023-10-31,One-time purchase
+2553.51,INCOME,Food,2023-02-12,Client project
+6811.73,EXPENSE,Utilities,2023-01-14,Team expense
+2202.64,INCOME,Healthcare,2024-09-06,Annual renewal
+9823.45,EXPENSE,Insurance,2024-11-25,Ad-hoc purchase
+1291.00,INCOME,Entertainment,2023-03-28,Reimbursement
+430.92,EXPENSE,AWS Bill,2024-09-30,Vendor payment
+7113.58,INCOME,Office Supplies,2024-08-23,Monthly payment
+6094.31,EXPENSE,Marketing,2024-10-24,Q1 invoice
+7894.79,INCOME,Travel,2024-03-23,Recurring charge
+9586.40,EXPENSE,Equipment,2023-07-07,One-time purchase
+8905.08,INCOME,Training,2024-12-04,Client project
+4208.90,EXPENSE,Salary,2024-03-07,Team expense
+2224.07,INCOME,Freelance,2024-12-21,Annual renewal
+1113.19,EXPENSE,Rent,2023-06-23,Ad-hoc purchase
+6901.78,INCOME,Transport,2024-09-21,Reimbursement
+3152.87,EXPENSE,Food,2024-06-19,Vendor payment
+1752.20,INCOME,Utilities,2024-07-27,Monthly payment
+6264.29,EXPENSE,Healthcare,2023-06-11,Q1 invoice
+3467.59,INCOME,Insurance,2024-12-20,Recurring charge
+120.11,EXPENSE,Entertainment,2024-03-18,One-time purchase
+9119.36,INCOME,AWS Bill,2024-05-14,Client project
+412.03,EXPENSE,Office Supplies,2024-02-03,Team expense
+7160.09,INCOME,Marketing,2024-03-04,Annual renewal
+7378.63,EXPENSE,Travel,2024-05-07,Ad-hoc purchase
+7436.57,INCOME,Equipment,2023-08-01,Reimbursement
+9203.38,EXPENSE,Training,2024-09-14,Vendor payment
+5667.82,INCOME,Salary,2024-10-01,Monthly payment
+2121.92,EXPENSE,Freelance,2023-02-18,Q1 invoice
+7609.72,INCOME,Rent,2024-09-09,Recurring charge
+6617.82,EXPENSE,Transport,2024-11-26,One-time purchase
+2962.28,INCOME,Food,2023-11-28,Client project
+7785.29,EXPENSE,Utilities,2023-12-15,Team expense
+8948.43,INCOME,Healthcare,2024-10-02,Annual renewal
+2015.01,EXPENSE,Insurance,2023-06-28,Ad-hoc purchase
+6819.64,INCOME,Entertainment,2024-09-04,Reimbursement
+9242.05,EXPENSE,AWS Bill,2023-07-17,Vendor payment
+5903.48,INCOME,Office Supplies,2023-08-09,Monthly payment
+7636.82,EXPENSE,Marketing,2023-12-30,Q1 invoice
+8487.75,INCOME,Travel,2023-10-07,Recurring charge
+2634.95,EXPENSE,Equipment,2024-04-30,One-time purchase
+7288.32,INCOME,Training,2024-06-08,Client project
+5736.89,EXPENSE,Salary,2023-02-14,Team expense
+1910.94,INCOME,Freelance,2023-01-29,Annual renewal
+2262.53,EXPENSE,Rent,2024-10-24,Ad-hoc purchase
+492.50,INCOME,Transport,2023-01-03,Reimbursement
+1628.82,EXPENSE,Food,2024-07-16,Vendor payment
+1754.76,INCOME,Utilities,2024-06-14,Monthly payment
+9221.31,EXPENSE,Healthcare,2023-09-14,Q1 invoice
+8663.76,INCOME,Insurance,2024-09-17,Recurring charge
+2360.84,EXPENSE,Entertainment,2024-11-17,One-time purchase
+3927.76,INCOME,AWS Bill,2024-12-21,Client project
+5036.75,EXPENSE,Office Supplies,2024-03-12,Team expense
+7963.41,INCOME,Marketing,2024-11-24,Annual renewal
+8999.54,EXPENSE,Travel,2023-10-23,Ad-hoc purchase
+3241.52,INCOME,Equipment,2023-10-21,Reimbursement
+3477.69,EXPENSE,Training,2023-01-30,Vendor payment
+6532.61,INCOME,Salary,2023-12-20,Monthly payment
+2869.84,EXPENSE,Freelance,2024-10-01,Q1 invoice
+9995.20,INCOME,Rent,2023-01-28,Recurring charge
+2408.56,EXPENSE,Transport,2023-01-01,One-time purchase
+1205.00,INCOME,Food,2024-01-10,Client project
+7468.19,EXPENSE,Utilities,2023-04-08,Team expense
+4046.92,INCOME,Healthcare,2024-06-23,Annual renewal
+6534.01,EXPENSE,Insurance,2024-04-14,Ad-hoc purchase
+5590.02,INCOME,Entertainment,2023-04-01,Reimbursement
+8381.41,EXPENSE,AWS Bill,2024-07-17,Vendor payment
+881.17,INCOME,Office Supplies,2024-02-04,Monthly payment
+9034.35,EXPENSE,Marketing,2024-05-25,Q1 invoice
+9795.09,INCOME,Travel,2023-03-07,Recurring charge
+2995.35,EXPENSE,Equipment,2024-06-18,One-time purchase
+5229.16,INCOME,Training,2023-01-29,Client project
+960.19,EXPENSE,Salary,2024-12-10,Team expense
+2075.36,INCOME,Freelance,2024-03-02,Annual renewal
+6106.62,EXPENSE,Rent,2024-06-03,Ad-hoc purchase
+8479.01,INCOME,Transport,2023-03-05,Reimbursement
+5318.53,EXPENSE,Food,2023-09-16,Vendor payment
+9832.91,INCOME,Utilities,2023-07-21,Monthly payment
+2701.84,EXPENSE,Healthcare,2024-03-05,Q1 invoice
+1890.43,INCOME,Insurance,2023-01-19,Recurring charge
+2418.80,EXPENSE,Entertainment,2023-02-09,One-time purchase
+6845.77,INCOME,AWS Bill,2023-03-04,Client project
+2249.13,EXPENSE,Office Supplies,2023-04-12,Team expense
+7090.20,INCOME,Marketing,2024-09-21,Annual renewal
+5191.52,EXPENSE,Travel,2023-03-22,Ad-hoc purchase
+115.21,INCOME,Equipment,2023-01-02,Reimbursement
+4600.46,EXPENSE,Training,2023-01-22,Vendor payment
+4329.76,INCOME,Salary,2024-07-02,Monthly payment
+7144.78,EXPENSE,Freelance,2023-06-11,Q1 invoice
+381.32,INCOME,Rent,2023-03-12,Recurring charge
+460.32,EXPENSE,Transport,2023-07-22,One-time purchase
+836.19,INCOME,Food,2023-04-09,Client project
+3906.66,EXPENSE,Utilities,2023-04-01,Team expense
+7774.51,INCOME,Healthcare,2024-04-06,Annual renewal
+668.63,EXPENSE,Insurance,2023-05-17,Ad-hoc purchase
+2378.96,INCOME,Entertainment,2024-11-03,Reimbursement
+1169.19,EXPENSE,AWS Bill,2024-05-12,Vendor payment
+561.18,INCOME,Office Supplies,2024-08-28,Monthly payment
+2841.63,EXPENSE,Marketing,2024-03-16,Q1 invoice
+8468.15,INCOME,Travel,2023-05-05,Recurring charge
+1249.72,EXPENSE,Equipment,2024-05-10,One-time purchase
+7598.97,INCOME,Training,2023-12-04,Client project
+8472.36,EXPENSE,Salary,2023-01-01,Team expense
+2149.74,INCOME,Freelance,2023-04-24,Annual renewal
+2987.65,EXPENSE,Rent,2023-09-03,Ad-hoc purchase
+3544.69,INCOME,Transport,2023-04-23,Reimbursement
+8315.76,EXPENSE,Food,2023-02-26,Vendor payment
+2987.25,INCOME,Utilities,2024-04-19,Monthly payment
+2985.54,EXPENSE,Healthcare,2024-06-27,Q1 invoice
+6885.75,INCOME,Insurance,2024-12-22,Recurring charge
+7883.66,EXPENSE,Entertainment,2024-01-30,One-time purchase
+4643.63,INCOME,AWS Bill,2023-05-04,Client project
+640.67,EXPENSE,Office Supplies,2024-05-15,Team expense
+6235.81,INCOME,Marketing,2024-06-02,Annual renewal
+9369.43,EXPENSE,Travel,2024-01-25,Ad-hoc purchase
+6501.57,INCOME,Equipment,2023-01-11,Reimbursement
+7775.08,EXPENSE,Training,2024-05-29,Vendor payment
+5835.30,INCOME,Salary,2023-01-20,Monthly payment
+5261.79,EXPENSE,Freelance,2024-11-06,Q1 invoice
+5714.62,INCOME,Rent,2024-06-05,Recurring charge
+9993.48,EXPENSE,Transport,2024-01-19,One-time purchase
+694.97,INCOME,Food,2024-02-16,Client project
+2142.43,EXPENSE,Utilities,2023-06-21,Team expense
+6134.80,INCOME,Healthcare,2024-12-16,Annual renewal
+8898.18,EXPENSE,Insurance,2024-03-09,Ad-hoc purchase
+8785.16,INCOME,Entertainment,2024-02-19,Reimbursement
+6067.17,EXPENSE,AWS Bill,2023-07-21,Vendor payment
+9344.90,INCOME,Office Supplies,2024-01-10,Monthly payment
+3653.68,EXPENSE,Marketing,2024-02-15,Q1 invoice
+849.47,INCOME,Travel,2023-06-16,Recurring charge
+3282.58,EXPENSE,Equipment,2024-01-17,One-time purchase
+9264.70,INCOME,Training,2024-08-09,Client project
+876.79,EXPENSE,Salary,2024-11-03,Team expense
+3192.57,INCOME,Freelance,2024-11-12,Annual renewal
+6260.16,EXPENSE,Rent,2023-08-30,Ad-hoc purchase
+3508.80,INCOME,Transport,2024-05-03,Reimbursement
+365.93,EXPENSE,Food,2024-01-23,Vendor payment
+8029.00,INCOME,Utilities,2023-09-23,Monthly payment
+8485.67,EXPENSE,Healthcare,2024-06-05,Q1 invoice
+9600.31,INCOME,Insurance,2024-03-04,Recurring charge
+2042.89,EXPENSE,Entertainment,2023-09-29,One-time purchase
+2886.24,INCOME,AWS Bill,2024-02-22,Client project
+5911.17,EXPENSE,Office Supplies,2024-02-08,Team expense
+5511.76,INCOME,Marketing,2024-06-15,Annual renewal
+5323.50,EXPENSE,Travel,2024-11-25,Ad-hoc purchase
+3014.87,INCOME,Equipment,2023-12-29,Reimbursement
+442.65,EXPENSE,Training,2024-11-12,Vendor payment
+7106.93,INCOME,Salary,2023-07-12,Monthly payment
+9305.57,EXPENSE,Freelance,2023-09-20,Q1 invoice
+6956.75,INCOME,Rent,2024-11-12,Recurring charge
+849.61,EXPENSE,Transport,2024-02-20,One-time purchase
+6713.77,INCOME,Food,2023-06-19,Client project
+3056.58,EXPENSE,Utilities,2024-06-25,Team expense
+8870.42,INCOME,Healthcare,2023-08-05,Annual renewal
+6055.54,EXPENSE,Insurance,2024-03-24,Ad-hoc purchase
+4119.75,INCOME,Entertainment,2024-10-31,Reimbursement
+5262.60,EXPENSE,AWS Bill,2024-03-16,Vendor payment
+5750.44,INCOME,Office Supplies,2024-03-03,Monthly payment
+606.88,EXPENSE,Marketing,2024-04-23,Q1 invoice
+8812.75,INCOME,Travel,2023-07-18,Recurring charge
+4314.15,EXPENSE,Equipment,2023-08-31,One-time purchase
+6031.84,INCOME,Training,2024-04-06,Client project
+6506.50,EXPENSE,Salary,2024-10-21,Team expense
+3549.82,INCOME,Freelance,2024-11-11,Annual renewal
+7380.31,EXPENSE,Rent,2023-04-28,Ad-hoc purchase
+7176.75,INCOME,Transport,2023-11-16,Reimbursement
+2361.34,EXPENSE,Food,2024-05-07,Vendor payment
+7746.64,INCOME,Utilities,2024-08-01,Monthly payment
+1450.07,EXPENSE,Healthcare,2024-04-26,Q1 invoice
+7499.39,INCOME,Insurance,2024-11-22,Recurring charge
+8434.60,EXPENSE,Entertainment,2024-06-15,One-time purchase
+1131.89,INCOME,AWS Bill,2024-09-12,Client project
+5090.56,EXPENSE,Office Supplies,2024-03-07,Team expense
+4889.08,INCOME,Marketing,2023-04-08,Annual renewal
+562.33,EXPENSE,Travel,2024-09-18,Ad-hoc purchase
+6760.20,INCOME,Equipment,2024-02-05,Reimbursement
+7389.96,EXPENSE,Training,2023-02-24,Vendor payment
+9704.82,INCOME,Salary,2024-02-27,Monthly payment
+1463.45,EXPENSE,Freelance,2023-11-21,Q1 invoice
+4571.21,INCOME,Rent,2024-07-29,Recurring charge
+5389.38,EXPENSE,Transport,2023-05-22,One-time purchase
+939.10,INCOME,Food,2024-07-18,Client project
+1014.85,EXPENSE,Utilities,2023-06-29,Team expense
+2175.48,INCOME,Healthcare,2023-12-24,Annual renewal
+2895.75,EXPENSE,Insurance,2024-03-29,Ad-hoc purchase
+101.97,INCOME,Entertainment,2024-03-10,Reimbursement
+9642.79,EXPENSE,AWS Bill,2024-02-12,Vendor payment
+9570.38,INCOME,Office Supplies,2023-11-22,Monthly payment
+9854.69,EXPENSE,Marketing,2024-11-18,Q1 invoice
+6764.89,INCOME,Travel,2024-06-05,Recurring charge
+5238.10,EXPENSE,Equipment,2023-11-09,One-time purchase
+2095.74,INCOME,Training,2024-06-23,Client project
+6268.79,EXPENSE,Salary,2024-08-07,Team expense
+3243.74,INCOME,Freelance,2024-05-18,Annual renewal
+6218.08,EXPENSE,Rent,2023-03-16,Ad-hoc purchase
+3804.71,INCOME,Transport,2023-05-27,Reimbursement
+7451.11,EXPENSE,Food,2023-06-12,Vendor payment
+2121.71,INCOME,Utilities,2023-11-09,Monthly payment
+8096.22,EXPENSE,Healthcare,2023-03-29,Q1 invoice
+8156.85,INCOME,Insurance,2024-06-20,Recurring charge
+4416.24,EXPENSE,Entertainment,2023-02-19,One-time purchase
+6169.11,INCOME,AWS Bill,2024-06-10,Client project
+5382.48,EXPENSE,Office Supplies,2023-10-05,Team expense
+5042.52,INCOME,Marketing,2024-03-11,Annual renewal
+3722.91,EXPENSE,Travel,2023-08-22,Ad-hoc purchase
+8084.88,INCOME,Equipment,2024-05-17,Reimbursement
+7820.47,EXPENSE,Training,2023-11-02,Vendor payment
+3807.67,INCOME,Salary,2024-08-25,Monthly payment
+8232.81,EXPENSE,Freelance,2024-01-31,Q1 invoice
+3641.86,INCOME,Rent,2024-11-09,Recurring charge
+5804.78,EXPENSE,Transport,2023-06-06,One-time purchase
+7221.86,INCOME,Food,2024-04-28,Client project
+4126.23,EXPENSE,Utilities,2023-06-20,Team expense
+362.11,INCOME,Healthcare,2023-07-17,Annual renewal
+6843.67,EXPENSE,Insurance,2023-09-29,Ad-hoc purchase
+2717.66,INCOME,Entertainment,2024-04-21,Reimbursement
+8128.88,EXPENSE,AWS Bill,2024-05-10,Vendor payment
+6659.33,INCOME,Office Supplies,2024-07-24,Monthly payment
+4165.15,EXPENSE,Marketing,2024-05-11,Q1 invoice
+2182.57,INCOME,Travel,2024-03-29,Recurring charge
+8418.09,EXPENSE,Equipment,2023-08-15,One-time purchase
+2942.10,INCOME,Training,2023-11-05,Client project
+7035.54,EXPENSE,Salary,2024-04-29,Team expense
+1059.76,INCOME,Freelance,2024-08-06,Annual renewal
+6436.77,EXPENSE,Rent,2024-07-30,Ad-hoc purchase
+8574.96,INCOME,Transport,2023-11-13,Reimbursement
+1995.19,EXPENSE,Food,2024-01-20,Vendor payment
+3886.88,INCOME,Utilities,2023-04-10,Monthly payment
+8487.33,EXPENSE,Healthcare,2024-06-15,Q1 invoice
+3964.39,INCOME,Insurance,2023-07-29,Recurring charge
+4050.74,EXPENSE,Entertainment,2023-11-23,One-time purchase
+1939.95,INCOME,AWS Bill,2024-09-23,Client project
+2437.07,EXPENSE,Office Supplies,2024-04-11,Team expense
+7909.34,INCOME,Marketing,2023-08-24,Annual renewal
+3265.11,EXPENSE,Travel,2023-11-17,Ad-hoc purchase
+6327.17,INCOME,Equipment,2023-04-24,Reimbursement
+4850.39,EXPENSE,Training,2023-04-09,Vendor payment
+9332.35,INCOME,Salary,2023-04-12,Monthly payment
+3695.24,EXPENSE,Freelance,2024-08-26,Q1 invoice
+9774.96,INCOME,Rent,2023-10-30,Recurring charge
+3326.54,EXPENSE,Transport,2024-12-21,One-time purchase
+9690.55,INCOME,Food,2024-06-21,Client project
+8570.79,EXPENSE,Utilities,2024-09-14,Team expense
+1292.81,INCOME,Healthcare,2024-06-08,Annual renewal
+2827.96,EXPENSE,Insurance,2023-09-25,Ad-hoc purchase
+7983.38,INCOME,Entertainment,2024-11-22,Reimbursement
+8104.30,EXPENSE,AWS Bill,2024-06-06,Vendor payment
+6828.15,INCOME,Office Supplies,2024-08-17,Monthly payment
+1214.24,EXPENSE,Marketing,2024-04-01,Q1 invoice
+5281.28,INCOME,Travel,2023-08-05,Recurring charge
+648.22,EXPENSE,Equipment,2024-07-25,One-time purchase
+3437.89,INCOME,Training,2024-12-06,Client project
+694.64,EXPENSE,Salary,2024-07-20,Team expense
+2406.92,INCOME,Freelance,2023-12-28,Annual renewal
+4311.36,EXPENSE,Rent,2024-09-08,Ad-hoc purchase
+5404.31,INCOME,Transport,2023-07-04,Reimbursement
+384.14,EXPENSE,Food,2024-10-15,Vendor payment
+7647.23,INCOME,Utilities,2024-08-15,Monthly payment
+4742.54,EXPENSE,Healthcare,2024-01-21,Q1 invoice
+311.72,INCOME,Insurance,2024-06-07,Recurring charge
+3955.73,EXPENSE,Entertainment,2023-12-06,One-time purchase
+6575.54,INCOME,AWS Bill,2023-03-31,Client project
+9607.58,EXPENSE,Office Supplies,2023-12-07,Team expense
+2113.70,INCOME,Marketing,2023-04-16,Annual renewal
+6077.53,EXPENSE,Travel,2024-10-28,Ad-hoc purchase
+8047.47,INCOME,Equipment,2024-12-25,Reimbursement
+2004.27,EXPENSE,Training,2023-03-23,Vendor payment
+4245.30,INCOME,Salary,2024-11-15,Monthly payment
+9665.45,EXPENSE,Freelance,2024-01-03,Q1 invoice
+7562.64,INCOME,Rent,2023-03-18,Recurring charge
+6649.01,EXPENSE,Transport,2023-12-11,One-time purchase
+5721.85,INCOME,Food,2023-09-23,Client project
+5750.05,EXPENSE,Utilities,2023-08-14,Team expense
+9444.17,INCOME,Healthcare,2023-12-20,Annual renewal
+9828.06,EXPENSE,Insurance,2023-05-19,Ad-hoc purchase
+203.43,INCOME,Entertainment,2023-05-23,Reimbursement
+5572.65,EXPENSE,AWS Bill,2024-10-13,Vendor payment
+9436.38,INCOME,Office Supplies,2023-12-19,Monthly payment
+1714.00,EXPENSE,Marketing,2024-03-23,Q1 invoice
+1804.25,INCOME,Travel,2024-02-09,Recurring charge
+6887.89,EXPENSE,Equipment,2023-10-28,One-time purchase
+5564.31,INCOME,Training,2024-07-05,Client project
+4027.18,EXPENSE,Salary,2024-12-21,Team expense
+299.22,INCOME,Freelance,2024-08-03,Annual renewal
+2356.24,EXPENSE,Rent,2023-07-18,Ad-hoc purchase
+6223.47,INCOME,Transport,2024-11-25,Reimbursement
+6785.19,EXPENSE,Food,2024-01-22,Vendor payment
+3110.88,INCOME,Utilities,2023-05-23,Monthly payment
+4219.06,EXPENSE,Healthcare,2023-08-05,Q1 invoice
+1324.98,INCOME,Insurance,2023-11-15,Recurring charge
+1115.64,EXPENSE,Entertainment,2023-02-20,One-time purchase
+7915.25,INCOME,AWS Bill,2024-07-26,Client project
+5633.22,EXPENSE,Office Supplies,2024-05-19,Team expense
+9004.98,INCOME,Marketing,2023-11-15,Annual renewal
+9880.89,EXPENSE,Travel,2023-08-08,Ad-hoc purchase
+977.48,INCOME,Equipment,2023-09-06,Reimbursement
+8257.14,EXPENSE,Training,2024-06-14,Vendor payment
+8591.91,INCOME,Salary,2023-09-16,Monthly payment
+5451.47,EXPENSE,Freelance,2024-08-03,Q1 invoice
+3414.33,INCOME,Rent,2023-09-16,Recurring charge
+9025.53,EXPENSE,Transport,2024-01-02,One-time purchase
+8533.30,INCOME,Food,2023-07-27,Client project
+9797.07,EXPENSE,Utilities,2024-11-20,Team expense
+1332.55,INCOME,Healthcare,2023-10-20,Annual renewal
+1825.01,EXPENSE,Insurance,2023-09-13,Ad-hoc purchase
+1353.06,INCOME,Entertainment,2024-06-30,Reimbursement
+8630.03,EXPENSE,AWS Bill,2024-09-01,Vendor payment
+1548.61,INCOME,Office Supplies,2023-05-18,Monthly payment
+2558.35,EXPENSE,Marketing,2024-04-19,Q1 invoice
+8466.75,INCOME,Travel,2023-03-28,Recurring charge
+9790.51,EXPENSE,Equipment,2023-11-05,One-time purchase
+2699.09,INCOME,Training,2024-08-28,Client project
+7353.79,EXPENSE,Salary,2023-12-26,Team expense
+409.80,INCOME,Freelance,2023-03-14,Annual renewal
+161.07,EXPENSE,Rent,2023-09-10,Ad-hoc purchase
+3572.59,INCOME,Transport,2024-10-17,Reimbursement
+1411.69,EXPENSE,Food,2023-04-06,Vendor payment
+4900.80,INCOME,Utilities,2024-10-09,Monthly payment
+163.36,EXPENSE,Healthcare,2023-05-06,Q1 invoice
+9695.28,INCOME,Insurance,2023-02-13,Recurring charge
+129.88,EXPENSE,Entertainment,2023-11-09,One-time purchase
+4682.23,INCOME,AWS Bill,2024-11-14,Client project
+332.36,EXPENSE,Office Supplies,2024-03-08,Team expense
+1828.62,INCOME,Marketing,2023-04-04,Annual renewal
+1632.85,EXPENSE,Travel,2024-08-23,Ad-hoc purchase
+202.76,INCOME,Equipment,2024-08-15,Reimbursement
+2739.08,EXPENSE,Training,2024-04-26,Vendor payment
+1426.05,INCOME,Salary,2024-02-23,Monthly payment
+2757.80,EXPENSE,Freelance,2024-02-04,Q1 invoice
+1416.82,INCOME,Rent,2023-03-28,Recurring charge
+5592.48,EXPENSE,Transport,2024-11-17,One-time purchase
+8972.70,INCOME,Food,2024-08-11,Client project
+2976.01,EXPENSE,Utilities,2024-02-08,Team expense
+1470.92,INCOME,Healthcare,2023-01-31,Annual renewal
+8434.72,EXPENSE,Insurance,2024-02-27,Ad-hoc purchase
+931.45,INCOME,Entertainment,2023-05-11,Reimbursement
+2126.89,EXPENSE,AWS Bill,2024-03-14,Vendor payment
+4238.33,INCOME,Office Supplies,2023-08-20,Monthly payment
+8609.01,EXPENSE,Marketing,2023-09-23,Q1 invoice
+4945.12,INCOME,Travel,2023-11-09,Recurring charge
+1357.62,EXPENSE,Equipment,2023-03-14,One-time purchase
+7441.81,INCOME,Training,2024-05-29,Client project
+4716.04,EXPENSE,Salary,2023-11-28,Team expense
+7130.22,INCOME,Freelance,2024-09-13,Annual renewal
+7788.09,EXPENSE,Rent,2024-10-21,Ad-hoc purchase
+1609.44,INCOME,Transport,2023-01-15,Reimbursement
+9499.58,EXPENSE,Food,2023-03-08,Vendor payment
+8667.51,INCOME,Utilities,2023-11-21,Monthly payment
+7102.80,EXPENSE,Healthcare,2023-05-05,Q1 invoice
+4135.09,INCOME,Insurance,2024-09-19,Recurring charge
+3828.97,EXPENSE,Entertainment,2023-05-26,One-time purchase
+7046.50,INCOME,AWS Bill,2023-04-29,Client project
+9566.16,EXPENSE,Office Supplies,2024-02-15,Team expense
+6825.92,INCOME,Marketing,2023-06-06,Annual renewal
+6615.88,EXPENSE,Travel,2024-09-26,Ad-hoc purchase
+5345.74,INCOME,Equipment,2023-03-08,Reimbursement
+3976.64,EXPENSE,Training,2023-07-17,Vendor payment
+124.29,INCOME,Salary,2023-08-17,Monthly payment
+4922.90,EXPENSE,Freelance,2024-12-04,Q1 invoice
+2487.03,INCOME,Rent,2023-05-30,Recurring charge
+6643.32,EXPENSE,Transport,2023-01-05,One-time purchase
+4859.06,INCOME,Food,2024-01-23,Client project
+7468.01,EXPENSE,Utilities,2024-11-20,Team expense
+6570.42,INCOME,Healthcare,2024-01-24,Annual renewal
+171.80,EXPENSE,Insurance,2023-01-28,Ad-hoc purchase
+8469.42,INCOME,Entertainment,2024-09-11,Reimbursement
+5075.57,EXPENSE,AWS Bill,2024-05-12,Vendor payment
+4498.19,INCOME,Office Supplies,2024-07-30,Monthly payment
+3095.53,EXPENSE,Marketing,2024-04-06,Q1 invoice
+7522.43,INCOME,Travel,2023-11-12,Recurring charge
+8856.16,EXPENSE,Equipment,2024-10-03,One-time purchase
+2111.98,INCOME,Training,2023-09-29,Client project
+8239.91,EXPENSE,Salary,2024-03-22,Team expense
+8627.27,INCOME,Freelance,2023-07-15,Annual renewal
+5476.28,EXPENSE,Rent,2023-02-11,Ad-hoc purchase
+6665.43,INCOME,Transport,2023-02-17,Reimbursement
+5548.61,EXPENSE,Food,2024-09-03,Vendor payment
+4579.32,INCOME,Utilities,2023-11-08,Monthly payment
+8586.32,EXPENSE,Healthcare,2024-01-07,Q1 invoice
+2755.61,INCOME,Insurance,2024-09-12,Recurring charge
+1150.49,EXPENSE,Entertainment,2024-06-27,One-time purchase
+7787.95,INCOME,AWS Bill,2024-05-05,Client project
+650.09,EXPENSE,Office Supplies,2023-10-07,Team expense
+3237.63,INCOME,Marketing,2023-11-03,Annual renewal
+5235.11,EXPENSE,Travel,2023-06-28,Ad-hoc purchase
+8673.84,INCOME,Equipment,2023-08-26,Reimbursement
+3825.13,EXPENSE,Training,2023-02-24,Vendor payment
+7635.93,INCOME,Salary,2024-02-13,Monthly payment
+8026.30,EXPENSE,Freelance,2023-06-23,Q1 invoice
+514.85,INCOME,Rent,2023-08-14,Recurring charge
+354.27,EXPENSE,Transport,2023-05-03,One-time purchase
+6742.79,INCOME,Food,2023-07-16,Client project
+1944.60,EXPENSE,Utilities,2024-10-15,Team expense
+4610.98,INCOME,Healthcare,2024-06-25,Annual renewal
+5928.06,EXPENSE,Insurance,2024-07-05,Ad-hoc purchase
+928.27,INCOME,Entertainment,2024-08-29,Reimbursement
+321.57,EXPENSE,AWS Bill,2024-02-10,Vendor payment
+7396.47,INCOME,Office Supplies,2024-03-02,Monthly payment
+1510.95,EXPENSE,Marketing,2023-11-07,Q1 invoice
+1562.15,INCOME,Travel,2023-01-27,Recurring charge
+5829.51,EXPENSE,Equipment,2023-04-17,One-time purchase
+2735.66,INCOME,Training,2023-06-20,Client project
+4459.96,EXPENSE,Salary,2024-10-27,Team expense
+4941.35,INCOME,Freelance,2023-03-21,Annual renewal
+4321.16,EXPENSE,Rent,2024-08-25,Ad-hoc purchase
+5714.21,INCOME,Transport,2024-07-04,Reimbursement
+269.98,EXPENSE,Food,2024-10-04,Vendor payment
+1235.38,INCOME,Utilities,2023-08-01,Monthly payment
+6446.05,EXPENSE,Healthcare,2024-07-30,Q1 invoice
+3500.20,INCOME,Insurance,2023-10-15,Recurring charge
+4095.78,EXPENSE,Entertainment,2023-04-22,One-time purchase
+389.22,INCOME,AWS Bill,2023-02-07,Client project
+5303.88,EXPENSE,Office Supplies,2024-07-18,Team expense
+9991.58,INCOME,Marketing,2024-11-18,Annual renewal
+1600.07,EXPENSE,Travel,2024-11-30,Ad-hoc purchase
+1205.39,INCOME,Equipment,2024-01-06,Reimbursement
+5800.03,EXPENSE,Training,2024-07-22,Vendor payment
+5499.72,INCOME,Salary,2024-01-27,Monthly payment
+4582.84,EXPENSE,Freelance,2023-12-20,Q1 invoice
+6728.48,INCOME,Rent,2024-10-23,Recurring charge
+6252.42,EXPENSE,Transport,2024-01-04,One-time purchase
+1057.66,INCOME,Food,2023-01-08,Client project
+2137.49,EXPENSE,Utilities,2023-12-06,Team expense
+6490.79,INCOME,Healthcare,2024-09-12,Annual renewal
+6983.37,EXPENSE,Insurance,2024-06-03,Ad-hoc purchase
+3077.39,INCOME,Entertainment,2023-05-12,Reimbursement
+5278.67,EXPENSE,AWS Bill,2024-12-11,Vendor payment
+5051.98,INCOME,Office Supplies,2023-08-15,Monthly payment
+4587.60,EXPENSE,Marketing,2023-04-16,Q1 invoice
+8942.74,INCOME,Travel,2023-11-18,Recurring charge
+3711.07,EXPENSE,Equipment,2023-12-06,One-time purchase
+8534.37,INCOME,Training,2024-04-10,Client project
+5017.09,EXPENSE,Salary,2023-02-12,Team expense
+3473.19,INCOME,Freelance,2023-09-18,Annual renewal
+215.17,EXPENSE,Rent,2024-08-25,Ad-hoc purchase
+9818.38,INCOME,Transport,2024-09-16,Reimbursement
+1442.54,EXPENSE,Food,2024-10-06,Vendor payment
+4597.50,INCOME,Utilities,2023-08-16,Monthly payment
+1826.04,EXPENSE,Healthcare,2023-11-19,Q1 invoice
+3364.84,INCOME,Insurance,2023-05-04,Recurring charge
+5372.64,EXPENSE,Entertainment,2024-06-24,One-time purchase
+2010.59,INCOME,AWS Bill,2024-10-09,Client project
+7572.50,EXPENSE,Office Supplies,2024-09-10,Team expense
+8589.34,INCOME,Marketing,2023-08-01,Annual renewal
+7312.87,EXPENSE,Travel,2024-09-19,Ad-hoc purchase
+3196.91,INCOME,Equipment,2024-07-07,Reimbursement
+9426.51,EXPENSE,Training,2024-07-19,Vendor payment
+7626.54,INCOME,Salary,2023-01-04,Monthly payment
+4311.09,EXPENSE,Freelance,2023-07-19,Q1 invoice
+2981.90,INCOME,Rent,2023-08-25,Recurring charge
+8889.63,EXPENSE,Transport,2023-12-12,One-time purchase
+7517.44,INCOME,Food,2023-06-21,Client project
+7012.55,EXPENSE,Utilities,2024-01-12,Team expense
+9777.80,INCOME,Healthcare,2024-08-31,Annual renewal
+9251.01,EXPENSE,Insurance,2023-04-13,Ad-hoc purchase
+958.79,INCOME,Entertainment,2024-03-03,Reimbursement
+9552.41,EXPENSE,AWS Bill,2023-10-06,Vendor payment
+7234.47,INCOME,Office Supplies,2024-04-28,Monthly payment
+7319.26,EXPENSE,Marketing,2023-07-02,Q1 invoice
+794.52,INCOME,Travel,2024-08-05,Recurring charge
+9687.62,EXPENSE,Equipment,2024-06-20,One-time purchase
+3502.00,INCOME,Training,2024-03-29,Client project
+3265.81,EXPENSE,Salary,2024-02-24,Team expense
+7609.50,INCOME,Freelance,2023-09-03,Annual renewal
+1957.62,EXPENSE,Rent,2024-10-01,Ad-hoc purchase
+4299.89,INCOME,Transport,2023-07-08,Reimbursement
+7112.60,EXPENSE,Food,2024-04-21,Vendor payment
+7517.53,INCOME,Utilities,2023-01-11,Monthly payment
+3973.95,EXPENSE,Healthcare,2023-06-18,Q1 invoice
+7601.69,INCOME,Insurance,2023-05-31,Recurring charge
+826.62,EXPENSE,Entertainment,2023-12-10,One-time purchase
+9552.54,INCOME,AWS Bill,2024-10-16,Client project
+574.13,EXPENSE,Office Supplies,2023-07-02,Team expense
+2152.54,INCOME,Marketing,2023-06-16,Annual renewal
+4437.38,EXPENSE,Travel,2023-12-12,Ad-hoc purchase
+6286.93,INCOME,Equipment,2023-11-19,Reimbursement
+9430.84,EXPENSE,Training,2023-02-27,Vendor payment
+8676.28,INCOME,Salary,2023-07-12,Monthly payment
+5012.37,EXPENSE,Freelance,2023-09-09,Q1 invoice
+3782.73,INCOME,Rent,2023-02-20,Recurring charge
+540.94,EXPENSE,Transport,2023-07-04,One-time purchase
+3759.09,INCOME,Food,2023-07-12,Client project
+4901.68,EXPENSE,Utilities,2023-08-20,Team expense
+2934.99,INCOME,Healthcare,2023-02-01,Annual renewal
+1001.06,EXPENSE,Insurance,2024-05-09,Ad-hoc purchase
+3421.04,INCOME,Entertainment,2023-04-15,Reimbursement
+5670.75,EXPENSE,AWS Bill,2023-03-12,Vendor payment
+3978.69,INCOME,Office Supplies,2024-04-01,Monthly payment
+7788.60,EXPENSE,Marketing,2023-01-21,Q1 invoice
+796.93,INCOME,Travel,2024-05-20,Recurring charge
+4298.50,EXPENSE,Equipment,2023-04-03,One-time purchase
+316.72,INCOME,Training,2023-06-24,Client project
+9776.66,EXPENSE,Salary,2023-05-06,Team expense
+384.97,INCOME,Freelance,2024-09-09,Annual renewal
+1417.77,EXPENSE,Rent,2023-01-29,Ad-hoc purchase
+4773.79,INCOME,Transport,2023-05-04,Reimbursement
+3470.74,EXPENSE,Food,2024-04-11,Vendor payment
+9096.19,INCOME,Utilities,2023-08-26,Monthly payment
+2493.65,EXPENSE,Healthcare,2024-07-01,Q1 invoice
+7991.70,INCOME,Insurance,2023-09-06,Recurring charge
+416.14,EXPENSE,Entertainment,2023-05-30,One-time purchase
+1317.38,INCOME,AWS Bill,2024-01-15,Client project
+2242.39,EXPENSE,Office Supplies,2023-06-05,Team expense
+3430.40,INCOME,Marketing,2024-04-01,Annual renewal
+887.06,EXPENSE,Travel,2024-10-08,Ad-hoc purchase
+7606.71,INCOME,Equipment,2023-01-19,Reimbursement
+9942.64,EXPENSE,Training,2024-07-24,Vendor payment
+4203.99,INCOME,Salary,2023-02-11,Monthly payment
+153.42,EXPENSE,Freelance,2023-05-08,Q1 invoice
+7431.28,INCOME,Rent,2023-06-12,Recurring charge
+9135.27,EXPENSE,Transport,2024-10-29,One-time purchase
+3201.04,INCOME,Food,2024-02-19,Client project
+5898.00,EXPENSE,Utilities,2024-04-09,Team expense
+7803.95,INCOME,Healthcare,2023-01-06,Annual renewal
+4105.12,EXPENSE,Insurance,2023-08-23,Ad-hoc purchase
+6982.88,INCOME,Entertainment,2023-09-14,Reimbursement
+2730.24,EXPENSE,AWS Bill,2023-09-22,Vendor payment
+2879.83,INCOME,Office Supplies,2023-01-28,Monthly payment
+6680.30,EXPENSE,Marketing,2023-04-22,Q1 invoice
+9206.33,INCOME,Travel,2023-04-11,Recurring charge
+450.19,EXPENSE,Equipment,2023-11-29,One-time purchase
+6481.27,INCOME,Training,2023-06-28,Client project
+3908.96,EXPENSE,Salary,2024-11-12,Team expense
+4258.18,INCOME,Freelance,2024-03-10,Annual renewal
+1064.99,EXPENSE,Rent,2024-03-13,Ad-hoc purchase
+393.99,INCOME,Transport,2023-04-16,Reimbursement
+7119.22,EXPENSE,Food,2023-03-07,Vendor payment
+1427.35,INCOME,Utilities,2023-02-11,Monthly payment
+1128.36,EXPENSE,Healthcare,2023-03-05,Q1 invoice
+8282.14,INCOME,Insurance,2023-01-19,Recurring charge
+7898.18,EXPENSE,Entertainment,2024-01-10,One-time purchase
+7997.31,INCOME,AWS Bill,2023-02-15,Client project
+3202.74,EXPENSE,Office Supplies,2023-11-21,Team expense
+5079.40,INCOME,Marketing,2023-05-04,Annual renewal
+6955.86,EXPENSE,Travel,2024-12-19,Ad-hoc purchase
+9881.99,INCOME,Equipment,2023-04-05,Reimbursement
+8471.93,EXPENSE,Training,2023-06-14,Vendor payment
+2633.70,INCOME,Salary,2024-10-29,Monthly payment
+4422.09,EXPENSE,Freelance,2023-04-15,Q1 invoice
+1413.84,INCOME,Rent,2024-02-26,Recurring charge
+6848.46,EXPENSE,Transport,2023-06-08,One-time purchase
+1683.26,INCOME,Food,2023-10-07,Client project
+6291.96,EXPENSE,Utilities,2024-05-16,Team expense
+951.56,INCOME,Healthcare,2024-08-01,Annual renewal
+4695.28,EXPENSE,Insurance,2024-06-07,Ad-hoc purchase
+6385.23,INCOME,Entertainment,2024-04-05,Reimbursement
+5082.61,EXPENSE,AWS Bill,2023-05-06,Vendor payment
+5314.89,INCOME,Office Supplies,2023-11-03,Monthly payment
+1274.82,EXPENSE,Marketing,2024-01-01,Q1 invoice
+9857.79,INCOME,Travel,2023-02-14,Recurring charge
+3962.47,EXPENSE,Equipment,2023-07-30,One-time purchase
+364.76,INCOME,Training,2023-09-16,Client project
+5063.50,EXPENSE,Salary,2024-01-18,Team expense
+2647.49,INCOME,Freelance,2023-04-25,Annual renewal
+4057.99,EXPENSE,Rent,2023-06-02,Ad-hoc purchase
+5694.46,INCOME,Transport,2023-07-15,Reimbursement
+8421.94,EXPENSE,Food,2023-01-07,Vendor payment
+9840.57,INCOME,Utilities,2023-03-11,Monthly payment
+8669.91,EXPENSE,Healthcare,2024-09-07,Q1 invoice
+4174.61,INCOME,Insurance,2024-12-28,Recurring charge
+652.95,EXPENSE,Entertainment,2024-04-18,One-time purchase
+6125.15,INCOME,AWS Bill,2024-12-15,Client project
+3108.22,EXPENSE,Office Supplies,2023-06-01,Team expense
+4874.56,INCOME,Marketing,2023-12-24,Annual renewal
+6592.75,EXPENSE,Travel,2023-09-04,Ad-hoc purchase
+5321.15,INCOME,Equipment,2023-08-31,Reimbursement
+880.77,EXPENSE,Training,2024-09-21,Vendor payment
+8234.19,INCOME,Salary,2023-08-14,Monthly payment
+9603.96,EXPENSE,Freelance,2024-04-30,Q1 invoice
+1932.57,INCOME,Rent,2023-08-16,Recurring charge
+2256.02,EXPENSE,Transport,2023-06-11,One-time purchase
+624.25,INCOME,Food,2024-05-28,Client project
+1175.15,EXPENSE,Utilities,2024-08-05,Team expense
+2310.15,INCOME,Healthcare,2023-05-04,Annual renewal
+5068.83,EXPENSE,Insurance,2024-03-04,Ad-hoc purchase
+2511.52,INCOME,Entertainment,2024-02-08,Reimbursement
+967.72,EXPENSE,AWS Bill,2023-09-10,Vendor payment
+7780.94,INCOME,Office Supplies,2024-05-11,Monthly payment
+3403.20,EXPENSE,Marketing,2024-11-01,Q1 invoice
+5678.32,INCOME,Travel,2024-01-08,Recurring charge
+7715.04,EXPENSE,Equipment,2024-11-13,One-time purchase
+7072.05,INCOME,Training,2023-08-10,Client project
+2696.22,EXPENSE,Salary,2024-11-07,Team expense
+7998.49,INCOME,Freelance,2024-09-28,Annual renewal
+6948.31,EXPENSE,Rent,2023-06-17,Ad-hoc purchase
+4368.53,INCOME,Transport,2024-05-26,Reimbursement
+6438.31,EXPENSE,Food,2023-02-19,Vendor payment
+3480.22,INCOME,Utilities,2023-05-01,Monthly payment
+9570.57,EXPENSE,Healthcare,2024-01-09,Q1 invoice
+4326.49,INCOME,Insurance,2023-08-07,Recurring charge
+4604.31,EXPENSE,Entertainment,2024-03-08,One-time purchase
+2144.80,INCOME,AWS Bill,2023-09-19,Client project
+8889.57,EXPENSE,Office Supplies,2024-11-19,Team expense
+370.17,INCOME,Marketing,2023-06-18,Annual renewal
+229.86,EXPENSE,Travel,2024-04-30,Ad-hoc purchase
+4729.33,INCOME,Equipment,2024-05-31,Reimbursement
+8578.05,EXPENSE,Training,2024-07-09,Vendor payment
+8222.14,INCOME,Salary,2023-03-24,Monthly payment
+9149.90,EXPENSE,Freelance,2023-09-28,Q1 invoice
+4769.46,INCOME,Rent,2023-09-30,Recurring charge
+6101.50,EXPENSE,Transport,2023-10-21,One-time purchase
+8201.08,INCOME,Food,2023-11-25,Client project
+6831.33,EXPENSE,Utilities,2023-12-02,Team expense
+5330.87,INCOME,Healthcare,2023-04-04,Annual renewal
+9143.59,EXPENSE,Insurance,2024-03-12,Ad-hoc purchase
+3977.32,INCOME,Entertainment,2024-10-10,Reimbursement
+7246.49,EXPENSE,AWS Bill,2024-09-29,Vendor payment
+2052.58,INCOME,Office Supplies,2024-06-21,Monthly payment
+2401.12,EXPENSE,Marketing,2023-07-20,Q1 invoice
+1645.35,INCOME,Travel,2024-06-04,Recurring charge
+2394.32,EXPENSE,Equipment,2024-08-20,One-time purchase
+115.98,INCOME,Training,2023-11-06,Client project
+1223.79,EXPENSE,Salary,2024-10-17,Team expense
+8285.55,INCOME,Freelance,2023-07-10,Annual renewal
+7522.08,EXPENSE,Rent,2024-01-03,Ad-hoc purchase
+2173.01,INCOME,Transport,2024-09-10,Reimbursement
+4917.71,EXPENSE,Food,2023-08-03,Vendor payment
+8716.51,INCOME,Utilities,2023-08-19,Monthly payment
+8092.51,EXPENSE,Healthcare,2023-10-31,Q1 invoice
+3474.99,INCOME,Insurance,2023-02-05,Recurring charge
+798.92,EXPENSE,Entertainment,2023-10-03,One-time purchase
+7612.87,INCOME,AWS Bill,2024-07-24,Client project
+2425.63,EXPENSE,Office Supplies,2023-11-21,Team expense
+3659.99,INCOME,Marketing,2023-08-14,Annual renewal
+7516.65,EXPENSE,Travel,2023-02-22,Ad-hoc purchase
+6598.41,INCOME,Equipment,2023-03-16,Reimbursement
+3580.43,EXPENSE,Training,2024-04-08,Vendor payment
+3090.58,INCOME,Salary,2024-07-12,Monthly payment
+2194.85,EXPENSE,Freelance,2023-08-16,Q1 invoice
+4986.03,INCOME,Rent,2023-03-19,Recurring charge
+8051.35,EXPENSE,Transport,2023-05-09,One-time purchase
+5730.55,INCOME,Food,2023-01-11,Client project
+5937.84,EXPENSE,Utilities,2023-10-10,Team expense
+438.67,INCOME,Healthcare,2023-03-03,Annual renewal
+2222.31,EXPENSE,Insurance,2024-11-13,Ad-hoc purchase
+9222.91,INCOME,Entertainment,2024-09-27,Reimbursement
+1696.52,EXPENSE,AWS Bill,2023-07-25,Vendor payment
+3814.66,INCOME,Office Supplies,2023-05-13,Monthly payment
+9932.11,EXPENSE,Marketing,2024-05-14,Q1 invoice
+171.28,INCOME,Travel,2024-02-22,Recurring charge
+8948.66,EXPENSE,Equipment,2024-07-29,One-time purchase
+5606.62,INCOME,Training,2024-02-17,Client project
+6267.15,EXPENSE,Salary,2024-11-16,Team expense
+8265.62,INCOME,Freelance,2023-03-01,Annual renewal
+6356.63,EXPENSE,Rent,2023-12-19,Ad-hoc purchase
+9233.78,INCOME,Transport,2023-06-13,Reimbursement
+9413.57,EXPENSE,Food,2024-11-17,Vendor payment
+4645.96,INCOME,Utilities,2023-05-24,Monthly payment
+3366.31,EXPENSE,Healthcare,2024-01-30,Q1 invoice
+8684.39,INCOME,Insurance,2023-09-13,Recurring charge
+8008.03,EXPENSE,Entertainment,2024-12-07,One-time purchase
+1883.96,INCOME,AWS Bill,2023-02-09,Client project
+505.65,EXPENSE,Office Supplies,2023-03-14,Team expense
+6587.43,INCOME,Marketing,2024-02-12,Annual renewal
+6895.81,EXPENSE,Travel,2023-04-24,Ad-hoc purchase
+6003.09,INCOME,Equipment,2023-11-17,Reimbursement
+4616.75,EXPENSE,Training,2023-06-20,Vendor payment
+5926.57,INCOME,Salary,2023-04-22,Monthly payment
+689.60,EXPENSE,Freelance,2024-06-04,Q1 invoice
+5396.57,INCOME,Rent,2024-03-27,Recurring charge
+2214.01,EXPENSE,Transport,2023-03-25,One-time purchase
+5359.44,INCOME,Food,2024-03-24,Client project
+3157.34,EXPENSE,Utilities,2024-07-24,Team expense
+2476.19,INCOME,Healthcare,2023-12-26,Annual renewal
+3197.34,EXPENSE,Insurance,2024-07-04,Ad-hoc purchase
+6009.94,INCOME,Entertainment,2024-01-02,Reimbursement
+521.72,EXPENSE,AWS Bill,2023-09-01,Vendor payment
+5366.07,INCOME,Office Supplies,2024-04-19,Monthly payment
+7674.83,EXPENSE,Marketing,2024-12-27,Q1 invoice
+2973.30,INCOME,Travel,2024-11-07,Recurring charge
+2083.75,EXPENSE,Equipment,2024-08-01,One-time purchase
+4095.69,INCOME,Training,2023-09-04,Client project
+2965.51,EXPENSE,Salary,2023-12-20,Team expense
+5331.16,INCOME,Freelance,2023-08-27,Annual renewal
+4521.31,EXPENSE,Rent,2023-06-19,Ad-hoc purchase
+4551.72,INCOME,Transport,2023-11-10,Reimbursement
+7440.82,EXPENSE,Food,2023-09-11,Vendor payment
+2572.10,INCOME,Utilities,2024-11-19,Monthly payment
+2220.95,EXPENSE,Healthcare,2023-11-08,Q1 invoice
+7814.35,INCOME,Insurance,2024-05-04,Recurring charge
+6010.00,EXPENSE,Entertainment,2023-08-04,One-time purchase
+2998.87,INCOME,AWS Bill,2023-06-02,Client project
+6059.10,EXPENSE,Office Supplies,2024-04-27,Team expense
+377.97,INCOME,Marketing,2023-01-05,Annual renewal
+9847.24,EXPENSE,Travel,2024-09-08,Ad-hoc purchase
+1821.85,INCOME,Equipment,2023-08-19,Reimbursement
+7266.78,EXPENSE,Training,2023-09-11,Vendor payment
+9190.16,INCOME,Salary,2023-01-21,Monthly payment
+3527.98,EXPENSE,Freelance,2024-12-30,Q1 invoice
+2072.48,INCOME,Rent,2024-08-01,Recurring charge
+7752.57,EXPENSE,Transport,2023-03-17,One-time purchase
+8402.83,INCOME,Food,2024-07-29,Client project
+3793.89,EXPENSE,Utilities,2023-12-17,Team expense
+2196.95,INCOME,Healthcare,2024-04-03,Annual renewal
+7984.81,EXPENSE,Insurance,2023-02-16,Ad-hoc purchase
+1965.69,INCOME,Entertainment,2024-11-15,Reimbursement
+9163.74,EXPENSE,AWS Bill,2023-12-25,Vendor payment
+5693.68,INCOME,Office Supplies,2024-03-14,Monthly payment
+9492.49,EXPENSE,Marketing,2023-07-06,Q1 invoice
+5076.68,INCOME,Travel,2024-05-23,Recurring charge
+7424.22,EXPENSE,Equipment,2024-11-06,One-time purchase
+5163.69,INCOME,Training,2024-11-01,Client project
+9159.00,EXPENSE,Salary,2024-09-19,Team expense
+4292.44,INCOME,Freelance,2024-01-04,Annual renewal
+390.86,EXPENSE,Rent,2023-08-10,Ad-hoc purchase
+7228.20,INCOME,Transport,2024-04-16,Reimbursement
+1292.71,EXPENSE,Food,2024-05-11,Vendor payment
+9271.29,INCOME,Utilities,2023-11-09,Monthly payment
+6210.69,EXPENSE,Healthcare,2023-04-29,Q1 invoice
+3604.77,INCOME,Insurance,2024-07-07,Recurring charge
+7347.14,EXPENSE,Entertainment,2023-01-24,One-time purchase
+5163.04,INCOME,AWS Bill,2023-08-16,Client project
+5237.92,EXPENSE,Office Supplies,2024-04-13,Team expense
+9872.64,INCOME,Marketing,2023-10-12,Annual renewal
+6077.08,EXPENSE,Travel,2024-07-28,Ad-hoc purchase
+1161.50,INCOME,Equipment,2024-04-12,Reimbursement
+6559.17,EXPENSE,Training,2024-06-25,Vendor payment
+868.81,INCOME,Salary,2023-06-25,Monthly payment
+1059.57,EXPENSE,Freelance,2024-05-19,Q1 invoice
+5761.63,INCOME,Rent,2024-06-02,Recurring charge
+7025.37,EXPENSE,Transport,2024-03-11,One-time purchase
+9943.35,INCOME,Food,2023-04-14,Client project
+9593.75,EXPENSE,Utilities,2023-02-12,Team expense
+1719.21,INCOME,Healthcare,2024-07-30,Annual renewal
+6038.15,EXPENSE,Insurance,2024-01-16,Ad-hoc purchase
+1025.46,INCOME,Entertainment,2024-10-25,Reimbursement
+2750.84,EXPENSE,AWS Bill,2024-02-15,Vendor payment
