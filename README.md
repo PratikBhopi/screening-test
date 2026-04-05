@@ -9,7 +9,7 @@ A backend system for a multi-role finance dashboard. Built with **Node.js**, **E
 For deep-dives into the architecture and data models, please refer to the following:
 
 - **[Database Schema Documentation](./SCHEMA_DOCUMENTATION.md)**: ER diagrams, Enum definitions, and model structures.
-- **[Core Features & Architecture](./CORE_FEATURES.md)**: Insights into JWT blacklisting, bulk import workflows, secure file parsing, and scalability tradeoffs.
+- **[Core Features & Architecture](./SYSTEM_ARCHITECTURE.md)**: Insights into JWT blacklisting, bulk import workflows, secure file parsing, and scalability tradeoffs.
 
 ---
 

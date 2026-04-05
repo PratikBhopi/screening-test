@@ -1,4 +1,4 @@
-# FinTrack Core Features & Architecture
+# FinTrack Core Features & System Architecture
 
 This document explains the core technical features of the FinTrack API, following first-principle design patterns for security, scalability, and reliability.
 
@@ -118,4 +118,3 @@ DATA FLOW:
 **The Problem**: Raw numbers are hard to interpret. Users need actionable insights.
 - **Why**: To provide automated financial health alerts (e.g., Burn Rate tracking, Expense/Income ratios) without complex ML dependencies.
 - **Design**: Deterministic rules applied to aggregated data, providing `INFO`, `WARNING`, or `CRITICAL` alerts.
-
