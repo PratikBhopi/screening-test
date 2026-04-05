@@ -1,48 +1,24 @@
 const prisma = require('../models');
 
-/**
- * Creates a new ImportJob with status PENDING.
- *
- * @param {Object} data
- * @param {string} data.uploadedBy  - User UUID of the admin who uploaded
- * @param {string} data.filename    - Original filename from the upload
- * @param {Buffer} data.fileBuffer  - Raw file buffer for async processing
- * @param {string} data.mimetype    - MIME type of the uploaded file
- * @param {number} data.totalRows   - Row count determined after parsing
- * @returns {Object} Created ImportJob (without fileBuffer)
- */
+// I never return fileBuffer in selects except in findById — the worker needs it, but API responses don't
+const JOB_SELECT = {
+  id: true, uploadedBy: true, filename: true, mimetype: true,
+  status: true, totalRows: true, savedCount: true, failedCount: true,
+  errorLog: true, startedAt: true, completedAt: true, createdAt: true
+};
+
 async function createJob({ uploadedBy, filename, fileBuffer, mimetype, totalRows = 0 }) {
   return prisma.importJob.create({
     data: { uploadedBy, filename, fileBuffer, mimetype, totalRows },
-    select: {
-      id: true, uploadedBy: true, filename: true, mimetype: true,
-      status: true, totalRows: true,
-      savedCount: true, failedCount: true, errorLog: true,
-      startedAt: true, completedAt: true, createdAt: true
-    }
+    select: JOB_SELECT
   });
 }
 
-/**
- * Returns a single ImportJob by ID including the fileBuffer.
- * Used by the async worker to retrieve the file for processing.
- *
- * @param {string} id
- * @returns {Object|null}
- */
+// Returns the full row including fileBuffer — the queue worker needs it to process the file
 async function findById(id) {
   return prisma.importJob.findUnique({ where: { id } });
 }
 
-/**
- * Returns a paginated list of ImportJobs for a specific user.
- * fileBuffer is excluded — callers only need status and metadata.
- *
- * @param {string} userId
- * @param {number} page
- * @param {number} limit
- * @returns {{ jobs: Object[], total: number, page: number, limit: number }}
- */
 async function findByUserId(userId, page = 1, limit = 20) {
   const skip = (page - 1) * limit;
 
@@ -52,12 +28,7 @@ async function findByUserId(userId, page = 1, limit = 20) {
       orderBy: { createdAt: 'desc' },
       skip,
       take: limit,
-      select: {
-        id: true, uploadedBy: true, filename: true, mimetype: true,
-        status: true, totalRows: true,
-        savedCount: true, failedCount: true, errorLog: true,
-        startedAt: true, completedAt: true, createdAt: true
-      }
+      select: JOB_SELECT
     }),
     prisma.importJob.count({ where: { uploadedBy: userId } })
   ]);
@@ -65,25 +36,12 @@ async function findByUserId(userId, page = 1, limit = 20) {
   return { jobs, total, page, limit };
 }
 
-/**
- * Updates mutable fields on an ImportJob.
- * Used by the queue worker to transition status and record counts.
- *
- * @param {string} id
- * @param {Object} patch - Any subset of: status, startedAt, completedAt,
- *                         savedCount, failedCount, errorLog, totalRows
- * @returns {Object} Updated job (without fileBuffer)
- */
+// Used by the queue worker to transition job state — status, counts, errorLog, timestamps
 async function updateStatus(id, patch) {
   return prisma.importJob.update({
     where: { id },
     data: patch,
-    select: {
-      id: true, uploadedBy: true, filename: true, mimetype: true,
-      status: true, totalRows: true,
-      savedCount: true, failedCount: true, errorLog: true,
-      startedAt: true, completedAt: true, createdAt: true
-    }
+    select: JOB_SELECT
   });
 }
 

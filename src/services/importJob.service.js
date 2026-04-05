@@ -5,11 +5,8 @@ const { parseFile } = require('../utils/fileParser');
 const { validateRows } = require('../utils/rowValidator');
 const AppError = require('../errors/AppError');
 
-/**
- * @param {Object[]} rows
- * @param {Object} requestingUser - { userId, role, ipAddress }
- * @param {string} filename
- */
+// Sync import — I validate all rows first and throw immediately if anything fails.
+// Nothing gets saved unless every row passes.
 async function runSyncImport(rows, requestingUser, filename = 'unknown') {
   const { valid, errors } = validateRows(rows);
 
@@ -30,13 +27,12 @@ async function runSyncImport(rows, requestingUser, filename = 'unknown') {
     filename
   });
 
-  return {
-    savedCount: savedRecords.length,
-    errors: []
-  };
+  return { savedCount: savedRecords.length, errors: [] };
 }
 
-// Called by the queue worker only — not directly from any route
+// Called by the queue worker only — never directly from a route.
+// here I parse the file first, then validate. Any failure at either step marks the job FAILED
+// with a full error log so the admin knows exactly what went wrong.
 async function processJobById(jobId) {
   const job = await importJobRepo.findById(jobId);
 
@@ -83,7 +79,6 @@ async function processJobById(jobId) {
 
     const requestingUser = { userId: job.uploadedBy, role: 'ADMIN', ipAddress: null };
     const savedRecords = await saveRecords(valid, requestingUser);
-
     savedCount = savedRecords.length;
 
     await generateAuditLogs(savedRecords, requestingUser);
@@ -116,8 +111,8 @@ async function processJobById(jobId) {
   }
 }
 
-// Inserts in chunks of 100 to avoid hitting MySQL's max_allowed_packet on large imports.
-// Individual creates (not createMany) so we get back IDs needed for audit logging.
+// I insert in chunks of 100 to stay within MySQL's max_allowed_packet limit on large files.
+// I use individual creates (not createMany) because I need the IDs back for audit logging.
 async function saveRecords(validRows, requestingUser) {
   if (validRows.length === 0) return [];
 
