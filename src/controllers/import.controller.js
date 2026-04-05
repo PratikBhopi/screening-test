@@ -6,16 +6,15 @@ const { enqueue } = require('../queue/importQueue');
 const { runSyncImport } = require('../services/importJob.service');
 
 const XLSX_MIME = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-const CSV_MIMES = ['text/csv', 'text/plain'];
+const ALLOWED_CSV_MIME_TYPES = ['text/csv', 'text/plain'];
 const SYNC_MAX_BYTES  = 1 * 1024 * 1024;   // 1MB
 const SYNC_MAX_ROWS   = 1000;
 const ASYNC_MAX_BYTES = 10 * 1024 * 1024;  // 10MB
 
 const storage = multer.memoryStorage();
 
-// Reject non-CSV/XLSX before the file is fully buffered
 function fileFilter(req, file, cb) {
-  if (CSV_MIMES.includes(file.mimetype) || file.mimetype === XLSX_MIME) {
+  if (ALLOWED_CSV_MIME_TYPES.includes(file.mimetype) || file.mimetype === XLSX_MIME) {
     cb(null, true);
   } else {
     cb(new AppError('Only CSV and XLSX files are accepted', 400), false);
@@ -25,7 +24,6 @@ function fileFilter(req, file, cb) {
 const syncUpload  = multer({ storage, fileFilter, limits: { fileSize: SYNC_MAX_BYTES } }).single('file');
 const asyncUpload = multer({ storage, fileFilter, limits: { fileSize: ASYNC_MAX_BYTES } }).single('file');
 
-// Wraps multer in a promise so we can await it inside async handlers
 function runMulter(middleware, req, res) {
   return new Promise((resolve, reject) => {
     middleware(req, res, (err) => {
@@ -40,19 +38,19 @@ function runMulter(middleware, req, res) {
   });
 }
 
-/**
- * POST /api/v1/bulk-records
- * Processes the file inline and responds with the result.
- * Rejects if the file exceeds 1MB or 1000 rows.
- */
+// POST /api/v1/bulk-records — atomic, inline processing, max 1MB / 1000 rows
 const syncImport = async (req, res, next) => {
   try {
     await runMulter(syncUpload, req, res);
 
     if (!req.file) throw new AppError('No file uploaded', 400);
 
-    const mode = req.query.mode === 'partial' ? 'partial' : 'atomic';
-    const rows = parseFile(req.file.buffer, req.file.mimetype);
+    let rows;
+    try {
+      rows = parseFile(req.file.buffer, req.file.mimetype);
+    } catch (parseErr) {
+      return next(parseErr);
+    }
 
     if (rows.length > SYNC_MAX_ROWS) {
       throw new AppError(
@@ -67,41 +65,33 @@ const syncImport = async (req, res, next) => {
       ipAddress: req.headers['x-forwarded-for'] || req.socket.remoteAddress
     };
 
-    const result = await runSyncImport(rows, mode, requestingUser, req.file.originalname);
+    const result = await runSyncImport(rows, requestingUser, req.file.originalname);
 
     return res.status(201).json({
       success: true,
       data: {
         totalRows: rows.length,
         savedCount: result.savedCount,
-        failedCount: result.failedCount,
         errors: result.errors
       }
     });
   } catch (err) {
-    next(err.isOperational ? err : new AppError('Sync import failed', 500));
+    next(err);
   }
 };
 
-/**
- * POST /api/v1/bulk-records/async
- * Stores the file, creates a PENDING job, and queues it for background processing.
- * Returns 202 immediately with the jobId to poll.
- */
+// POST /api/v1/bulk-records/async — atomic, background processing, max 10MB
 const asyncImport = async (req, res, next) => {
   try {
     await runMulter(asyncUpload, req, res);
 
     if (!req.file) throw new AppError('No file uploaded', 400);
 
-    const mode = req.query.mode === 'partial' ? 'partial' : 'atomic';
-
     const job = await importJobRepo.createJob({
       uploadedBy: req.user.userId,
       filename: req.file.originalname,
       fileBuffer: req.file.buffer,
       mimetype: req.file.mimetype,
-      mode,
       totalRows: 0
     });
 
@@ -120,10 +110,7 @@ const asyncImport = async (req, res, next) => {
   }
 };
 
-/**
- * GET /api/v1/bulk-records/jobs/:jobId
- * Returns job metadata. 404 if the job doesn't exist or belongs to someone else.
- */
+// GET /api/v1/bulk-records/jobs/:jobId
 const getJobStatus = async (req, res, next) => {
   try {
     const job = await importJobRepo.findById(req.params.jobId);
@@ -139,10 +126,7 @@ const getJobStatus = async (req, res, next) => {
   }
 };
 
-/**
- * GET /api/v1/bulk-records/jobs
- * Paginated list of jobs for the requesting admin, newest first.
- */
+// GET /api/v1/bulk-records/jobs
 const listJobs = async (req, res, next) => {
   try {
     const page  = Math.max(1, parseInt(req.query.page  || '1',  10));

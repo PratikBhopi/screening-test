@@ -36,6 +36,7 @@ erDiagram
 
     FINANCIAL_RECORD {
         string id PK "UUID"
+        string transactionRef "Required, Unique"
         decimal amount "Decimal(19, 4)"
         TransactionType type "INCOME | EXPENSE"
         string category "Indexed"
@@ -95,9 +96,8 @@ erDiagram
 | | `EXPENSE` | Money outflow. Amounts are stored as positive; type provides context. |
 | **ImportJobStatus** | `PENDING` | Created in DB, waiting for worker pickup. |
 | | `PROCESSING` | Worker is currently parsing and saving rows. |
-| | `COMPLETED` | All rows processed successfully. |
-| | `PARTIAL` | Some rows failed validation (only in `partial` mode). |
-| | `FAILED` | System error or `atomic` mode validation failure. |
+| | `COMPLETED` | All rows processed and saved successfully. |
+| | `FAILED` | Validation errors found or system error — nothing was saved. |
 
 ### 3.2 Core Models
 
@@ -121,6 +121,7 @@ The core ledger storing all financial transactions.
 | Field | Type | Description |
 | :--- | :--- | :--- |
 | **id** | `UUID` | Primary key. Unique identifier for the transaction. |
+| **transactionRef** | `String` | Required unique business reference (e.g. invoice number, bank ref). Prevents the same real-world transaction being entered twice. |
 | **amount** | `Decimal(19,4)`| Precise transaction value; prevents rounding errors. |
 | **type** | `Enum` | `INCOME` or `EXPENSE`. Defines the flow of money. |
 | **category** | `String` | Free-form tag (e.g., "Salary", "Rent") used for grouping. |
@@ -152,8 +153,7 @@ Tracks the state and results of bulk file uploads.
 | **uploadedBy** | `FK (User)` | The admin who uploaded the file. |
 | **filename** | `String` | Original name of the uploaded file. |
 | **fileBuffer** | `Bytes` | Temporary storage of raw file data for async processing. |
-| **status** | `Enum` | Current state (`PENDING`, `PROCESSING`, `COMPLETED`, etc.). |
-| **mode** | `String` | Import strategy (`atomic` or `partial`). |
+| **status** | `Enum` | Current state (`PENDING`, `PROCESSING`, `COMPLETED`, `FAILED`). |
 | **totalRows** | `Int` | Number of records detected in the file. |
 | **savedCount** | `Int` | Number of records successfully saved to the database. |
 | **failedCount** | `Int` | Number of records that failed validation. |
@@ -173,7 +173,7 @@ When a record is created via `RecordService`, two operations occur:
 1. **User uploads file**: `ImportJob` is created with status `PENDING`.
 2. **Queueing**: The job ID is pushed to the `importQueue`.
 3. **Processing**: The background worker updates status to `PROCESSING`.
-4. **Completion**: Worker saves successful records to `FinancialRecord`, creates `AuditLog` entries, and marks job as `COMPLETED` or `PARTIAL`.
+4. **Completion**: If all rows pass validation, records are saved to `FinancialRecord`, audit logs are created, and the job is marked `COMPLETED`. If any row fails validation or a system error occurs, nothing is saved and the job is marked `FAILED` with a full error log.
 
 ### C. Access Control (RBAC)
 Prisma is used alongside middleware to enforce security:

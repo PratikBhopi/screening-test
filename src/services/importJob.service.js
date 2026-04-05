@@ -7,14 +7,13 @@ const AppError = require('../errors/AppError');
 
 /**
  * @param {Object[]} rows
- * @param {string} mode - 'atomic' | 'partial'
  * @param {Object} requestingUser - { userId, role, ipAddress }
  * @param {string} filename
  */
-async function runSyncImport(rows, mode, requestingUser, filename = 'unknown') {
+async function runSyncImport(rows, requestingUser, filename = 'unknown') {
   const { valid, errors } = validateRows(rows);
 
-  if (mode === 'atomic' && errors.length > 0) {
+  if (errors.length > 0) {
     const err = new AppError(`Import rejected: ${errors.length} row(s) failed validation`, 400);
     err.errors = errors;
     throw err;
@@ -27,14 +26,13 @@ async function runSyncImport(rows, mode, requestingUser, filename = 'unknown') {
     userId: requestingUser.userId,
     ipAddress: requestingUser.ipAddress,
     savedCount: savedRecords.length,
-    failedCount: errors.length,
+    failedCount: 0,
     filename
   });
 
   return {
     savedCount: savedRecords.length,
-    failedCount: errors.length,
-    errors
+    errors: []
   };
 }
 
@@ -50,19 +48,29 @@ async function processJobById(jobId) {
   await importJobRepo.updateStatus(jobId, { status: 'PROCESSING', startedAt: new Date() });
 
   let savedCount = 0;
-  let failedCount = 0;
-  let errorLog = [];
 
   try {
     const fileBuffer = Buffer.isBuffer(job.fileBuffer) ? job.fileBuffer : Buffer.from(job.fileBuffer);
-    const rows = parseFile(fileBuffer, job.mimetype);
+
+    let rows;
+    try {
+      rows = parseFile(fileBuffer, job.mimetype);
+    } catch (parseErr) {
+      await importJobRepo.updateStatus(jobId, {
+        status: 'FAILED',
+        completedAt: new Date(),
+        savedCount: 0,
+        failedCount: 0,
+        errorLog: [{ row: 0, field: 'file', message: parseErr.message }]
+      });
+      return;
+    }
 
     await importJobRepo.updateStatus(jobId, { totalRows: rows.length });
 
     const { valid, errors } = validateRows(rows);
-    errorLog = errors;
 
-    if (job.mode === 'atomic' && errors.length > 0) {
+    if (errors.length > 0) {
       await importJobRepo.updateStatus(jobId, {
         status: 'FAILED',
         completedAt: new Date(),
@@ -77,24 +85,23 @@ async function processJobById(jobId) {
     const savedRecords = await saveRecords(valid, requestingUser);
 
     savedCount = savedRecords.length;
-    failedCount = errors.length;
 
     await generateAuditLogs(savedRecords, requestingUser);
     await generateSummaryAuditLog({
       userId: job.uploadedBy,
       ipAddress: null,
       savedCount,
-      failedCount,
+      failedCount: 0,
       filename: job.filename,
       jobId
     });
 
     await importJobRepo.updateStatus(jobId, {
-      status: failedCount > 0 ? 'PARTIAL' : 'COMPLETED',
+      status: 'COMPLETED',
       completedAt: new Date(),
       savedCount,
-      failedCount,
-      errorLog: errorLog.length > 0 ? errorLog : null
+      failedCount: 0,
+      errorLog: null
     });
 
   } catch (err) {
@@ -102,7 +109,7 @@ async function processJobById(jobId) {
       status: 'FAILED',
       completedAt: new Date(),
       savedCount,
-      failedCount,
+      failedCount: 0,
       errorLog: [{ row: 0, field: 'system', message: err.message }]
     });
     throw err;

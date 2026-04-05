@@ -1,1001 +1,1001 @@
-amount,type,category,transactionDate,description
-9416.47,INCOME,Salary,2024-10-03,Monthly payment
-1226.28,EXPENSE,Freelance,2024-10-12,Q1 invoice
-2538.14,INCOME,Rent,2024-03-17,Recurring charge
-5446.70,EXPENSE,Transport,2024-08-17,One-time purchase
-9824.76,INCOME,Food,2023-10-20,Client project
-7688.22,EXPENSE,Utilities,2023-05-27,Team expense
-9053.41,INCOME,Healthcare,2023-03-23,Annual renewal
-812.66,EXPENSE,Insurance,2024-01-04,Ad-hoc purchase
-5765.41,INCOME,Entertainment,2023-12-02,Reimbursement
-5311.59,EXPENSE,AWS Bill,2023-05-09,Vendor payment
-3037.85,INCOME,Office Supplies,2023-11-01,Monthly payment
-9035.58,EXPENSE,Marketing,2023-02-27,Q1 invoice
-6220.02,INCOME,Travel,2023-08-01,Recurring charge
-2850.05,EXPENSE,Equipment,2023-03-15,One-time purchase
-828.15,INCOME,Training,2024-03-18,Client project
-7719.39,EXPENSE,Salary,2024-05-26,Team expense
-1803.52,INCOME,Freelance,2024-07-23,Annual renewal
-3685.11,EXPENSE,Rent,2023-05-27,Ad-hoc purchase
-1946.13,INCOME,Transport,2023-09-29,Reimbursement
-2073.75,EXPENSE,Food,2024-06-29,Vendor payment
-8593.20,INCOME,Utilities,2023-02-14,Monthly payment
-4152.80,EXPENSE,Healthcare,2023-06-07,Q1 invoice
-3879.68,INCOME,Insurance,2023-08-13,Recurring charge
-3179.00,EXPENSE,Entertainment,2024-08-08,One-time purchase
-7848.54,INCOME,AWS Bill,2023-08-26,Client project
-8112.03,EXPENSE,Office Supplies,2023-04-23,Team expense
-2233.06,INCOME,Marketing,2024-04-01,Annual renewal
-7475.51,EXPENSE,Travel,2023-07-25,Ad-hoc purchase
-3677.32,INCOME,Equipment,2023-03-02,Reimbursement
-5742.34,EXPENSE,Training,2024-04-22,Vendor payment
-4031.76,INCOME,Salary,2023-03-03,Monthly payment
-5817.73,EXPENSE,Freelance,2023-12-24,Q1 invoice
-8566.48,INCOME,Rent,2024-02-11,Recurring charge
-7367.08,EXPENSE,Transport,2024-08-01,One-time purchase
-9310.71,INCOME,Food,2024-05-08,Client project
-7627.98,EXPENSE,Utilities,2023-09-29,Team expense
-6805.79,INCOME,Healthcare,2023-09-25,Annual renewal
-1897.56,EXPENSE,Insurance,2023-05-26,Ad-hoc purchase
-2883.32,INCOME,Entertainment,2023-04-09,Reimbursement
-7389.50,EXPENSE,AWS Bill,2023-07-08,Vendor payment
-4620.28,INCOME,Office Supplies,2024-04-05,Monthly payment
-9917.29,EXPENSE,Marketing,2024-09-09,Q1 invoice
-2536.85,INCOME,Travel,2024-07-19,Recurring charge
-653.02,EXPENSE,Equipment,2024-02-17,One-time purchase
-258.50,INCOME,Training,2023-01-08,Client project
-7017.57,EXPENSE,Salary,2023-12-31,Team expense
-8866.81,INCOME,Freelance,2024-07-25,Annual renewal
-6915.99,EXPENSE,Rent,2024-05-13,Ad-hoc purchase
-3280.45,INCOME,Transport,2024-06-24,Reimbursement
-5279.50,EXPENSE,Food,2023-03-26,Vendor payment
-4509.18,INCOME,Utilities,2023-08-20,Monthly payment
-6640.88,EXPENSE,Healthcare,2024-10-16,Q1 invoice
-9648.93,INCOME,Insurance,2024-12-12,Recurring charge
-5227.58,EXPENSE,Entertainment,2023-12-24,One-time purchase
-3881.00,INCOME,AWS Bill,2023-02-24,Client project
-1992.82,EXPENSE,Office Supplies,2024-02-27,Team expense
-8731.86,INCOME,Marketing,2024-06-29,Annual renewal
-1540.16,EXPENSE,Travel,2024-09-18,Ad-hoc purchase
-2832.40,INCOME,Equipment,2024-10-10,Reimbursement
-2845.80,EXPENSE,Training,2024-05-24,Vendor payment
-4445.89,INCOME,Salary,2024-01-22,Monthly payment
-4652.49,EXPENSE,Freelance,2024-05-23,Q1 invoice
-431.61,INCOME,Rent,2023-12-20,Recurring charge
-6601.71,EXPENSE,Transport,2024-08-23,One-time purchase
-4499.20,INCOME,Food,2023-11-07,Client project
-6951.40,EXPENSE,Utilities,2023-03-24,Team expense
-187.07,INCOME,Healthcare,2023-05-23,Annual renewal
-2889.37,EXPENSE,Insurance,2024-08-29,Ad-hoc purchase
-3512.75,INCOME,Entertainment,2023-08-19,Reimbursement
-9094.25,EXPENSE,AWS Bill,2023-10-29,Vendor payment
-6038.36,INCOME,Office Supplies,2023-02-06,Monthly payment
-593.61,EXPENSE,Marketing,2023-06-28,Q1 invoice
-847.54,INCOME,Travel,2024-02-20,Recurring charge
-6645.73,EXPENSE,Equipment,2023-08-29,One-time purchase
-4284.62,INCOME,Training,2023-02-27,Client project
-8991.30,EXPENSE,Salary,2024-01-02,Team expense
-2634.58,INCOME,Freelance,2024-03-07,Annual renewal
-1211.58,EXPENSE,Rent,2023-07-13,Ad-hoc purchase
-4705.89,INCOME,Transport,2023-02-11,Reimbursement
-807.71,EXPENSE,Food,2024-11-01,Vendor payment
-4730.95,INCOME,Utilities,2024-10-30,Monthly payment
-759.19,EXPENSE,Healthcare,2024-10-24,Q1 invoice
-1780.26,INCOME,Insurance,2024-06-17,Recurring charge
-3616.69,EXPENSE,Entertainment,2024-07-02,One-time purchase
-7991.71,INCOME,AWS Bill,2024-09-08,Client project
-8077.58,EXPENSE,Office Supplies,2023-05-26,Team expense
-6913.91,INCOME,Marketing,2023-05-25,Annual renewal
-3982.64,EXPENSE,Travel,2024-05-08,Ad-hoc purchase
-2032.22,INCOME,Equipment,2024-11-03,Reimbursement
-2051.89,EXPENSE,Training,2024-05-20,Vendor payment
-5566.47,INCOME,Salary,2023-10-16,Monthly payment
-5705.53,EXPENSE,Freelance,2023-05-12,Q1 invoice
-6823.74,INCOME,Rent,2023-11-16,Recurring charge
-6213.65,EXPENSE,Transport,2024-05-20,One-time purchase
-2980.54,INCOME,Food,2024-04-16,Client project
-2140.99,EXPENSE,Utilities,2024-10-19,Team expense
-1259.86,INCOME,Healthcare,2024-02-09,Annual renewal
-1487.41,EXPENSE,Insurance,2023-07-04,Ad-hoc purchase
-2918.18,INCOME,Entertainment,2024-11-04,Reimbursement
-6193.42,EXPENSE,AWS Bill,2024-06-26,Vendor payment
-428.14,INCOME,Office Supplies,2024-04-03,Monthly payment
-2438.04,EXPENSE,Marketing,2023-02-22,Q1 invoice
-3401.44,INCOME,Travel,2023-12-17,Recurring charge
-5009.05,EXPENSE,Equipment,2024-10-20,One-time purchase
-8566.82,INCOME,Training,2024-05-04,Client project
-4377.60,EXPENSE,Salary,2023-06-07,Team expense
-2610.56,INCOME,Freelance,2024-05-24,Annual renewal
-357.35,EXPENSE,Rent,2024-06-21,Ad-hoc purchase
-4844.22,INCOME,Transport,2023-03-08,Reimbursement
-5083.02,EXPENSE,Food,2024-06-17,Vendor payment
-2222.89,INCOME,Utilities,2024-11-14,Monthly payment
-3138.48,EXPENSE,Healthcare,2024-07-10,Q1 invoice
-4514.57,INCOME,Insurance,2024-04-23,Recurring charge
-6565.70,EXPENSE,Entertainment,2023-11-13,One-time purchase
-8874.10,INCOME,AWS Bill,2023-01-22,Client project
-5458.17,EXPENSE,Office Supplies,2023-03-10,Team expense
-8636.70,INCOME,Marketing,2023-04-11,Annual renewal
-9847.30,EXPENSE,Travel,2023-05-18,Ad-hoc purchase
-8980.79,INCOME,Equipment,2023-06-01,Reimbursement
-7631.19,EXPENSE,Training,2024-04-07,Vendor payment
-9226.78,INCOME,Salary,2024-07-13,Monthly payment
-9037.13,EXPENSE,Freelance,2023-04-09,Q1 invoice
-4756.53,INCOME,Rent,2024-05-16,Recurring charge
-3350.37,EXPENSE,Transport,2023-03-17,One-time purchase
-117.94,INCOME,Food,2024-01-31,Client project
-9004.82,EXPENSE,Utilities,2024-11-26,Team expense
-4914.80,INCOME,Healthcare,2023-12-11,Annual renewal
-7234.08,EXPENSE,Insurance,2024-03-31,Ad-hoc purchase
-6692.53,INCOME,Entertainment,2023-07-23,Reimbursement
-6552.72,EXPENSE,AWS Bill,2024-01-24,Vendor payment
-3702.07,INCOME,Office Supplies,2023-05-07,Monthly payment
-159.66,EXPENSE,Marketing,2023-09-12,Q1 invoice
-1567.90,INCOME,Travel,2024-05-31,Recurring charge
-5716.32,EXPENSE,Equipment,2024-05-05,One-time purchase
-7640.21,INCOME,Training,2023-06-22,Client project
-1080.92,EXPENSE,Salary,2023-06-03,Team expense
-7023.93,INCOME,Freelance,2023-07-27,Annual renewal
-8591.89,EXPENSE,Rent,2024-07-27,Ad-hoc purchase
-7088.36,INCOME,Transport,2024-08-11,Reimbursement
-7411.94,EXPENSE,Food,2024-07-02,Vendor payment
-3554.07,INCOME,Utilities,2024-03-29,Monthly payment
-1108.94,EXPENSE,Healthcare,2023-12-31,Q1 invoice
-4884.69,INCOME,Insurance,2023-04-26,Recurring charge
-3387.61,EXPENSE,Entertainment,2024-02-06,One-time purchase
-7032.89,INCOME,AWS Bill,2023-12-17,Client project
-9128.99,EXPENSE,Office Supplies,2024-05-18,Team expense
-3779.53,INCOME,Marketing,2023-01-03,Annual renewal
-3130.31,EXPENSE,Travel,2024-09-15,Ad-hoc purchase
-5386.66,INCOME,Equipment,2023-09-28,Reimbursement
-1328.57,EXPENSE,Training,2024-12-05,Vendor payment
-3947.13,INCOME,Salary,2024-08-05,Monthly payment
-2801.78,EXPENSE,Freelance,2023-07-18,Q1 invoice
-6367.01,INCOME,Rent,2024-06-19,Recurring charge
-4702.03,EXPENSE,Transport,2024-12-04,One-time purchase
-5879.14,INCOME,Food,2023-10-18,Client project
-4969.45,EXPENSE,Utilities,2023-08-23,Team expense
-2329.02,INCOME,Healthcare,2023-04-04,Annual renewal
-9872.51,EXPENSE,Insurance,2023-09-20,Ad-hoc purchase
-4872.03,INCOME,Entertainment,2023-10-18,Reimbursement
-1589.10,EXPENSE,AWS Bill,2024-03-11,Vendor payment
-3095.18,INCOME,Office Supplies,2024-10-13,Monthly payment
-1387.34,EXPENSE,Marketing,2023-03-22,Q1 invoice
-3157.52,INCOME,Travel,2024-12-17,Recurring charge
-3097.22,EXPENSE,Equipment,2023-03-28,One-time purchase
-8580.82,INCOME,Training,2023-02-21,Client project
-6658.00,EXPENSE,Salary,2023-07-29,Team expense
-746.85,INCOME,Freelance,2024-01-06,Annual renewal
-1914.11,EXPENSE,Rent,2023-04-10,Ad-hoc purchase
-4650.70,INCOME,Transport,2024-09-06,Reimbursement
-7674.02,EXPENSE,Food,2023-03-16,Vendor payment
-5588.42,INCOME,Utilities,2024-10-06,Monthly payment
-4592.84,EXPENSE,Healthcare,2023-11-20,Q1 invoice
-5645.98,INCOME,Insurance,2024-08-23,Recurring charge
-3345.82,EXPENSE,Entertainment,2024-04-21,One-time purchase
-7474.26,INCOME,AWS Bill,2024-03-22,Client project
-1784.51,EXPENSE,Office Supplies,2023-02-20,Team expense
-7147.48,INCOME,Marketing,2024-02-07,Annual renewal
-4708.65,EXPENSE,Travel,2024-07-04,Ad-hoc purchase
-2772.71,INCOME,Equipment,2024-07-04,Reimbursement
-3516.58,EXPENSE,Training,2023-08-25,Vendor payment
-561.10,INCOME,Salary,2024-02-01,Monthly payment
-714.43,EXPENSE,Freelance,2024-12-12,Q1 invoice
-1187.72,INCOME,Rent,2023-05-23,Recurring charge
-5203.81,EXPENSE,Transport,2023-03-26,One-time purchase
-799.36,INCOME,Food,2023-06-22,Client project
-6619.70,EXPENSE,Utilities,2024-01-06,Team expense
-9292.92,INCOME,Healthcare,2024-10-02,Annual renewal
-2492.95,EXPENSE,Insurance,2023-07-20,Ad-hoc purchase
-5819.42,INCOME,Entertainment,2023-08-10,Reimbursement
-2503.32,EXPENSE,AWS Bill,2023-11-22,Vendor payment
-2532.79,INCOME,Office Supplies,2023-08-28,Monthly payment
-8334.61,EXPENSE,Marketing,2023-02-01,Q1 invoice
-3844.03,INCOME,Travel,2023-04-14,Recurring charge
-9245.27,EXPENSE,Equipment,2023-10-09,One-time purchase
-6479.81,INCOME,Training,2024-11-27,Client project
-5975.44,EXPENSE,Salary,2023-02-20,Team expense
-395.84,INCOME,Freelance,2023-01-31,Annual renewal
-8964.89,EXPENSE,Rent,2024-11-09,Ad-hoc purchase
-8104.78,INCOME,Transport,2024-06-04,Reimbursement
-3495.68,EXPENSE,Food,2023-09-02,Vendor payment
-2983.88,INCOME,Utilities,2024-04-21,Monthly payment
-5628.21,EXPENSE,Healthcare,2024-12-15,Q1 invoice
-5647.24,INCOME,Insurance,2023-07-07,Recurring charge
-209.46,EXPENSE,Entertainment,2023-09-29,One-time purchase
-6373.99,INCOME,AWS Bill,2024-11-17,Client project
-4191.02,EXPENSE,Office Supplies,2024-12-11,Team expense
-9952.45,INCOME,Marketing,2023-03-22,Annual renewal
-6797.08,EXPENSE,Travel,2024-06-14,Ad-hoc purchase
-9483.46,INCOME,Equipment,2024-10-13,Reimbursement
-4349.08,EXPENSE,Training,2024-12-23,Vendor payment
-4618.66,INCOME,Salary,2024-02-07,Monthly payment
-9690.44,EXPENSE,Freelance,2024-11-13,Q1 invoice
-9641.44,INCOME,Rent,2023-07-30,Recurring charge
-2097.91,EXPENSE,Transport,2024-06-24,One-time purchase
-4621.81,INCOME,Food,2023-04-17,Client project
-3831.53,EXPENSE,Utilities,2023-07-29,Team expense
-7516.01,INCOME,Healthcare,2023-07-06,Annual renewal
-9482.24,EXPENSE,Insurance,2024-11-19,Ad-hoc purchase
-5895.61,INCOME,Entertainment,2023-11-12,Reimbursement
-6333.33,EXPENSE,AWS Bill,2023-05-26,Vendor payment
-5299.22,INCOME,Office Supplies,2024-06-19,Monthly payment
-3095.66,EXPENSE,Marketing,2024-06-22,Q1 invoice
-6329.14,INCOME,Travel,2024-09-06,Recurring charge
-1729.43,EXPENSE,Equipment,2024-11-21,One-time purchase
-1411.72,INCOME,Training,2023-04-25,Client project
-2962.79,EXPENSE,Salary,2023-08-13,Team expense
-5703.33,INCOME,Freelance,2024-09-25,Annual renewal
-7517.73,EXPENSE,Rent,2023-09-08,Ad-hoc purchase
-6758.02,INCOME,Transport,2024-07-15,Reimbursement
-9679.14,EXPENSE,Food,2024-12-24,Vendor payment
-340.08,INCOME,Utilities,2024-02-09,Monthly payment
-9957.82,EXPENSE,Healthcare,2024-05-07,Q1 invoice
-9587.85,INCOME,Insurance,2024-02-26,Recurring charge
-3755.91,EXPENSE,Entertainment,2024-02-24,One-time purchase
-5998.58,INCOME,AWS Bill,2024-01-06,Client project
-5370.66,EXPENSE,Office Supplies,2024-05-21,Team expense
-914.93,INCOME,Marketing,2024-12-27,Annual renewal
-412.39,EXPENSE,Travel,2024-08-01,Ad-hoc purchase
-6743.15,INCOME,Equipment,2023-12-01,Reimbursement
-7003.44,EXPENSE,Training,2024-07-17,Vendor payment
-2221.27,INCOME,Salary,2023-11-15,Monthly payment
-3051.70,EXPENSE,Freelance,2023-10-17,Q1 invoice
-8102.13,INCOME,Rent,2023-10-03,Recurring charge
-2399.93,EXPENSE,Transport,2024-09-23,One-time purchase
-5850.82,INCOME,Food,2023-11-09,Client project
-8833.76,EXPENSE,Utilities,2024-03-26,Team expense
-2308.87,INCOME,Healthcare,2023-03-22,Annual renewal
-2745.08,EXPENSE,Insurance,2023-03-02,Ad-hoc purchase
-8786.38,INCOME,Entertainment,2023-07-03,Reimbursement
-7619.36,EXPENSE,AWS Bill,2023-02-15,Vendor payment
-4894.14,INCOME,Office Supplies,2024-04-20,Monthly payment
-9748.10,EXPENSE,Marketing,2023-08-18,Q1 invoice
-8856.84,INCOME,Travel,2024-10-06,Recurring charge
-3189.32,EXPENSE,Equipment,2024-10-27,One-time purchase
-5812.96,INCOME,Training,2023-08-08,Client project
-100.19,EXPENSE,Salary,2023-10-07,Team expense
-1532.25,INCOME,Freelance,2024-05-04,Annual renewal
-111.03,EXPENSE,Rent,2023-09-09,Ad-hoc purchase
-7168.93,INCOME,Transport,2023-03-24,Reimbursement
-3233.11,EXPENSE,Food,2023-08-31,Vendor payment
-6029.28,INCOME,Utilities,2023-05-05,Monthly payment
-1920.38,EXPENSE,Healthcare,2023-01-06,Q1 invoice
-2212.83,INCOME,Insurance,2024-12-13,Recurring charge
-3315.24,EXPENSE,Entertainment,2023-04-25,One-time purchase
-4691.11,INCOME,AWS Bill,2024-05-13,Client project
-3865.71,EXPENSE,Office Supplies,2023-04-25,Team expense
-750.20,INCOME,Marketing,2023-07-22,Annual renewal
-3409.05,EXPENSE,Travel,2024-10-26,Ad-hoc purchase
-603.97,INCOME,Equipment,2023-08-17,Reimbursement
-4005.98,EXPENSE,Training,2024-09-02,Vendor payment
-5103.37,INCOME,Salary,2024-06-30,Monthly payment
-4383.73,EXPENSE,Freelance,2023-02-12,Q1 invoice
-9503.59,INCOME,Rent,2024-09-05,Recurring charge
-9153.96,EXPENSE,Transport,2023-10-31,One-time purchase
-2553.51,INCOME,Food,2023-02-12,Client project
-6811.73,EXPENSE,Utilities,2023-01-14,Team expense
-2202.64,INCOME,Healthcare,2024-09-06,Annual renewal
-9823.45,EXPENSE,Insurance,2024-11-25,Ad-hoc purchase
-1291.00,INCOME,Entertainment,2023-03-28,Reimbursement
-430.92,EXPENSE,AWS Bill,2024-09-30,Vendor payment
-7113.58,INCOME,Office Supplies,2024-08-23,Monthly payment
-6094.31,EXPENSE,Marketing,2024-10-24,Q1 invoice
-7894.79,INCOME,Travel,2024-03-23,Recurring charge
-9586.40,EXPENSE,Equipment,2023-07-07,One-time purchase
-8905.08,INCOME,Training,2024-12-04,Client project
-4208.90,EXPENSE,Salary,2024-03-07,Team expense
-2224.07,INCOME,Freelance,2024-12-21,Annual renewal
-1113.19,EXPENSE,Rent,2023-06-23,Ad-hoc purchase
-6901.78,INCOME,Transport,2024-09-21,Reimbursement
-3152.87,EXPENSE,Food,2024-06-19,Vendor payment
-1752.20,INCOME,Utilities,2024-07-27,Monthly payment
-6264.29,EXPENSE,Healthcare,2023-06-11,Q1 invoice
-3467.59,INCOME,Insurance,2024-12-20,Recurring charge
-120.11,EXPENSE,Entertainment,2024-03-18,One-time purchase
-9119.36,INCOME,AWS Bill,2024-05-14,Client project
-412.03,EXPENSE,Office Supplies,2024-02-03,Team expense
-7160.09,INCOME,Marketing,2024-03-04,Annual renewal
-7378.63,EXPENSE,Travel,2024-05-07,Ad-hoc purchase
-7436.57,INCOME,Equipment,2023-08-01,Reimbursement
-9203.38,EXPENSE,Training,2024-09-14,Vendor payment
-5667.82,INCOME,Salary,2024-10-01,Monthly payment
-2121.92,EXPENSE,Freelance,2023-02-18,Q1 invoice
-7609.72,INCOME,Rent,2024-09-09,Recurring charge
-6617.82,EXPENSE,Transport,2024-11-26,One-time purchase
-2962.28,INCOME,Food,2023-11-28,Client project
-7785.29,EXPENSE,Utilities,2023-12-15,Team expense
-8948.43,INCOME,Healthcare,2024-10-02,Annual renewal
-2015.01,EXPENSE,Insurance,2023-06-28,Ad-hoc purchase
-6819.64,INCOME,Entertainment,2024-09-04,Reimbursement
-9242.05,EXPENSE,AWS Bill,2023-07-17,Vendor payment
-5903.48,INCOME,Office Supplies,2023-08-09,Monthly payment
-7636.82,EXPENSE,Marketing,2023-12-30,Q1 invoice
-8487.75,INCOME,Travel,2023-10-07,Recurring charge
-2634.95,EXPENSE,Equipment,2024-04-30,One-time purchase
-7288.32,INCOME,Training,2024-06-08,Client project
-5736.89,EXPENSE,Salary,2023-02-14,Team expense
-1910.94,INCOME,Freelance,2023-01-29,Annual renewal
-2262.53,EXPENSE,Rent,2024-10-24,Ad-hoc purchase
-492.50,INCOME,Transport,2023-01-03,Reimbursement
-1628.82,EXPENSE,Food,2024-07-16,Vendor payment
-1754.76,INCOME,Utilities,2024-06-14,Monthly payment
-9221.31,EXPENSE,Healthcare,2023-09-14,Q1 invoice
-8663.76,INCOME,Insurance,2024-09-17,Recurring charge
-2360.84,EXPENSE,Entertainment,2024-11-17,One-time purchase
-3927.76,INCOME,AWS Bill,2024-12-21,Client project
-5036.75,EXPENSE,Office Supplies,2024-03-12,Team expense
-7963.41,INCOME,Marketing,2024-11-24,Annual renewal
-8999.54,EXPENSE,Travel,2023-10-23,Ad-hoc purchase
-3241.52,INCOME,Equipment,2023-10-21,Reimbursement
-3477.69,EXPENSE,Training,2023-01-30,Vendor payment
-6532.61,INCOME,Salary,2023-12-20,Monthly payment
-2869.84,EXPENSE,Freelance,2024-10-01,Q1 invoice
-9995.20,INCOME,Rent,2023-01-28,Recurring charge
-2408.56,EXPENSE,Transport,2023-01-01,One-time purchase
-1205.00,INCOME,Food,2024-01-10,Client project
-7468.19,EXPENSE,Utilities,2023-04-08,Team expense
-4046.92,INCOME,Healthcare,2024-06-23,Annual renewal
-6534.01,EXPENSE,Insurance,2024-04-14,Ad-hoc purchase
-5590.02,INCOME,Entertainment,2023-04-01,Reimbursement
-8381.41,EXPENSE,AWS Bill,2024-07-17,Vendor payment
-881.17,INCOME,Office Supplies,2024-02-04,Monthly payment
-9034.35,EXPENSE,Marketing,2024-05-25,Q1 invoice
-9795.09,INCOME,Travel,2023-03-07,Recurring charge
-2995.35,EXPENSE,Equipment,2024-06-18,One-time purchase
-5229.16,INCOME,Training,2023-01-29,Client project
-960.19,EXPENSE,Salary,2024-12-10,Team expense
-2075.36,INCOME,Freelance,2024-03-02,Annual renewal
-6106.62,EXPENSE,Rent,2024-06-03,Ad-hoc purchase
-8479.01,INCOME,Transport,2023-03-05,Reimbursement
-5318.53,EXPENSE,Food,2023-09-16,Vendor payment
-9832.91,INCOME,Utilities,2023-07-21,Monthly payment
-2701.84,EXPENSE,Healthcare,2024-03-05,Q1 invoice
-1890.43,INCOME,Insurance,2023-01-19,Recurring charge
-2418.80,EXPENSE,Entertainment,2023-02-09,One-time purchase
-6845.77,INCOME,AWS Bill,2023-03-04,Client project
-2249.13,EXPENSE,Office Supplies,2023-04-12,Team expense
-7090.20,INCOME,Marketing,2024-09-21,Annual renewal
-5191.52,EXPENSE,Travel,2023-03-22,Ad-hoc purchase
-115.21,INCOME,Equipment,2023-01-02,Reimbursement
-4600.46,EXPENSE,Training,2023-01-22,Vendor payment
-4329.76,INCOME,Salary,2024-07-02,Monthly payment
-7144.78,EXPENSE,Freelance,2023-06-11,Q1 invoice
-381.32,INCOME,Rent,2023-03-12,Recurring charge
-460.32,EXPENSE,Transport,2023-07-22,One-time purchase
-836.19,INCOME,Food,2023-04-09,Client project
-3906.66,EXPENSE,Utilities,2023-04-01,Team expense
-7774.51,INCOME,Healthcare,2024-04-06,Annual renewal
-668.63,EXPENSE,Insurance,2023-05-17,Ad-hoc purchase
-2378.96,INCOME,Entertainment,2024-11-03,Reimbursement
-1169.19,EXPENSE,AWS Bill,2024-05-12,Vendor payment
-561.18,INCOME,Office Supplies,2024-08-28,Monthly payment
-2841.63,EXPENSE,Marketing,2024-03-16,Q1 invoice
-8468.15,INCOME,Travel,2023-05-05,Recurring charge
-1249.72,EXPENSE,Equipment,2024-05-10,One-time purchase
-7598.97,INCOME,Training,2023-12-04,Client project
-8472.36,EXPENSE,Salary,2023-01-01,Team expense
-2149.74,INCOME,Freelance,2023-04-24,Annual renewal
-2987.65,EXPENSE,Rent,2023-09-03,Ad-hoc purchase
-3544.69,INCOME,Transport,2023-04-23,Reimbursement
-8315.76,EXPENSE,Food,2023-02-26,Vendor payment
-2987.25,INCOME,Utilities,2024-04-19,Monthly payment
-2985.54,EXPENSE,Healthcare,2024-06-27,Q1 invoice
-6885.75,INCOME,Insurance,2024-12-22,Recurring charge
-7883.66,EXPENSE,Entertainment,2024-01-30,One-time purchase
-4643.63,INCOME,AWS Bill,2023-05-04,Client project
-640.67,EXPENSE,Office Supplies,2024-05-15,Team expense
-6235.81,INCOME,Marketing,2024-06-02,Annual renewal
-9369.43,EXPENSE,Travel,2024-01-25,Ad-hoc purchase
-6501.57,INCOME,Equipment,2023-01-11,Reimbursement
-7775.08,EXPENSE,Training,2024-05-29,Vendor payment
-5835.30,INCOME,Salary,2023-01-20,Monthly payment
-5261.79,EXPENSE,Freelance,2024-11-06,Q1 invoice
-5714.62,INCOME,Rent,2024-06-05,Recurring charge
-9993.48,EXPENSE,Transport,2024-01-19,One-time purchase
-694.97,INCOME,Food,2024-02-16,Client project
-2142.43,EXPENSE,Utilities,2023-06-21,Team expense
-6134.80,INCOME,Healthcare,2024-12-16,Annual renewal
-8898.18,EXPENSE,Insurance,2024-03-09,Ad-hoc purchase
-8785.16,INCOME,Entertainment,2024-02-19,Reimbursement
-6067.17,EXPENSE,AWS Bill,2023-07-21,Vendor payment
-9344.90,INCOME,Office Supplies,2024-01-10,Monthly payment
-3653.68,EXPENSE,Marketing,2024-02-15,Q1 invoice
-849.47,INCOME,Travel,2023-06-16,Recurring charge
-3282.58,EXPENSE,Equipment,2024-01-17,One-time purchase
-9264.70,INCOME,Training,2024-08-09,Client project
-876.79,EXPENSE,Salary,2024-11-03,Team expense
-3192.57,INCOME,Freelance,2024-11-12,Annual renewal
-6260.16,EXPENSE,Rent,2023-08-30,Ad-hoc purchase
-3508.80,INCOME,Transport,2024-05-03,Reimbursement
-365.93,EXPENSE,Food,2024-01-23,Vendor payment
-8029.00,INCOME,Utilities,2023-09-23,Monthly payment
-8485.67,EXPENSE,Healthcare,2024-06-05,Q1 invoice
-9600.31,INCOME,Insurance,2024-03-04,Recurring charge
-2042.89,EXPENSE,Entertainment,2023-09-29,One-time purchase
-2886.24,INCOME,AWS Bill,2024-02-22,Client project
-5911.17,EXPENSE,Office Supplies,2024-02-08,Team expense
-5511.76,INCOME,Marketing,2024-06-15,Annual renewal
-5323.50,EXPENSE,Travel,2024-11-25,Ad-hoc purchase
-3014.87,INCOME,Equipment,2023-12-29,Reimbursement
-442.65,EXPENSE,Training,2024-11-12,Vendor payment
-7106.93,INCOME,Salary,2023-07-12,Monthly payment
-9305.57,EXPENSE,Freelance,2023-09-20,Q1 invoice
-6956.75,INCOME,Rent,2024-11-12,Recurring charge
-849.61,EXPENSE,Transport,2024-02-20,One-time purchase
-6713.77,INCOME,Food,2023-06-19,Client project
-3056.58,EXPENSE,Utilities,2024-06-25,Team expense
-8870.42,INCOME,Healthcare,2023-08-05,Annual renewal
-6055.54,EXPENSE,Insurance,2024-03-24,Ad-hoc purchase
-4119.75,INCOME,Entertainment,2024-10-31,Reimbursement
-5262.60,EXPENSE,AWS Bill,2024-03-16,Vendor payment
-5750.44,INCOME,Office Supplies,2024-03-03,Monthly payment
-606.88,EXPENSE,Marketing,2024-04-23,Q1 invoice
-8812.75,INCOME,Travel,2023-07-18,Recurring charge
-4314.15,EXPENSE,Equipment,2023-08-31,One-time purchase
-6031.84,INCOME,Training,2024-04-06,Client project
-6506.50,EXPENSE,Salary,2024-10-21,Team expense
-3549.82,INCOME,Freelance,2024-11-11,Annual renewal
-7380.31,EXPENSE,Rent,2023-04-28,Ad-hoc purchase
-7176.75,INCOME,Transport,2023-11-16,Reimbursement
-2361.34,EXPENSE,Food,2024-05-07,Vendor payment
-7746.64,INCOME,Utilities,2024-08-01,Monthly payment
-1450.07,EXPENSE,Healthcare,2024-04-26,Q1 invoice
-7499.39,INCOME,Insurance,2024-11-22,Recurring charge
-8434.60,EXPENSE,Entertainment,2024-06-15,One-time purchase
-1131.89,INCOME,AWS Bill,2024-09-12,Client project
-5090.56,EXPENSE,Office Supplies,2024-03-07,Team expense
-4889.08,INCOME,Marketing,2023-04-08,Annual renewal
-562.33,EXPENSE,Travel,2024-09-18,Ad-hoc purchase
-6760.20,INCOME,Equipment,2024-02-05,Reimbursement
-7389.96,EXPENSE,Training,2023-02-24,Vendor payment
-9704.82,INCOME,Salary,2024-02-27,Monthly payment
-1463.45,EXPENSE,Freelance,2023-11-21,Q1 invoice
-4571.21,INCOME,Rent,2024-07-29,Recurring charge
-5389.38,EXPENSE,Transport,2023-05-22,One-time purchase
-939.10,INCOME,Food,2024-07-18,Client project
-1014.85,EXPENSE,Utilities,2023-06-29,Team expense
-2175.48,INCOME,Healthcare,2023-12-24,Annual renewal
-2895.75,EXPENSE,Insurance,2024-03-29,Ad-hoc purchase
-101.97,INCOME,Entertainment,2024-03-10,Reimbursement
-9642.79,EXPENSE,AWS Bill,2024-02-12,Vendor payment
-9570.38,INCOME,Office Supplies,2023-11-22,Monthly payment
-9854.69,EXPENSE,Marketing,2024-11-18,Q1 invoice
-6764.89,INCOME,Travel,2024-06-05,Recurring charge
-5238.10,EXPENSE,Equipment,2023-11-09,One-time purchase
-2095.74,INCOME,Training,2024-06-23,Client project
-6268.79,EXPENSE,Salary,2024-08-07,Team expense
-3243.74,INCOME,Freelance,2024-05-18,Annual renewal
-6218.08,EXPENSE,Rent,2023-03-16,Ad-hoc purchase
-3804.71,INCOME,Transport,2023-05-27,Reimbursement
-7451.11,EXPENSE,Food,2023-06-12,Vendor payment
-2121.71,INCOME,Utilities,2023-11-09,Monthly payment
-8096.22,EXPENSE,Healthcare,2023-03-29,Q1 invoice
-8156.85,INCOME,Insurance,2024-06-20,Recurring charge
-4416.24,EXPENSE,Entertainment,2023-02-19,One-time purchase
-6169.11,INCOME,AWS Bill,2024-06-10,Client project
-5382.48,EXPENSE,Office Supplies,2023-10-05,Team expense
-5042.52,INCOME,Marketing,2024-03-11,Annual renewal
-3722.91,EXPENSE,Travel,2023-08-22,Ad-hoc purchase
-8084.88,INCOME,Equipment,2024-05-17,Reimbursement
-7820.47,EXPENSE,Training,2023-11-02,Vendor payment
-3807.67,INCOME,Salary,2024-08-25,Monthly payment
-8232.81,EXPENSE,Freelance,2024-01-31,Q1 invoice
-3641.86,INCOME,Rent,2024-11-09,Recurring charge
-5804.78,EXPENSE,Transport,2023-06-06,One-time purchase
-7221.86,INCOME,Food,2024-04-28,Client project
-4126.23,EXPENSE,Utilities,2023-06-20,Team expense
-362.11,INCOME,Healthcare,2023-07-17,Annual renewal
-6843.67,EXPENSE,Insurance,2023-09-29,Ad-hoc purchase
-2717.66,INCOME,Entertainment,2024-04-21,Reimbursement
-8128.88,EXPENSE,AWS Bill,2024-05-10,Vendor payment
-6659.33,INCOME,Office Supplies,2024-07-24,Monthly payment
-4165.15,EXPENSE,Marketing,2024-05-11,Q1 invoice
-2182.57,INCOME,Travel,2024-03-29,Recurring charge
-8418.09,EXPENSE,Equipment,2023-08-15,One-time purchase
-2942.10,INCOME,Training,2023-11-05,Client project
-7035.54,EXPENSE,Salary,2024-04-29,Team expense
-1059.76,INCOME,Freelance,2024-08-06,Annual renewal
-6436.77,EXPENSE,Rent,2024-07-30,Ad-hoc purchase
-8574.96,INCOME,Transport,2023-11-13,Reimbursement
-1995.19,EXPENSE,Food,2024-01-20,Vendor payment
-3886.88,INCOME,Utilities,2023-04-10,Monthly payment
-8487.33,EXPENSE,Healthcare,2024-06-15,Q1 invoice
-3964.39,INCOME,Insurance,2023-07-29,Recurring charge
-4050.74,EXPENSE,Entertainment,2023-11-23,One-time purchase
-1939.95,INCOME,AWS Bill,2024-09-23,Client project
-2437.07,EXPENSE,Office Supplies,2024-04-11,Team expense
-7909.34,INCOME,Marketing,2023-08-24,Annual renewal
-3265.11,EXPENSE,Travel,2023-11-17,Ad-hoc purchase
-6327.17,INCOME,Equipment,2023-04-24,Reimbursement
-4850.39,EXPENSE,Training,2023-04-09,Vendor payment
-9332.35,INCOME,Salary,2023-04-12,Monthly payment
-3695.24,EXPENSE,Freelance,2024-08-26,Q1 invoice
-9774.96,INCOME,Rent,2023-10-30,Recurring charge
-3326.54,EXPENSE,Transport,2024-12-21,One-time purchase
-9690.55,INCOME,Food,2024-06-21,Client project
-8570.79,EXPENSE,Utilities,2024-09-14,Team expense
-1292.81,INCOME,Healthcare,2024-06-08,Annual renewal
-2827.96,EXPENSE,Insurance,2023-09-25,Ad-hoc purchase
-7983.38,INCOME,Entertainment,2024-11-22,Reimbursement
-8104.30,EXPENSE,AWS Bill,2024-06-06,Vendor payment
-6828.15,INCOME,Office Supplies,2024-08-17,Monthly payment
-1214.24,EXPENSE,Marketing,2024-04-01,Q1 invoice
-5281.28,INCOME,Travel,2023-08-05,Recurring charge
-648.22,EXPENSE,Equipment,2024-07-25,One-time purchase
-3437.89,INCOME,Training,2024-12-06,Client project
-694.64,EXPENSE,Salary,2024-07-20,Team expense
-2406.92,INCOME,Freelance,2023-12-28,Annual renewal
-4311.36,EXPENSE,Rent,2024-09-08,Ad-hoc purchase
-5404.31,INCOME,Transport,2023-07-04,Reimbursement
-384.14,EXPENSE,Food,2024-10-15,Vendor payment
-7647.23,INCOME,Utilities,2024-08-15,Monthly payment
-4742.54,EXPENSE,Healthcare,2024-01-21,Q1 invoice
-311.72,INCOME,Insurance,2024-06-07,Recurring charge
-3955.73,EXPENSE,Entertainment,2023-12-06,One-time purchase
-6575.54,INCOME,AWS Bill,2023-03-31,Client project
-9607.58,EXPENSE,Office Supplies,2023-12-07,Team expense
-2113.70,INCOME,Marketing,2023-04-16,Annual renewal
-6077.53,EXPENSE,Travel,2024-10-28,Ad-hoc purchase
-8047.47,INCOME,Equipment,2024-12-25,Reimbursement
-2004.27,EXPENSE,Training,2023-03-23,Vendor payment
-4245.30,INCOME,Salary,2024-11-15,Monthly payment
-9665.45,EXPENSE,Freelance,2024-01-03,Q1 invoice
-7562.64,INCOME,Rent,2023-03-18,Recurring charge
-6649.01,EXPENSE,Transport,2023-12-11,One-time purchase
-5721.85,INCOME,Food,2023-09-23,Client project
-5750.05,EXPENSE,Utilities,2023-08-14,Team expense
-9444.17,INCOME,Healthcare,2023-12-20,Annual renewal
-9828.06,EXPENSE,Insurance,2023-05-19,Ad-hoc purchase
-203.43,INCOME,Entertainment,2023-05-23,Reimbursement
-5572.65,EXPENSE,AWS Bill,2024-10-13,Vendor payment
-9436.38,INCOME,Office Supplies,2023-12-19,Monthly payment
-1714.00,EXPENSE,Marketing,2024-03-23,Q1 invoice
-1804.25,INCOME,Travel,2024-02-09,Recurring charge
-6887.89,EXPENSE,Equipment,2023-10-28,One-time purchase
-5564.31,INCOME,Training,2024-07-05,Client project
-4027.18,EXPENSE,Salary,2024-12-21,Team expense
-299.22,INCOME,Freelance,2024-08-03,Annual renewal
-2356.24,EXPENSE,Rent,2023-07-18,Ad-hoc purchase
-6223.47,INCOME,Transport,2024-11-25,Reimbursement
-6785.19,EXPENSE,Food,2024-01-22,Vendor payment
-3110.88,INCOME,Utilities,2023-05-23,Monthly payment
-4219.06,EXPENSE,Healthcare,2023-08-05,Q1 invoice
-1324.98,INCOME,Insurance,2023-11-15,Recurring charge
-1115.64,EXPENSE,Entertainment,2023-02-20,One-time purchase
-7915.25,INCOME,AWS Bill,2024-07-26,Client project
-5633.22,EXPENSE,Office Supplies,2024-05-19,Team expense
-9004.98,INCOME,Marketing,2023-11-15,Annual renewal
-9880.89,EXPENSE,Travel,2023-08-08,Ad-hoc purchase
-977.48,INCOME,Equipment,2023-09-06,Reimbursement
-8257.14,EXPENSE,Training,2024-06-14,Vendor payment
-8591.91,INCOME,Salary,2023-09-16,Monthly payment
-5451.47,EXPENSE,Freelance,2024-08-03,Q1 invoice
-3414.33,INCOME,Rent,2023-09-16,Recurring charge
-9025.53,EXPENSE,Transport,2024-01-02,One-time purchase
-8533.30,INCOME,Food,2023-07-27,Client project
-9797.07,EXPENSE,Utilities,2024-11-20,Team expense
-1332.55,INCOME,Healthcare,2023-10-20,Annual renewal
-1825.01,EXPENSE,Insurance,2023-09-13,Ad-hoc purchase
-1353.06,INCOME,Entertainment,2024-06-30,Reimbursement
-8630.03,EXPENSE,AWS Bill,2024-09-01,Vendor payment
-1548.61,INCOME,Office Supplies,2023-05-18,Monthly payment
-2558.35,EXPENSE,Marketing,2024-04-19,Q1 invoice
-8466.75,INCOME,Travel,2023-03-28,Recurring charge
-9790.51,EXPENSE,Equipment,2023-11-05,One-time purchase
-2699.09,INCOME,Training,2024-08-28,Client project
-7353.79,EXPENSE,Salary,2023-12-26,Team expense
-409.80,INCOME,Freelance,2023-03-14,Annual renewal
-161.07,EXPENSE,Rent,2023-09-10,Ad-hoc purchase
-3572.59,INCOME,Transport,2024-10-17,Reimbursement
-1411.69,EXPENSE,Food,2023-04-06,Vendor payment
-4900.80,INCOME,Utilities,2024-10-09,Monthly payment
-163.36,EXPENSE,Healthcare,2023-05-06,Q1 invoice
-9695.28,INCOME,Insurance,2023-02-13,Recurring charge
-129.88,EXPENSE,Entertainment,2023-11-09,One-time purchase
-4682.23,INCOME,AWS Bill,2024-11-14,Client project
-332.36,EXPENSE,Office Supplies,2024-03-08,Team expense
-1828.62,INCOME,Marketing,2023-04-04,Annual renewal
-1632.85,EXPENSE,Travel,2024-08-23,Ad-hoc purchase
-202.76,INCOME,Equipment,2024-08-15,Reimbursement
-2739.08,EXPENSE,Training,2024-04-26,Vendor payment
-1426.05,INCOME,Salary,2024-02-23,Monthly payment
-2757.80,EXPENSE,Freelance,2024-02-04,Q1 invoice
-1416.82,INCOME,Rent,2023-03-28,Recurring charge
-5592.48,EXPENSE,Transport,2024-11-17,One-time purchase
-8972.70,INCOME,Food,2024-08-11,Client project
-2976.01,EXPENSE,Utilities,2024-02-08,Team expense
-1470.92,INCOME,Healthcare,2023-01-31,Annual renewal
-8434.72,EXPENSE,Insurance,2024-02-27,Ad-hoc purchase
-931.45,INCOME,Entertainment,2023-05-11,Reimbursement
-2126.89,EXPENSE,AWS Bill,2024-03-14,Vendor payment
-4238.33,INCOME,Office Supplies,2023-08-20,Monthly payment
-8609.01,EXPENSE,Marketing,2023-09-23,Q1 invoice
-4945.12,INCOME,Travel,2023-11-09,Recurring charge
-1357.62,EXPENSE,Equipment,2023-03-14,One-time purchase
-7441.81,INCOME,Training,2024-05-29,Client project
-4716.04,EXPENSE,Salary,2023-11-28,Team expense
-7130.22,INCOME,Freelance,2024-09-13,Annual renewal
-7788.09,EXPENSE,Rent,2024-10-21,Ad-hoc purchase
-1609.44,INCOME,Transport,2023-01-15,Reimbursement
-9499.58,EXPENSE,Food,2023-03-08,Vendor payment
-8667.51,INCOME,Utilities,2023-11-21,Monthly payment
-7102.80,EXPENSE,Healthcare,2023-05-05,Q1 invoice
-4135.09,INCOME,Insurance,2024-09-19,Recurring charge
-3828.97,EXPENSE,Entertainment,2023-05-26,One-time purchase
-7046.50,INCOME,AWS Bill,2023-04-29,Client project
-9566.16,EXPENSE,Office Supplies,2024-02-15,Team expense
-6825.92,INCOME,Marketing,2023-06-06,Annual renewal
-6615.88,EXPENSE,Travel,2024-09-26,Ad-hoc purchase
-5345.74,INCOME,Equipment,2023-03-08,Reimbursement
-3976.64,EXPENSE,Training,2023-07-17,Vendor payment
-124.29,INCOME,Salary,2023-08-17,Monthly payment
-4922.90,EXPENSE,Freelance,2024-12-04,Q1 invoice
-2487.03,INCOME,Rent,2023-05-30,Recurring charge
-6643.32,EXPENSE,Transport,2023-01-05,One-time purchase
-4859.06,INCOME,Food,2024-01-23,Client project
-7468.01,EXPENSE,Utilities,2024-11-20,Team expense
-6570.42,INCOME,Healthcare,2024-01-24,Annual renewal
-171.80,EXPENSE,Insurance,2023-01-28,Ad-hoc purchase
-8469.42,INCOME,Entertainment,2024-09-11,Reimbursement
-5075.57,EXPENSE,AWS Bill,2024-05-12,Vendor payment
-4498.19,INCOME,Office Supplies,2024-07-30,Monthly payment
-3095.53,EXPENSE,Marketing,2024-04-06,Q1 invoice
-7522.43,INCOME,Travel,2023-11-12,Recurring charge
-8856.16,EXPENSE,Equipment,2024-10-03,One-time purchase
-2111.98,INCOME,Training,2023-09-29,Client project
-8239.91,EXPENSE,Salary,2024-03-22,Team expense
-8627.27,INCOME,Freelance,2023-07-15,Annual renewal
-5476.28,EXPENSE,Rent,2023-02-11,Ad-hoc purchase
-6665.43,INCOME,Transport,2023-02-17,Reimbursement
-5548.61,EXPENSE,Food,2024-09-03,Vendor payment
-4579.32,INCOME,Utilities,2023-11-08,Monthly payment
-8586.32,EXPENSE,Healthcare,2024-01-07,Q1 invoice
-2755.61,INCOME,Insurance,2024-09-12,Recurring charge
-1150.49,EXPENSE,Entertainment,2024-06-27,One-time purchase
-7787.95,INCOME,AWS Bill,2024-05-05,Client project
-650.09,EXPENSE,Office Supplies,2023-10-07,Team expense
-3237.63,INCOME,Marketing,2023-11-03,Annual renewal
-5235.11,EXPENSE,Travel,2023-06-28,Ad-hoc purchase
-8673.84,INCOME,Equipment,2023-08-26,Reimbursement
-3825.13,EXPENSE,Training,2023-02-24,Vendor payment
-7635.93,INCOME,Salary,2024-02-13,Monthly payment
-8026.30,EXPENSE,Freelance,2023-06-23,Q1 invoice
-514.85,INCOME,Rent,2023-08-14,Recurring charge
-354.27,EXPENSE,Transport,2023-05-03,One-time purchase
-6742.79,INCOME,Food,2023-07-16,Client project
-1944.60,EXPENSE,Utilities,2024-10-15,Team expense
-4610.98,INCOME,Healthcare,2024-06-25,Annual renewal
-5928.06,EXPENSE,Insurance,2024-07-05,Ad-hoc purchase
-928.27,INCOME,Entertainment,2024-08-29,Reimbursement
-321.57,EXPENSE,AWS Bill,2024-02-10,Vendor payment
-7396.47,INCOME,Office Supplies,2024-03-02,Monthly payment
-1510.95,EXPENSE,Marketing,2023-11-07,Q1 invoice
-1562.15,INCOME,Travel,2023-01-27,Recurring charge
-5829.51,EXPENSE,Equipment,2023-04-17,One-time purchase
-2735.66,INCOME,Training,2023-06-20,Client project
-4459.96,EXPENSE,Salary,2024-10-27,Team expense
-4941.35,INCOME,Freelance,2023-03-21,Annual renewal
-4321.16,EXPENSE,Rent,2024-08-25,Ad-hoc purchase
-5714.21,INCOME,Transport,2024-07-04,Reimbursement
-269.98,EXPENSE,Food,2024-10-04,Vendor payment
-1235.38,INCOME,Utilities,2023-08-01,Monthly payment
-6446.05,EXPENSE,Healthcare,2024-07-30,Q1 invoice
-3500.20,INCOME,Insurance,2023-10-15,Recurring charge
-4095.78,EXPENSE,Entertainment,2023-04-22,One-time purchase
-389.22,INCOME,AWS Bill,2023-02-07,Client project
-5303.88,EXPENSE,Office Supplies,2024-07-18,Team expense
-9991.58,INCOME,Marketing,2024-11-18,Annual renewal
-1600.07,EXPENSE,Travel,2024-11-30,Ad-hoc purchase
-1205.39,INCOME,Equipment,2024-01-06,Reimbursement
-5800.03,EXPENSE,Training,2024-07-22,Vendor payment
-5499.72,INCOME,Salary,2024-01-27,Monthly payment
-4582.84,EXPENSE,Freelance,2023-12-20,Q1 invoice
-6728.48,INCOME,Rent,2024-10-23,Recurring charge
-6252.42,EXPENSE,Transport,2024-01-04,One-time purchase
-1057.66,INCOME,Food,2023-01-08,Client project
-2137.49,EXPENSE,Utilities,2023-12-06,Team expense
-6490.79,INCOME,Healthcare,2024-09-12,Annual renewal
-6983.37,EXPENSE,Insurance,2024-06-03,Ad-hoc purchase
-3077.39,INCOME,Entertainment,2023-05-12,Reimbursement
-5278.67,EXPENSE,AWS Bill,2024-12-11,Vendor payment
-5051.98,INCOME,Office Supplies,2023-08-15,Monthly payment
-4587.60,EXPENSE,Marketing,2023-04-16,Q1 invoice
-8942.74,INCOME,Travel,2023-11-18,Recurring charge
-3711.07,EXPENSE,Equipment,2023-12-06,One-time purchase
-8534.37,INCOME,Training,2024-04-10,Client project
-5017.09,EXPENSE,Salary,2023-02-12,Team expense
-3473.19,INCOME,Freelance,2023-09-18,Annual renewal
-215.17,EXPENSE,Rent,2024-08-25,Ad-hoc purchase
-9818.38,INCOME,Transport,2024-09-16,Reimbursement
-1442.54,EXPENSE,Food,2024-10-06,Vendor payment
-4597.50,INCOME,Utilities,2023-08-16,Monthly payment
-1826.04,EXPENSE,Healthcare,2023-11-19,Q1 invoice
-3364.84,INCOME,Insurance,2023-05-04,Recurring charge
-5372.64,EXPENSE,Entertainment,2024-06-24,One-time purchase
-2010.59,INCOME,AWS Bill,2024-10-09,Client project
-7572.50,EXPENSE,Office Supplies,2024-09-10,Team expense
-8589.34,INCOME,Marketing,2023-08-01,Annual renewal
-7312.87,EXPENSE,Travel,2024-09-19,Ad-hoc purchase
-3196.91,INCOME,Equipment,2024-07-07,Reimbursement
-9426.51,EXPENSE,Training,2024-07-19,Vendor payment
-7626.54,INCOME,Salary,2023-01-04,Monthly payment
-4311.09,EXPENSE,Freelance,2023-07-19,Q1 invoice
-2981.90,INCOME,Rent,2023-08-25,Recurring charge
-8889.63,EXPENSE,Transport,2023-12-12,One-time purchase
-7517.44,INCOME,Food,2023-06-21,Client project
-7012.55,EXPENSE,Utilities,2024-01-12,Team expense
-9777.80,INCOME,Healthcare,2024-08-31,Annual renewal
-9251.01,EXPENSE,Insurance,2023-04-13,Ad-hoc purchase
-958.79,INCOME,Entertainment,2024-03-03,Reimbursement
-9552.41,EXPENSE,AWS Bill,2023-10-06,Vendor payment
-7234.47,INCOME,Office Supplies,2024-04-28,Monthly payment
-7319.26,EXPENSE,Marketing,2023-07-02,Q1 invoice
-794.52,INCOME,Travel,2024-08-05,Recurring charge
-9687.62,EXPENSE,Equipment,2024-06-20,One-time purchase
-3502.00,INCOME,Training,2024-03-29,Client project
-3265.81,EXPENSE,Salary,2024-02-24,Team expense
-7609.50,INCOME,Freelance,2023-09-03,Annual renewal
-1957.62,EXPENSE,Rent,2024-10-01,Ad-hoc purchase
-4299.89,INCOME,Transport,2023-07-08,Reimbursement
-7112.60,EXPENSE,Food,2024-04-21,Vendor payment
-7517.53,INCOME,Utilities,2023-01-11,Monthly payment
-3973.95,EXPENSE,Healthcare,2023-06-18,Q1 invoice
-7601.69,INCOME,Insurance,2023-05-31,Recurring charge
-826.62,EXPENSE,Entertainment,2023-12-10,One-time purchase
-9552.54,INCOME,AWS Bill,2024-10-16,Client project
-574.13,EXPENSE,Office Supplies,2023-07-02,Team expense
-2152.54,INCOME,Marketing,2023-06-16,Annual renewal
-4437.38,EXPENSE,Travel,2023-12-12,Ad-hoc purchase
-6286.93,INCOME,Equipment,2023-11-19,Reimbursement
-9430.84,EXPENSE,Training,2023-02-27,Vendor payment
-8676.28,INCOME,Salary,2023-07-12,Monthly payment
-5012.37,EXPENSE,Freelance,2023-09-09,Q1 invoice
-3782.73,INCOME,Rent,2023-02-20,Recurring charge
-540.94,EXPENSE,Transport,2023-07-04,One-time purchase
-3759.09,INCOME,Food,2023-07-12,Client project
-4901.68,EXPENSE,Utilities,2023-08-20,Team expense
-2934.99,INCOME,Healthcare,2023-02-01,Annual renewal
-1001.06,EXPENSE,Insurance,2024-05-09,Ad-hoc purchase
-3421.04,INCOME,Entertainment,2023-04-15,Reimbursement
-5670.75,EXPENSE,AWS Bill,2023-03-12,Vendor payment
-3978.69,INCOME,Office Supplies,2024-04-01,Monthly payment
-7788.60,EXPENSE,Marketing,2023-01-21,Q1 invoice
-796.93,INCOME,Travel,2024-05-20,Recurring charge
-4298.50,EXPENSE,Equipment,2023-04-03,One-time purchase
-316.72,INCOME,Training,2023-06-24,Client project
-9776.66,EXPENSE,Salary,2023-05-06,Team expense
-384.97,INCOME,Freelance,2024-09-09,Annual renewal
-1417.77,EXPENSE,Rent,2023-01-29,Ad-hoc purchase
-4773.79,INCOME,Transport,2023-05-04,Reimbursement
-3470.74,EXPENSE,Food,2024-04-11,Vendor payment
-9096.19,INCOME,Utilities,2023-08-26,Monthly payment
-2493.65,EXPENSE,Healthcare,2024-07-01,Q1 invoice
-7991.70,INCOME,Insurance,2023-09-06,Recurring charge
-416.14,EXPENSE,Entertainment,2023-05-30,One-time purchase
-1317.38,INCOME,AWS Bill,2024-01-15,Client project
-2242.39,EXPENSE,Office Supplies,2023-06-05,Team expense
-3430.40,INCOME,Marketing,2024-04-01,Annual renewal
-887.06,EXPENSE,Travel,2024-10-08,Ad-hoc purchase
-7606.71,INCOME,Equipment,2023-01-19,Reimbursement
-9942.64,EXPENSE,Training,2024-07-24,Vendor payment
-4203.99,INCOME,Salary,2023-02-11,Monthly payment
-153.42,EXPENSE,Freelance,2023-05-08,Q1 invoice
-7431.28,INCOME,Rent,2023-06-12,Recurring charge
-9135.27,EXPENSE,Transport,2024-10-29,One-time purchase
-3201.04,INCOME,Food,2024-02-19,Client project
-5898.00,EXPENSE,Utilities,2024-04-09,Team expense
-7803.95,INCOME,Healthcare,2023-01-06,Annual renewal
-4105.12,EXPENSE,Insurance,2023-08-23,Ad-hoc purchase
-6982.88,INCOME,Entertainment,2023-09-14,Reimbursement
-2730.24,EXPENSE,AWS Bill,2023-09-22,Vendor payment
-2879.83,INCOME,Office Supplies,2023-01-28,Monthly payment
-6680.30,EXPENSE,Marketing,2023-04-22,Q1 invoice
-9206.33,INCOME,Travel,2023-04-11,Recurring charge
-450.19,EXPENSE,Equipment,2023-11-29,One-time purchase
-6481.27,INCOME,Training,2023-06-28,Client project
-3908.96,EXPENSE,Salary,2024-11-12,Team expense
-4258.18,INCOME,Freelance,2024-03-10,Annual renewal
-1064.99,EXPENSE,Rent,2024-03-13,Ad-hoc purchase
-393.99,INCOME,Transport,2023-04-16,Reimbursement
-7119.22,EXPENSE,Food,2023-03-07,Vendor payment
-1427.35,INCOME,Utilities,2023-02-11,Monthly payment
-1128.36,EXPENSE,Healthcare,2023-03-05,Q1 invoice
-8282.14,INCOME,Insurance,2023-01-19,Recurring charge
-7898.18,EXPENSE,Entertainment,2024-01-10,One-time purchase
-7997.31,INCOME,AWS Bill,2023-02-15,Client project
-3202.74,EXPENSE,Office Supplies,2023-11-21,Team expense
-5079.40,INCOME,Marketing,2023-05-04,Annual renewal
-6955.86,EXPENSE,Travel,2024-12-19,Ad-hoc purchase
-9881.99,INCOME,Equipment,2023-04-05,Reimbursement
-8471.93,EXPENSE,Training,2023-06-14,Vendor payment
-2633.70,INCOME,Salary,2024-10-29,Monthly payment
-4422.09,EXPENSE,Freelance,2023-04-15,Q1 invoice
-1413.84,INCOME,Rent,2024-02-26,Recurring charge
-6848.46,EXPENSE,Transport,2023-06-08,One-time purchase
-1683.26,INCOME,Food,2023-10-07,Client project
-6291.96,EXPENSE,Utilities,2024-05-16,Team expense
-951.56,INCOME,Healthcare,2024-08-01,Annual renewal
-4695.28,EXPENSE,Insurance,2024-06-07,Ad-hoc purchase
-6385.23,INCOME,Entertainment,2024-04-05,Reimbursement
-5082.61,EXPENSE,AWS Bill,2023-05-06,Vendor payment
-5314.89,INCOME,Office Supplies,2023-11-03,Monthly payment
-1274.82,EXPENSE,Marketing,2024-01-01,Q1 invoice
-9857.79,INCOME,Travel,2023-02-14,Recurring charge
-3962.47,EXPENSE,Equipment,2023-07-30,One-time purchase
-364.76,INCOME,Training,2023-09-16,Client project
-5063.50,EXPENSE,Salary,2024-01-18,Team expense
-2647.49,INCOME,Freelance,2023-04-25,Annual renewal
-4057.99,EXPENSE,Rent,2023-06-02,Ad-hoc purchase
-5694.46,INCOME,Transport,2023-07-15,Reimbursement
-8421.94,EXPENSE,Food,2023-01-07,Vendor payment
-9840.57,INCOME,Utilities,2023-03-11,Monthly payment
-8669.91,EXPENSE,Healthcare,2024-09-07,Q1 invoice
-4174.61,INCOME,Insurance,2024-12-28,Recurring charge
-652.95,EXPENSE,Entertainment,2024-04-18,One-time purchase
-6125.15,INCOME,AWS Bill,2024-12-15,Client project
-3108.22,EXPENSE,Office Supplies,2023-06-01,Team expense
-4874.56,INCOME,Marketing,2023-12-24,Annual renewal
-6592.75,EXPENSE,Travel,2023-09-04,Ad-hoc purchase
-5321.15,INCOME,Equipment,2023-08-31,Reimbursement
-880.77,EXPENSE,Training,2024-09-21,Vendor payment
-8234.19,INCOME,Salary,2023-08-14,Monthly payment
-9603.96,EXPENSE,Freelance,2024-04-30,Q1 invoice
-1932.57,INCOME,Rent,2023-08-16,Recurring charge
-2256.02,EXPENSE,Transport,2023-06-11,One-time purchase
-624.25,INCOME,Food,2024-05-28,Client project
-1175.15,EXPENSE,Utilities,2024-08-05,Team expense
-2310.15,INCOME,Healthcare,2023-05-04,Annual renewal
-5068.83,EXPENSE,Insurance,2024-03-04,Ad-hoc purchase
-2511.52,INCOME,Entertainment,2024-02-08,Reimbursement
-967.72,EXPENSE,AWS Bill,2023-09-10,Vendor payment
-7780.94,INCOME,Office Supplies,2024-05-11,Monthly payment
-3403.20,EXPENSE,Marketing,2024-11-01,Q1 invoice
-5678.32,INCOME,Travel,2024-01-08,Recurring charge
-7715.04,EXPENSE,Equipment,2024-11-13,One-time purchase
-7072.05,INCOME,Training,2023-08-10,Client project
-2696.22,EXPENSE,Salary,2024-11-07,Team expense
-7998.49,INCOME,Freelance,2024-09-28,Annual renewal
-6948.31,EXPENSE,Rent,2023-06-17,Ad-hoc purchase
-4368.53,INCOME,Transport,2024-05-26,Reimbursement
-6438.31,EXPENSE,Food,2023-02-19,Vendor payment
-3480.22,INCOME,Utilities,2023-05-01,Monthly payment
-9570.57,EXPENSE,Healthcare,2024-01-09,Q1 invoice
-4326.49,INCOME,Insurance,2023-08-07,Recurring charge
-4604.31,EXPENSE,Entertainment,2024-03-08,One-time purchase
-2144.80,INCOME,AWS Bill,2023-09-19,Client project
-8889.57,EXPENSE,Office Supplies,2024-11-19,Team expense
-370.17,INCOME,Marketing,2023-06-18,Annual renewal
-229.86,EXPENSE,Travel,2024-04-30,Ad-hoc purchase
-4729.33,INCOME,Equipment,2024-05-31,Reimbursement
-8578.05,EXPENSE,Training,2024-07-09,Vendor payment
-8222.14,INCOME,Salary,2023-03-24,Monthly payment
-9149.90,EXPENSE,Freelance,2023-09-28,Q1 invoice
-4769.46,INCOME,Rent,2023-09-30,Recurring charge
-6101.50,EXPENSE,Transport,2023-10-21,One-time purchase
-8201.08,INCOME,Food,2023-11-25,Client project
-6831.33,EXPENSE,Utilities,2023-12-02,Team expense
-5330.87,INCOME,Healthcare,2023-04-04,Annual renewal
-9143.59,EXPENSE,Insurance,2024-03-12,Ad-hoc purchase
-3977.32,INCOME,Entertainment,2024-10-10,Reimbursement
-7246.49,EXPENSE,AWS Bill,2024-09-29,Vendor payment
-2052.58,INCOME,Office Supplies,2024-06-21,Monthly payment
-2401.12,EXPENSE,Marketing,2023-07-20,Q1 invoice
-1645.35,INCOME,Travel,2024-06-04,Recurring charge
-2394.32,EXPENSE,Equipment,2024-08-20,One-time purchase
-115.98,INCOME,Training,2023-11-06,Client project
-1223.79,EXPENSE,Salary,2024-10-17,Team expense
-8285.55,INCOME,Freelance,2023-07-10,Annual renewal
-7522.08,EXPENSE,Rent,2024-01-03,Ad-hoc purchase
-2173.01,INCOME,Transport,2024-09-10,Reimbursement
-4917.71,EXPENSE,Food,2023-08-03,Vendor payment
-8716.51,INCOME,Utilities,2023-08-19,Monthly payment
-8092.51,EXPENSE,Healthcare,2023-10-31,Q1 invoice
-3474.99,INCOME,Insurance,2023-02-05,Recurring charge
-798.92,EXPENSE,Entertainment,2023-10-03,One-time purchase
-7612.87,INCOME,AWS Bill,2024-07-24,Client project
-2425.63,EXPENSE,Office Supplies,2023-11-21,Team expense
-3659.99,INCOME,Marketing,2023-08-14,Annual renewal
-7516.65,EXPENSE,Travel,2023-02-22,Ad-hoc purchase
-6598.41,INCOME,Equipment,2023-03-16,Reimbursement
-3580.43,EXPENSE,Training,2024-04-08,Vendor payment
-3090.58,INCOME,Salary,2024-07-12,Monthly payment
-2194.85,EXPENSE,Freelance,2023-08-16,Q1 invoice
-4986.03,INCOME,Rent,2023-03-19,Recurring charge
-8051.35,EXPENSE,Transport,2023-05-09,One-time purchase
-5730.55,INCOME,Food,2023-01-11,Client project
-5937.84,EXPENSE,Utilities,2023-10-10,Team expense
-438.67,INCOME,Healthcare,2023-03-03,Annual renewal
-2222.31,EXPENSE,Insurance,2024-11-13,Ad-hoc purchase
-9222.91,INCOME,Entertainment,2024-09-27,Reimbursement
-1696.52,EXPENSE,AWS Bill,2023-07-25,Vendor payment
-3814.66,INCOME,Office Supplies,2023-05-13,Monthly payment
-9932.11,EXPENSE,Marketing,2024-05-14,Q1 invoice
-171.28,INCOME,Travel,2024-02-22,Recurring charge
-8948.66,EXPENSE,Equipment,2024-07-29,One-time purchase
-5606.62,INCOME,Training,2024-02-17,Client project
-6267.15,EXPENSE,Salary,2024-11-16,Team expense
-8265.62,INCOME,Freelance,2023-03-01,Annual renewal
-6356.63,EXPENSE,Rent,2023-12-19,Ad-hoc purchase
-9233.78,INCOME,Transport,2023-06-13,Reimbursement
-9413.57,EXPENSE,Food,2024-11-17,Vendor payment
-4645.96,INCOME,Utilities,2023-05-24,Monthly payment
-3366.31,EXPENSE,Healthcare,2024-01-30,Q1 invoice
-8684.39,INCOME,Insurance,2023-09-13,Recurring charge
-8008.03,EXPENSE,Entertainment,2024-12-07,One-time purchase
-1883.96,INCOME,AWS Bill,2023-02-09,Client project
-505.65,EXPENSE,Office Supplies,2023-03-14,Team expense
-6587.43,INCOME,Marketing,2024-02-12,Annual renewal
-6895.81,EXPENSE,Travel,2023-04-24,Ad-hoc purchase
-6003.09,INCOME,Equipment,2023-11-17,Reimbursement
-4616.75,EXPENSE,Training,2023-06-20,Vendor payment
-5926.57,INCOME,Salary,2023-04-22,Monthly payment
-689.60,EXPENSE,Freelance,2024-06-04,Q1 invoice
-5396.57,INCOME,Rent,2024-03-27,Recurring charge
-2214.01,EXPENSE,Transport,2023-03-25,One-time purchase
-5359.44,INCOME,Food,2024-03-24,Client project
-3157.34,EXPENSE,Utilities,2024-07-24,Team expense
-2476.19,INCOME,Healthcare,2023-12-26,Annual renewal
-3197.34,EXPENSE,Insurance,2024-07-04,Ad-hoc purchase
-6009.94,INCOME,Entertainment,2024-01-02,Reimbursement
-521.72,EXPENSE,AWS Bill,2023-09-01,Vendor payment
-5366.07,INCOME,Office Supplies,2024-04-19,Monthly payment
-7674.83,EXPENSE,Marketing,2024-12-27,Q1 invoice
-2973.30,INCOME,Travel,2024-11-07,Recurring charge
-2083.75,EXPENSE,Equipment,2024-08-01,One-time purchase
-4095.69,INCOME,Training,2023-09-04,Client project
-2965.51,EXPENSE,Salary,2023-12-20,Team expense
-5331.16,INCOME,Freelance,2023-08-27,Annual renewal
-4521.31,EXPENSE,Rent,2023-06-19,Ad-hoc purchase
-4551.72,INCOME,Transport,2023-11-10,Reimbursement
-7440.82,EXPENSE,Food,2023-09-11,Vendor payment
-2572.10,INCOME,Utilities,2024-11-19,Monthly payment
-2220.95,EXPENSE,Healthcare,2023-11-08,Q1 invoice
-7814.35,INCOME,Insurance,2024-05-04,Recurring charge
-6010.00,EXPENSE,Entertainment,2023-08-04,One-time purchase
-2998.87,INCOME,AWS Bill,2023-06-02,Client project
-6059.10,EXPENSE,Office Supplies,2024-04-27,Team expense
-377.97,INCOME,Marketing,2023-01-05,Annual renewal
-9847.24,EXPENSE,Travel,2024-09-08,Ad-hoc purchase
-1821.85,INCOME,Equipment,2023-08-19,Reimbursement
-7266.78,EXPENSE,Training,2023-09-11,Vendor payment
-9190.16,INCOME,Salary,2023-01-21,Monthly payment
-3527.98,EXPENSE,Freelance,2024-12-30,Q1 invoice
-2072.48,INCOME,Rent,2024-08-01,Recurring charge
-7752.57,EXPENSE,Transport,2023-03-17,One-time purchase
-8402.83,INCOME,Food,2024-07-29,Client project
-3793.89,EXPENSE,Utilities,2023-12-17,Team expense
-2196.95,INCOME,Healthcare,2024-04-03,Annual renewal
-7984.81,EXPENSE,Insurance,2023-02-16,Ad-hoc purchase
-1965.69,INCOME,Entertainment,2024-11-15,Reimbursement
-9163.74,EXPENSE,AWS Bill,2023-12-25,Vendor payment
-5693.68,INCOME,Office Supplies,2024-03-14,Monthly payment
-9492.49,EXPENSE,Marketing,2023-07-06,Q1 invoice
-5076.68,INCOME,Travel,2024-05-23,Recurring charge
-7424.22,EXPENSE,Equipment,2024-11-06,One-time purchase
-5163.69,INCOME,Training,2024-11-01,Client project
-9159.00,EXPENSE,Salary,2024-09-19,Team expense
-4292.44,INCOME,Freelance,2024-01-04,Annual renewal
-390.86,EXPENSE,Rent,2023-08-10,Ad-hoc purchase
-7228.20,INCOME,Transport,2024-04-16,Reimbursement
-1292.71,EXPENSE,Food,2024-05-11,Vendor payment
-9271.29,INCOME,Utilities,2023-11-09,Monthly payment
-6210.69,EXPENSE,Healthcare,2023-04-29,Q1 invoice
-3604.77,INCOME,Insurance,2024-07-07,Recurring charge
-7347.14,EXPENSE,Entertainment,2023-01-24,One-time purchase
-5163.04,INCOME,AWS Bill,2023-08-16,Client project
-5237.92,EXPENSE,Office Supplies,2024-04-13,Team expense
-9872.64,INCOME,Marketing,2023-10-12,Annual renewal
-6077.08,EXPENSE,Travel,2024-07-28,Ad-hoc purchase
-1161.50,INCOME,Equipment,2024-04-12,Reimbursement
-6559.17,EXPENSE,Training,2024-06-25,Vendor payment
-868.81,INCOME,Salary,2023-06-25,Monthly payment
-1059.57,EXPENSE,Freelance,2024-05-19,Q1 invoice
-5761.63,INCOME,Rent,2024-06-02,Recurring charge
-7025.37,EXPENSE,Transport,2024-03-11,One-time purchase
-9943.35,INCOME,Food,2023-04-14,Client project
-9593.75,EXPENSE,Utilities,2023-02-12,Team expense
-1719.21,INCOME,Healthcare,2024-07-30,Annual renewal
-6038.15,EXPENSE,Insurance,2024-01-16,Ad-hoc purchase
-1025.46,INCOME,Entertainment,2024-10-25,Reimbursement
-2750.84,EXPENSE,AWS Bill,2024-02-15,Vendor payment
+transactionRef,amount,type,category,transactionDate,description
+TXN-00001,21.90,EXPENSE,Utilities,2025-03-12,Gas bill
+TXN-00002,4378.48,INCOME,Investment,2025-12-14,Mutual fund return
+TXN-00003,1603.24,EXPENSE,Education,2025-03-06,Online course
+TXN-00004,513.29,EXPENSE,Food,2024-09-21,Coffee shop
+TXN-00005,5574.86,INCOME,Rental,2024-06-18,Property rental
+TXN-00006,1433.78,EXPENSE,Shopping,2024-07-03,Clothing purchase
+TXN-00007,501.81,EXPENSE,Insurance,2024-06-20,Life insurance premium
+TXN-00008,521.91,EXPENSE,Entertainment,2024-06-05,Concert tickets
+TXN-00009,581.03,EXPENSE,Shopping,2025-10-07,Electronics
+TXN-00010,11209.79,INCOME,Bonus,2025-11-03,Referral bonus
+TXN-00011,693.83,EXPENSE,Entertainment,2025-04-07,Movie tickets
+TXN-00012,4040.94,INCOME,Bonus,2025-11-16,Referral bonus
+TXN-00013,2933.71,INCOME,Freelance,2025-07-03,Design work
+TXN-00014,14634.17,INCOME,Salary,2025-03-31,Bi-weekly pay
+TXN-00015,1774.82,EXPENSE,Food,2025-11-04,Restaurant dinner
+TXN-00016,160.36,EXPENSE,Education,2024-07-05,Workshop fee
+TXN-00017,570.55,EXPENSE,Food,2024-10-10,Team lunch
+TXN-00018,451.24,EXPENSE,Education,2024-12-15,Online course
+TXN-00019,344.00,EXPENSE,Utilities,2024-04-22,Gas bill
+TXN-00020,4865.18,INCOME,Freelance,2025-08-03,Consulting fee
+TXN-00021,981.66,EXPENSE,Insurance,2025-06-25,Life insurance premium
+TXN-00022,406.90,EXPENSE,Utilities,2025-03-28,Electricity bill
+TXN-00023,8791.31,INCOME,Investment,2025-04-12,Bond interest
+TXN-00024,646.37,EXPENSE,Utilities,2024-01-23,Water bill
+TXN-00025,9833.05,INCOME,Freelance,2024-03-15,Design work
+TXN-00026,677.50,EXPENSE,Education,2024-03-30,Books
+TXN-00027,87.53,EXPENSE,Food,2025-11-27,Restaurant dinner
+TXN-00028,925.70,INCOME,Dividend,2025-08-20,Quarterly dividend
+TXN-00029,1804.29,EXPENSE,Transport,2024-12-06,Uber to office
+TXN-00030,3872.37,INCOME,Dividend,2025-03-03,Quarterly dividend
+TXN-00031,4708.75,INCOME,Salary,2025-01-15,Bi-weekly pay
+TXN-00032,1846.87,INCOME,Dividend,2025-11-09,Annual dividend payout
+TXN-00033,1261.37,EXPENSE,Shopping,2024-06-12,Clothing purchase
+TXN-00034,1055.03,EXPENSE,Healthcare,2025-07-27,Health insurance premium
+TXN-00035,918.60,EXPENSE,Utilities,2024-06-15,Internet subscription
+TXN-00036,929.65,EXPENSE,Insurance,2025-04-25,Home insurance
+TXN-00037,1481.95,EXPENSE,Healthcare,2024-03-11,Doctor visit
+TXN-00038,12437.02,INCOME,Salary,2024-11-05,March salary
+TXN-00039,1957.27,EXPENSE,Insurance,2025-05-10,Home insurance
+TXN-00040,666.06,EXPENSE,Transport,2024-10-21,Uber to office
+TXN-00041,1730.59,EXPENSE,Entertainment,2024-09-09,Movie tickets
+TXN-00042,545.79,EXPENSE,Healthcare,2025-10-15,Doctor visit
+TXN-00043,641.04,EXPENSE,Insurance,2024-01-26,Home insurance
+TXN-00044,9900.70,INCOME,Rental,2025-01-22,Apartment rent income
+TXN-00045,1905.36,EXPENSE,Utilities,2024-01-28,Internet subscription
+TXN-00046,952.50,EXPENSE,Insurance,2024-03-01,Life insurance premium
+TXN-00047,6058.18,INCOME,Dividend,2024-12-20,Annual dividend payout
+TXN-00048,797.81,EXPENSE,Transport,2024-03-15,Uber to office
+TXN-00049,912.20,EXPENSE,Transport,2024-08-15,Monthly bus pass
+TXN-00050,220.03,EXPENSE,Shopping,2025-01-28,Clothing purchase
+TXN-00051,300.32,EXPENSE,Food,2024-04-20,Grocery shopping
+TXN-00052,1494.64,EXPENSE,Transport,2024-12-29,Fuel refill
+TXN-00053,1987.05,EXPENSE,Utilities,2025-02-04,Electricity bill
+TXN-00054,556.28,EXPENSE,Utilities,2025-08-27,Internet subscription
+TXN-00055,1579.30,EXPENSE,Utilities,2024-01-24,Electricity bill
+TXN-00056,12176.09,INCOME,Dividend,2024-07-18,Quarterly dividend
+TXN-00057,19.81,EXPENSE,Insurance,2024-04-16,Car insurance
+TXN-00058,1980.92,EXPENSE,Utilities,2025-02-26,Water bill
+TXN-00059,1441.99,EXPENSE,Shopping,2025-07-25,Clothing purchase
+TXN-00060,730.83,EXPENSE,Insurance,2025-02-19,Home insurance
+TXN-00061,1122.87,EXPENSE,Healthcare,2024-04-16,Health insurance premium
+TXN-00062,12114.40,INCOME,Salary,2025-05-02,March salary
+TXN-00063,3097.50,INCOME,Dividend,2025-08-14,Annual dividend payout
+TXN-00064,688.88,EXPENSE,Education,2025-09-29,Books
+TXN-00065,8542.69,INCOME,Salary,2025-07-12,April salary
+TXN-00066,9060.75,INCOME,Freelance,2024-06-21,Design work
+TXN-00067,1077.30,EXPENSE,Utilities,2025-04-10,Water bill
+TXN-00068,1906.38,EXPENSE,Insurance,2024-03-18,Home insurance
+TXN-00069,6472.71,INCOME,Dividend,2025-05-30,Quarterly dividend
+TXN-00070,169.32,EXPENSE,Insurance,2025-03-24,Car insurance
+TXN-00071,683.36,EXPENSE,Healthcare,2024-12-18,Health insurance premium
+TXN-00072,18.64,EXPENSE,Insurance,2025-11-27,Home insurance
+TXN-00073,366.19,EXPENSE,Food,2024-11-01,Restaurant dinner
+TXN-00074,1159.00,EXPENSE,Education,2024-06-19,Books
+TXN-00075,1496.05,EXPENSE,Transport,2024-06-10,Uber to office
+TXN-00076,1178.31,EXPENSE,Utilities,2025-05-16,Electricity bill
+TXN-00077,1333.17,EXPENSE,Food,2025-08-20,Coffee shop
+TXN-00078,12516.10,INCOME,Freelance,2024-05-18,Dev contract
+TXN-00079,722.13,EXPENSE,Education,2024-07-31,Workshop fee
+TXN-00080,940.71,INCOME,Salary,2024-01-11,March salary
+TXN-00081,4065.26,INCOME,Freelance,2025-12-28,Client project payment
+TXN-00082,30.16,EXPENSE,Food,2024-03-01,Grocery shopping
+TXN-00083,1562.22,EXPENSE,Education,2025-05-11,Books
+TXN-00084,238.68,EXPENSE,Entertainment,2024-09-07,Concert tickets
+TXN-00085,11264.77,INCOME,Rental,2024-10-13,Property rental
+TXN-00086,1707.30,EXPENSE,Shopping,2025-01-15,Home supplies
+TXN-00087,1720.77,EXPENSE,Transport,2025-06-26,Fuel refill
+TXN-00088,12176.36,INCOME,Freelance,2024-12-18,Dev contract
+TXN-00089,2162.80,INCOME,Bonus,2025-11-30,Referral bonus
+TXN-00090,13122.02,INCOME,Freelance,2024-11-04,Client project payment
+TXN-00091,5591.60,INCOME,Salary,2024-11-12,April salary
+TXN-00092,867.00,EXPENSE,Utilities,2024-09-27,Gas bill
+TXN-00093,1483.85,EXPENSE,Shopping,2025-06-18,Electronics
+TXN-00094,4976.18,INCOME,Investment,2024-06-06,Bond interest
+TXN-00095,977.43,EXPENSE,Insurance,2024-01-28,Home insurance
+TXN-00096,8494.61,INCOME,Bonus,2025-02-06,Performance bonus
+TXN-00097,796.69,EXPENSE,Food,2024-07-29,Grocery shopping
+TXN-00098,276.31,EXPENSE,Transport,2025-12-02,Uber to office
+TXN-00099,6093.94,INCOME,Dividend,2025-01-31,Quarterly dividend
+TXN-00100,3263.28,INCOME,Rental,2024-07-05,Apartment rent income
+TXN-00101,1424.27,EXPENSE,Healthcare,2024-09-04,Health insurance premium
+TXN-00102,124.98,EXPENSE,Shopping,2025-08-11,Electronics
+TXN-00103,11060.26,INCOME,Investment,2025-08-07,Stock dividend
+TXN-00104,639.57,INCOME,Freelance,2025-07-18,Dev contract
+TXN-00105,10432.14,INCOME,Freelance,2025-11-27,Consulting fee
+TXN-00106,2980.67,INCOME,Freelance,2024-04-15,Consulting fee
+TXN-00107,1186.47,EXPENSE,Insurance,2024-08-17,Car insurance
+TXN-00108,1321.23,EXPENSE,Food,2025-01-16,Team lunch
+TXN-00109,1953.74,EXPENSE,Transport,2025-02-20,Uber to office
+TXN-00110,8068.86,INCOME,Freelance,2025-07-17,Client project payment
+TXN-00111,184.13,EXPENSE,Food,2024-01-17,Team lunch
+TXN-00112,1585.98,EXPENSE,Entertainment,2025-12-27,Concert tickets
+TXN-00113,647.11,EXPENSE,Utilities,2024-03-21,Gas bill
+TXN-00114,674.08,EXPENSE,Utilities,2024-11-28,Gas bill
+TXN-00115,1801.22,EXPENSE,Education,2025-04-01,Books
+TXN-00116,294.86,EXPENSE,Shopping,2025-09-18,Clothing purchase
+TXN-00117,664.20,EXPENSE,Food,2025-12-27,Grocery shopping
+TXN-00118,645.83,EXPENSE,Utilities,2024-08-25,Water bill
+TXN-00119,1327.89,EXPENSE,Insurance,2024-08-16,Life insurance premium
+TXN-00120,1113.32,EXPENSE,Shopping,2024-12-01,Clothing purchase
+TXN-00121,856.37,EXPENSE,Healthcare,2024-08-29,Pharmacy
+TXN-00122,129.30,EXPENSE,Transport,2025-12-29,Fuel refill
+TXN-00123,14726.59,INCOME,Dividend,2025-10-15,Quarterly dividend
+TXN-00124,485.94,EXPENSE,Food,2024-08-27,Coffee shop
+TXN-00125,234.56,EXPENSE,Food,2024-08-24,Team lunch
+TXN-00126,815.33,EXPENSE,Entertainment,2025-01-26,Concert tickets
+TXN-00127,1539.21,EXPENSE,Utilities,2024-12-31,Water bill
+TXN-00128,6090.74,INCOME,Bonus,2025-05-09,Year-end bonus
+TXN-00129,1916.72,EXPENSE,Transport,2025-09-10,Monthly bus pass
+TXN-00130,1987.94,EXPENSE,Healthcare,2024-05-27,Pharmacy
+TXN-00131,7257.97,INCOME,Salary,2025-02-12,Bi-weekly pay
+TXN-00132,1272.02,EXPENSE,Food,2025-02-19,Team lunch
+TXN-00133,1675.57,EXPENSE,Shopping,2024-11-16,Clothing purchase
+TXN-00134,5500.81,INCOME,Dividend,2025-10-16,Annual dividend payout
+TXN-00135,8604.13,INCOME,Freelance,2024-10-20,Client project payment
+TXN-00136,642.63,EXPENSE,Utilities,2025-11-27,Internet subscription
+TXN-00137,1539.34,EXPENSE,Education,2024-03-23,Workshop fee
+TXN-00138,641.74,EXPENSE,Utilities,2025-05-06,Electricity bill
+TXN-00139,1936.56,EXPENSE,Shopping,2025-04-14,Clothing purchase
+TXN-00140,453.85,EXPENSE,Shopping,2024-10-26,Home supplies
+TXN-00141,6755.45,INCOME,Investment,2025-03-27,Bond interest
+TXN-00142,322.15,EXPENSE,Transport,2024-06-10,Fuel refill
+TXN-00143,228.08,EXPENSE,Transport,2024-12-08,Taxi fare
+TXN-00144,1071.09,EXPENSE,Food,2024-10-10,Team lunch
+TXN-00145,1569.61,EXPENSE,Transport,2025-08-09,Fuel refill
+TXN-00146,13283.86,INCOME,Investment,2025-02-18,Stock dividend
+TXN-00147,5153.18,INCOME,Freelance,2025-08-12,Consulting fee
+TXN-00148,1789.13,EXPENSE,Insurance,2024-09-30,Home insurance
+TXN-00149,1341.99,EXPENSE,Food,2024-05-25,Coffee shop
+TXN-00150,680.22,EXPENSE,Healthcare,2025-04-29,Pharmacy
+TXN-00151,518.23,EXPENSE,Transport,2025-01-13,Taxi fare
+TXN-00152,69.44,EXPENSE,Education,2025-12-03,Workshop fee
+TXN-00153,1118.78,EXPENSE,Utilities,2025-09-07,Electricity bill
+TXN-00154,14802.86,INCOME,Bonus,2025-10-12,Performance bonus
+TXN-00155,11630.43,INCOME,Salary,2024-10-03,Monthly salary
+TXN-00156,1747.19,EXPENSE,Utilities,2024-12-08,Internet subscription
+TXN-00157,454.97,EXPENSE,Shopping,2024-05-04,Home supplies
+TXN-00158,258.38,EXPENSE,Entertainment,2025-11-22,Netflix subscription
+TXN-00159,830.50,INCOME,Investment,2025-12-30,Mutual fund return
+TXN-00160,153.74,EXPENSE,Food,2025-08-22,Team lunch
+TXN-00161,603.19,EXPENSE,Healthcare,2024-06-16,Health insurance premium
+TXN-00162,6505.19,INCOME,Dividend,2024-05-25,Annual dividend payout
+TXN-00163,1912.28,EXPENSE,Shopping,2024-02-22,Electronics
+TXN-00164,1921.22,EXPENSE,Shopping,2025-08-22,Clothing purchase
+TXN-00165,286.71,EXPENSE,Insurance,2024-08-31,Home insurance
+TXN-00166,1910.78,EXPENSE,Shopping,2024-06-16,Home supplies
+TXN-00167,907.67,EXPENSE,Entertainment,2024-05-12,Movie tickets
+TXN-00168,124.03,EXPENSE,Healthcare,2025-02-28,Doctor visit
+TXN-00169,169.74,EXPENSE,Shopping,2025-08-18,Home supplies
+TXN-00170,1476.00,EXPENSE,Utilities,2024-07-16,Water bill
+TXN-00171,10362.46,INCOME,Bonus,2025-09-05,Referral bonus
+TXN-00172,1660.57,EXPENSE,Shopping,2025-03-07,Electronics
+TXN-00173,8573.44,INCOME,Freelance,2024-09-20,Design work
+TXN-00174,651.38,INCOME,Salary,2024-02-18,April salary
+TXN-00175,903.60,EXPENSE,Transport,2025-10-13,Fuel refill
+TXN-00176,1510.19,INCOME,Salary,2024-08-22,Monthly salary
+TXN-00177,1550.80,INCOME,Investment,2024-06-18,Stock dividend
+TXN-00178,73.37,EXPENSE,Insurance,2025-11-07,Home insurance
+TXN-00179,679.85,EXPENSE,Transport,2024-10-08,Taxi fare
+TXN-00180,40.73,EXPENSE,Insurance,2025-12-29,Life insurance premium
+TXN-00181,845.52,EXPENSE,Utilities,2025-12-23,Internet subscription
+TXN-00182,7727.83,INCOME,Salary,2024-12-17,Bi-weekly pay
+TXN-00183,11718.43,INCOME,Bonus,2025-12-23,Referral bonus
+TXN-00184,1205.31,EXPENSE,Healthcare,2025-03-30,Health insurance premium
+TXN-00185,440.91,EXPENSE,Food,2024-01-18,Grocery shopping
+TXN-00186,1281.22,EXPENSE,Insurance,2024-01-22,Car insurance
+TXN-00187,828.49,EXPENSE,Healthcare,2024-10-15,Pharmacy
+TXN-00188,803.37,EXPENSE,Shopping,2025-01-31,Clothing purchase
+TXN-00189,1470.32,EXPENSE,Education,2025-03-08,Books
+TXN-00190,4923.37,INCOME,Investment,2024-08-07,Stock dividend
+TXN-00191,1182.75,EXPENSE,Insurance,2024-01-23,Car insurance
+TXN-00192,13999.45,INCOME,Freelance,2025-12-01,Design work
+TXN-00193,278.20,EXPENSE,Healthcare,2025-12-22,Pharmacy
+TXN-00194,1947.18,EXPENSE,Healthcare,2024-02-26,Pharmacy
+TXN-00195,207.11,EXPENSE,Food,2025-05-03,Grocery shopping
+TXN-00196,11117.63,INCOME,Freelance,2024-01-17,Consulting fee
+TXN-00197,1787.53,EXPENSE,Food,2025-10-29,Team lunch
+TXN-00198,471.23,EXPENSE,Food,2024-12-12,Grocery shopping
+TXN-00199,927.90,EXPENSE,Shopping,2025-03-26,Home supplies
+TXN-00200,6894.87,INCOME,Investment,2025-12-22,Bond interest
+TXN-00201,1971.44,EXPENSE,Shopping,2024-11-28,Clothing purchase
+TXN-00202,835.84,EXPENSE,Entertainment,2025-04-23,Netflix subscription
+TXN-00203,145.58,EXPENSE,Shopping,2025-11-13,Electronics
+TXN-00204,6057.32,INCOME,Salary,2025-07-28,Monthly salary
+TXN-00205,207.32,EXPENSE,Utilities,2025-07-29,Internet subscription
+TXN-00206,1004.98,EXPENSE,Insurance,2024-09-05,Home insurance
+TXN-00207,1198.26,EXPENSE,Utilities,2024-01-09,Internet subscription
+TXN-00208,1452.41,INCOME,Freelance,2025-02-10,Design work
+TXN-00209,1030.15,EXPENSE,Insurance,2024-05-18,Car insurance
+TXN-00210,9289.70,INCOME,Freelance,2024-08-22,Design work
+TXN-00211,214.07,EXPENSE,Utilities,2024-07-06,Water bill
+TXN-00212,1240.24,EXPENSE,Entertainment,2024-11-30,Concert tickets
+TXN-00213,1269.92,EXPENSE,Entertainment,2025-10-08,Movie tickets
+TXN-00214,1921.24,EXPENSE,Utilities,2024-09-07,Internet subscription
+TXN-00215,651.93,EXPENSE,Food,2025-09-11,Coffee shop
+TXN-00216,535.72,EXPENSE,Transport,2024-06-15,Uber to office
+TXN-00217,453.11,EXPENSE,Transport,2025-05-06,Taxi fare
+TXN-00218,241.51,EXPENSE,Healthcare,2024-03-15,Health insurance premium
+TXN-00219,381.35,EXPENSE,Utilities,2024-11-24,Electricity bill
+TXN-00220,10222.46,INCOME,Rental,2024-10-18,Property rental
+TXN-00221,1296.87,EXPENSE,Insurance,2025-05-31,Car insurance
+TXN-00222,11322.37,INCOME,Bonus,2025-07-15,Year-end bonus
+TXN-00223,3604.20,INCOME,Investment,2024-01-19,Bond interest
+TXN-00224,1916.05,EXPENSE,Education,2025-02-20,Workshop fee
+TXN-00225,1609.18,EXPENSE,Transport,2024-07-13,Monthly bus pass
+TXN-00226,1628.07,EXPENSE,Healthcare,2025-10-26,Health insurance premium
+TXN-00227,320.46,EXPENSE,Education,2025-03-11,Books
+TXN-00228,1434.73,EXPENSE,Utilities,2025-07-27,Water bill
+TXN-00229,7823.25,INCOME,Investment,2024-12-02,Bond interest
+TXN-00230,350.13,EXPENSE,Utilities,2024-06-07,Gas bill
+TXN-00231,11367.05,INCOME,Investment,2025-08-18,Mutual fund return
+TXN-00232,1838.69,EXPENSE,Insurance,2025-10-16,Car insurance
+TXN-00233,1689.22,EXPENSE,Transport,2024-02-01,Monthly bus pass
+TXN-00234,115.53,EXPENSE,Education,2025-01-06,Online course
+TXN-00235,3807.22,INCOME,Rental,2024-07-30,Apartment rent income
+TXN-00236,1420.48,EXPENSE,Insurance,2024-08-11,Life insurance premium
+TXN-00237,14145.52,INCOME,Salary,2024-12-10,Bi-weekly pay
+TXN-00238,1594.11,EXPENSE,Education,2024-03-15,Online course
+TXN-00239,10928.14,INCOME,Dividend,2024-12-29,Quarterly dividend
+TXN-00240,683.28,EXPENSE,Utilities,2024-10-11,Internet subscription
+TXN-00241,8645.27,INCOME,Freelance,2025-07-14,Dev contract
+TXN-00242,1985.13,EXPENSE,Food,2025-06-09,Grocery shopping
+TXN-00243,4292.61,INCOME,Bonus,2025-05-21,Performance bonus
+TXN-00244,185.60,EXPENSE,Education,2024-02-14,Books
+TXN-00245,4795.88,INCOME,Freelance,2024-07-05,Dev contract
+TXN-00246,1602.68,INCOME,Investment,2025-10-21,Bond interest
+TXN-00247,1981.77,EXPENSE,Transport,2024-10-26,Fuel refill
+TXN-00248,233.86,EXPENSE,Transport,2024-09-23,Monthly bus pass
+TXN-00249,6455.36,INCOME,Freelance,2025-11-01,Design work
+TXN-00250,13137.85,INCOME,Freelance,2025-05-23,Client project payment
+TXN-00251,4003.71,INCOME,Dividend,2025-06-17,Quarterly dividend
+TXN-00252,4730.21,INCOME,Rental,2024-04-18,Property rental
+TXN-00253,1354.86,EXPENSE,Healthcare,2024-05-24,Doctor visit
+TXN-00254,1126.96,EXPENSE,Education,2025-10-23,Online course
+TXN-00255,54.09,EXPENSE,Shopping,2024-11-24,Electronics
+TXN-00256,166.67,EXPENSE,Food,2025-09-15,Coffee shop
+TXN-00257,225.10,EXPENSE,Utilities,2025-09-16,Gas bill
+TXN-00258,11697.50,INCOME,Dividend,2024-01-06,Quarterly dividend
+TXN-00259,6709.15,INCOME,Salary,2025-03-16,April salary
+TXN-00260,1317.53,EXPENSE,Healthcare,2025-01-19,Pharmacy
+TXN-00261,901.03,EXPENSE,Entertainment,2024-04-12,Movie tickets
+TXN-00262,597.07,EXPENSE,Education,2024-03-07,Online course
+TXN-00263,624.41,EXPENSE,Insurance,2024-10-08,Home insurance
+TXN-00264,1472.43,EXPENSE,Utilities,2024-05-31,Gas bill
+TXN-00265,10378.42,INCOME,Salary,2024-06-12,March salary
+TXN-00266,3726.56,INCOME,Bonus,2024-03-08,Referral bonus
+TXN-00267,214.55,EXPENSE,Shopping,2025-03-21,Electronics
+TXN-00268,5215.43,INCOME,Freelance,2024-03-13,Dev contract
+TXN-00269,10147.23,INCOME,Salary,2025-08-28,April salary
+TXN-00270,4546.80,INCOME,Freelance,2024-05-14,Design work
+TXN-00271,1311.61,INCOME,Bonus,2024-10-27,Referral bonus
+TXN-00272,8369.83,INCOME,Bonus,2025-07-21,Referral bonus
+TXN-00273,2941.80,INCOME,Salary,2025-02-09,Monthly salary
+TXN-00274,1971.54,EXPENSE,Utilities,2025-12-27,Gas bill
+TXN-00275,5827.78,INCOME,Dividend,2024-08-10,Annual dividend payout
+TXN-00276,14724.98,INCOME,Dividend,2025-01-27,Annual dividend payout
+TXN-00277,5810.15,INCOME,Investment,2025-10-15,Mutual fund return
+TXN-00278,751.40,EXPENSE,Entertainment,2025-10-18,Concert tickets
+TXN-00279,7413.48,INCOME,Investment,2024-11-10,Bond interest
+TXN-00280,1007.48,EXPENSE,Food,2025-03-11,Grocery shopping
+TXN-00281,1909.08,EXPENSE,Utilities,2025-02-02,Water bill
+TXN-00282,8918.43,INCOME,Rental,2024-06-25,Apartment rent income
+TXN-00283,6582.73,INCOME,Dividend,2025-03-29,Annual dividend payout
+TXN-00284,4941.77,INCOME,Rental,2024-02-28,Apartment rent income
+TXN-00285,82.07,EXPENSE,Transport,2024-04-01,Uber to office
+TXN-00286,10171.08,INCOME,Freelance,2025-10-27,Design work
+TXN-00287,12906.45,INCOME,Investment,2025-09-12,Stock dividend
+TXN-00288,562.44,EXPENSE,Food,2024-06-19,Team lunch
+TXN-00289,1038.35,EXPENSE,Food,2025-03-09,Grocery shopping
+TXN-00290,1194.44,EXPENSE,Utilities,2024-11-11,Water bill
+TXN-00291,12499.54,INCOME,Salary,2024-05-02,April salary
+TXN-00292,14563.40,INCOME,Bonus,2024-07-26,Referral bonus
+TXN-00293,1583.32,EXPENSE,Insurance,2025-03-23,Car insurance
+TXN-00294,1209.69,EXPENSE,Transport,2024-02-25,Monthly bus pass
+TXN-00295,607.22,EXPENSE,Education,2025-12-02,Workshop fee
+TXN-00296,7586.39,INCOME,Rental,2024-02-02,Property rental
+TXN-00297,9129.93,INCOME,Salary,2024-03-09,Monthly salary
+TXN-00298,1488.59,EXPENSE,Utilities,2025-01-18,Water bill
+TXN-00299,13696.85,INCOME,Bonus,2024-10-21,Performance bonus
+TXN-00300,488.32,EXPENSE,Transport,2024-06-07,Taxi fare
+TXN-00301,1013.76,EXPENSE,Transport,2025-05-14,Fuel refill
+TXN-00302,1777.75,EXPENSE,Shopping,2024-03-04,Clothing purchase
+TXN-00303,622.93,EXPENSE,Utilities,2024-01-15,Water bill
+TXN-00304,951.44,EXPENSE,Education,2024-06-21,Books
+TXN-00305,387.66,EXPENSE,Insurance,2025-07-20,Home insurance
+TXN-00306,1490.45,EXPENSE,Shopping,2024-05-02,Electronics
+TXN-00307,452.98,EXPENSE,Shopping,2024-05-25,Electronics
+TXN-00308,1995.31,EXPENSE,Healthcare,2025-05-07,Health insurance premium
+TXN-00309,743.13,EXPENSE,Insurance,2025-08-27,Home insurance
+TXN-00310,1449.67,EXPENSE,Education,2024-04-27,Online course
+TXN-00311,160.10,EXPENSE,Shopping,2025-08-09,Clothing purchase
+TXN-00312,11671.68,INCOME,Salary,2024-05-12,March salary
+TXN-00313,1827.62,EXPENSE,Healthcare,2024-04-22,Doctor visit
+TXN-00314,7037.67,INCOME,Rental,2024-05-10,Apartment rent income
+TXN-00315,579.66,EXPENSE,Healthcare,2024-11-05,Doctor visit
+TXN-00316,13745.00,INCOME,Freelance,2024-12-26,Dev contract
+TXN-00317,4808.41,INCOME,Rental,2025-03-20,Property rental
+TXN-00318,1079.76,EXPENSE,Education,2025-12-21,Online course
+TXN-00319,969.33,EXPENSE,Shopping,2024-09-25,Electronics
+TXN-00320,54.69,EXPENSE,Entertainment,2025-10-05,Movie tickets
+TXN-00321,1862.14,EXPENSE,Insurance,2024-06-30,Life insurance premium
+TXN-00322,1111.62,EXPENSE,Healthcare,2025-11-15,Health insurance premium
+TXN-00323,804.39,EXPENSE,Transport,2025-03-05,Uber to office
+TXN-00324,887.82,EXPENSE,Entertainment,2025-07-20,Netflix subscription
+TXN-00325,1151.51,EXPENSE,Entertainment,2025-12-16,Netflix subscription
+TXN-00326,435.76,EXPENSE,Food,2025-06-03,Team lunch
+TXN-00327,12930.62,INCOME,Dividend,2025-01-20,Quarterly dividend
+TXN-00328,760.31,EXPENSE,Entertainment,2025-10-30,Movie tickets
+TXN-00329,1280.69,INCOME,Rental,2024-03-04,Apartment rent income
+TXN-00330,4879.74,INCOME,Investment,2024-06-13,Stock dividend
+TXN-00331,1931.56,INCOME,Bonus,2024-11-26,Year-end bonus
+TXN-00332,301.41,EXPENSE,Utilities,2024-08-21,Electricity bill
+TXN-00333,237.81,EXPENSE,Food,2025-09-10,Team lunch
+TXN-00334,712.46,EXPENSE,Transport,2024-07-05,Uber to office
+TXN-00335,624.12,INCOME,Freelance,2024-04-23,Dev contract
+TXN-00336,1604.31,EXPENSE,Food,2025-08-07,Grocery shopping
+TXN-00337,1190.24,EXPENSE,Utilities,2024-02-22,Gas bill
+TXN-00338,11067.34,INCOME,Freelance,2024-08-12,Design work
+TXN-00339,1866.46,EXPENSE,Transport,2025-12-04,Taxi fare
+TXN-00340,871.84,EXPENSE,Transport,2024-06-28,Taxi fare
+TXN-00341,9945.70,INCOME,Dividend,2025-03-28,Annual dividend payout
+TXN-00342,1239.39,EXPENSE,Insurance,2024-05-23,Life insurance premium
+TXN-00343,14478.15,INCOME,Freelance,2025-05-19,Design work
+TXN-00344,837.99,EXPENSE,Transport,2025-06-07,Monthly bus pass
+TXN-00345,4060.24,INCOME,Investment,2024-11-15,Stock dividend
+TXN-00346,9319.99,INCOME,Rental,2024-08-15,Property rental
+TXN-00347,4496.14,INCOME,Bonus,2025-09-30,Year-end bonus
+TXN-00348,1990.38,EXPENSE,Utilities,2025-02-19,Water bill
+TXN-00349,1041.62,EXPENSE,Transport,2024-06-24,Monthly bus pass
+TXN-00350,7706.80,INCOME,Freelance,2025-11-10,Client project payment
+TXN-00351,139.36,EXPENSE,Education,2024-05-23,Online course
+TXN-00352,12766.81,INCOME,Dividend,2025-07-31,Annual dividend payout
+TXN-00353,4757.27,INCOME,Salary,2025-10-08,Bi-weekly pay
+TXN-00354,8250.03,INCOME,Bonus,2025-03-12,Performance bonus
+TXN-00355,9893.51,INCOME,Investment,2025-11-09,Stock dividend
+TXN-00356,957.90,EXPENSE,Entertainment,2025-11-13,Netflix subscription
+TXN-00357,13339.86,INCOME,Rental,2025-06-19,Apartment rent income
+TXN-00358,1583.04,EXPENSE,Utilities,2025-03-27,Internet subscription
+TXN-00359,5272.33,INCOME,Dividend,2024-12-16,Quarterly dividend
+TXN-00360,5147.65,INCOME,Dividend,2024-12-26,Quarterly dividend
+TXN-00361,1287.71,EXPENSE,Education,2024-11-11,Online course
+TXN-00362,2218.49,INCOME,Investment,2025-05-07,Mutual fund return
+TXN-00363,1737.64,EXPENSE,Utilities,2025-06-03,Gas bill
+TXN-00364,3096.44,INCOME,Dividend,2024-12-18,Annual dividend payout
+TXN-00365,4807.77,INCOME,Investment,2024-06-07,Bond interest
+TXN-00366,1538.80,EXPENSE,Education,2025-08-07,Books
+TXN-00367,927.69,EXPENSE,Healthcare,2025-03-07,Pharmacy
+TXN-00368,1706.10,EXPENSE,Shopping,2025-11-02,Home supplies
+TXN-00369,1889.40,EXPENSE,Insurance,2024-12-26,Car insurance
+TXN-00370,634.50,EXPENSE,Healthcare,2025-03-06,Health insurance premium
+TXN-00371,1151.61,EXPENSE,Food,2024-01-21,Restaurant dinner
+TXN-00372,10107.72,INCOME,Salary,2024-03-04,March salary
+TXN-00373,1027.10,EXPENSE,Healthcare,2024-10-21,Health insurance premium
+TXN-00374,1415.40,EXPENSE,Education,2024-07-29,Workshop fee
+TXN-00375,353.27,EXPENSE,Transport,2025-07-22,Taxi fare
+TXN-00376,1025.78,EXPENSE,Utilities,2024-09-02,Gas bill
+TXN-00377,447.47,EXPENSE,Utilities,2025-09-29,Gas bill
+TXN-00378,9336.67,INCOME,Bonus,2025-08-02,Referral bonus
+TXN-00379,1994.45,EXPENSE,Healthcare,2025-07-19,Pharmacy
+TXN-00380,13775.61,INCOME,Salary,2025-03-09,March salary
+TXN-00381,1738.05,EXPENSE,Food,2025-09-08,Coffee shop
+TXN-00382,13196.66,INCOME,Investment,2024-06-07,Mutual fund return
+TXN-00383,37.68,EXPENSE,Shopping,2025-04-08,Clothing purchase
+TXN-00384,1924.48,EXPENSE,Healthcare,2024-11-22,Pharmacy
+TXN-00385,1414.53,EXPENSE,Education,2024-04-17,Online course
+TXN-00386,572.91,INCOME,Salary,2024-09-05,April salary
+TXN-00387,401.62,EXPENSE,Food,2025-01-26,Restaurant dinner
+TXN-00388,165.94,EXPENSE,Food,2025-01-06,Team lunch
+TXN-00389,3790.49,INCOME,Investment,2024-06-10,Bond interest
+TXN-00390,1082.84,EXPENSE,Shopping,2024-08-31,Clothing purchase
+TXN-00391,698.03,INCOME,Rental,2025-11-18,Apartment rent income
+TXN-00392,1688.62,EXPENSE,Healthcare,2024-06-26,Health insurance premium
+TXN-00393,1772.03,EXPENSE,Shopping,2024-09-24,Electronics
+TXN-00394,2924.69,INCOME,Salary,2025-12-22,April salary
+TXN-00395,5627.64,INCOME,Investment,2024-06-17,Mutual fund return
+TXN-00396,13424.50,INCOME,Bonus,2025-07-23,Performance bonus
+TXN-00397,809.21,EXPENSE,Entertainment,2024-11-29,Concert tickets
+TXN-00398,7380.55,INCOME,Freelance,2024-12-21,Consulting fee
+TXN-00399,1187.61,EXPENSE,Shopping,2024-09-05,Clothing purchase
+TXN-00400,4503.14,INCOME,Rental,2024-03-06,Apartment rent income
+TXN-00401,12421.05,INCOME,Rental,2024-06-27,Property rental
+TXN-00402,1155.69,EXPENSE,Entertainment,2024-09-08,Concert tickets
+TXN-00403,8944.04,INCOME,Rental,2025-01-15,Apartment rent income
+TXN-00404,5985.34,INCOME,Investment,2025-05-06,Mutual fund return
+TXN-00405,935.57,EXPENSE,Utilities,2024-07-11,Water bill
+TXN-00406,10709.00,INCOME,Bonus,2024-08-23,Year-end bonus
+TXN-00407,68.50,EXPENSE,Food,2025-09-05,Restaurant dinner
+TXN-00408,1853.97,EXPENSE,Utilities,2025-08-20,Electricity bill
+TXN-00409,1669.08,EXPENSE,Food,2025-12-12,Coffee shop
+TXN-00410,572.90,EXPENSE,Shopping,2025-09-09,Electronics
+TXN-00411,796.66,EXPENSE,Food,2025-01-21,Grocery shopping
+TXN-00412,1554.93,EXPENSE,Education,2025-12-10,Books
+TXN-00413,7516.60,INCOME,Dividend,2024-06-07,Annual dividend payout
+TXN-00414,791.41,EXPENSE,Transport,2024-12-31,Taxi fare
+TXN-00415,564.98,EXPENSE,Healthcare,2025-03-06,Health insurance premium
+TXN-00416,784.74,EXPENSE,Food,2025-05-03,Team lunch
+TXN-00417,13648.29,INCOME,Bonus,2024-08-10,Year-end bonus
+TXN-00418,473.92,EXPENSE,Food,2024-08-08,Restaurant dinner
+TXN-00419,1261.21,EXPENSE,Insurance,2024-08-21,Home insurance
+TXN-00420,6770.56,INCOME,Freelance,2024-01-13,Client project payment
+TXN-00421,653.91,EXPENSE,Utilities,2025-03-12,Water bill
+TXN-00422,1239.30,EXPENSE,Insurance,2024-11-17,Car insurance
+TXN-00423,1199.77,EXPENSE,Transport,2024-12-22,Monthly bus pass
+TXN-00424,848.97,EXPENSE,Transport,2025-09-24,Fuel refill
+TXN-00425,13784.09,INCOME,Rental,2024-08-22,Apartment rent income
+TXN-00426,445.43,EXPENSE,Education,2025-11-09,Books
+TXN-00427,64.34,EXPENSE,Insurance,2024-02-17,Life insurance premium
+TXN-00428,994.80,EXPENSE,Insurance,2024-04-25,Life insurance premium
+TXN-00429,726.12,EXPENSE,Transport,2024-11-25,Taxi fare
+TXN-00430,94.44,EXPENSE,Transport,2025-02-06,Taxi fare
+TXN-00431,11313.01,INCOME,Dividend,2025-07-17,Annual dividend payout
+TXN-00432,967.76,INCOME,Investment,2025-09-28,Bond interest
+TXN-00433,11398.59,INCOME,Rental,2025-06-16,Apartment rent income
+TXN-00434,1965.52,EXPENSE,Education,2024-04-04,Books
+TXN-00435,12820.41,INCOME,Rental,2024-09-27,Property rental
+TXN-00436,795.60,EXPENSE,Healthcare,2024-01-22,Pharmacy
+TXN-00437,1815.77,EXPENSE,Shopping,2025-06-26,Clothing purchase
+TXN-00438,655.25,EXPENSE,Entertainment,2024-05-23,Movie tickets
+TXN-00439,1689.81,EXPENSE,Education,2025-09-01,Workshop fee
+TXN-00440,469.52,EXPENSE,Entertainment,2025-01-20,Movie tickets
+TXN-00441,1672.75,EXPENSE,Entertainment,2025-04-21,Netflix subscription
+TXN-00442,1136.44,EXPENSE,Utilities,2024-04-26,Gas bill
+TXN-00443,46.88,EXPENSE,Food,2025-01-05,Team lunch
+TXN-00444,203.69,EXPENSE,Food,2024-10-24,Coffee shop
+TXN-00445,959.93,EXPENSE,Utilities,2024-03-30,Water bill
+TXN-00446,12454.30,INCOME,Rental,2025-01-16,Apartment rent income
+TXN-00447,14913.34,INCOME,Investment,2024-04-19,Mutual fund return
+TXN-00448,25.85,EXPENSE,Shopping,2025-08-23,Clothing purchase
+TXN-00449,132.51,EXPENSE,Entertainment,2024-04-20,Movie tickets
+TXN-00450,877.61,EXPENSE,Insurance,2025-09-22,Home insurance
+TXN-00451,1706.97,EXPENSE,Shopping,2025-04-03,Clothing purchase
+TXN-00452,1459.80,EXPENSE,Healthcare,2025-01-30,Doctor visit
+TXN-00453,1710.34,EXPENSE,Utilities,2025-08-04,Gas bill
+TXN-00454,789.97,EXPENSE,Insurance,2025-04-25,Car insurance
+TXN-00455,1902.56,EXPENSE,Healthcare,2024-02-07,Health insurance premium
+TXN-00456,14840.07,INCOME,Rental,2024-10-25,Apartment rent income
+TXN-00457,1895.36,EXPENSE,Healthcare,2024-03-24,Doctor visit
+TXN-00458,7400.19,INCOME,Freelance,2024-03-29,Dev contract
+TXN-00459,10802.34,INCOME,Rental,2024-06-22,Property rental
+TXN-00460,1543.07,EXPENSE,Food,2024-10-07,Coffee shop
+TXN-00461,961.14,INCOME,Bonus,2024-12-02,Referral bonus
+TXN-00462,6172.76,INCOME,Freelance,2024-10-18,Client project payment
+TXN-00463,3422.51,INCOME,Bonus,2024-10-20,Referral bonus
+TXN-00464,520.31,EXPENSE,Transport,2024-07-28,Monthly bus pass
+TXN-00465,1700.49,EXPENSE,Education,2024-03-01,Books
+TXN-00466,7875.71,INCOME,Salary,2024-04-19,Monthly salary
+TXN-00467,949.27,EXPENSE,Education,2024-06-07,Workshop fee
+TXN-00468,1791.33,EXPENSE,Food,2024-02-13,Coffee shop
+TXN-00469,5149.07,INCOME,Salary,2024-11-30,Monthly salary
+TXN-00470,11908.75,INCOME,Freelance,2025-11-02,Design work
+TXN-00471,445.07,EXPENSE,Healthcare,2024-05-01,Health insurance premium
+TXN-00472,1096.79,EXPENSE,Entertainment,2024-06-06,Concert tickets
+TXN-00473,1129.48,EXPENSE,Shopping,2025-01-28,Home supplies
+TXN-00474,1616.49,EXPENSE,Utilities,2024-03-15,Gas bill
+TXN-00475,3323.10,INCOME,Salary,2024-05-27,April salary
+TXN-00476,1363.27,EXPENSE,Utilities,2025-12-17,Water bill
+TXN-00477,6794.28,INCOME,Salary,2025-06-19,March salary
+TXN-00478,159.36,EXPENSE,Education,2024-10-24,Books
+TXN-00479,953.27,EXPENSE,Entertainment,2025-04-24,Netflix subscription
+TXN-00480,443.42,EXPENSE,Utilities,2025-10-01,Gas bill
+TXN-00481,1088.18,EXPENSE,Food,2024-05-28,Restaurant dinner
+TXN-00482,9784.38,INCOME,Freelance,2024-04-12,Dev contract
+TXN-00483,1218.53,EXPENSE,Insurance,2024-06-21,Car insurance
+TXN-00484,2786.71,INCOME,Salary,2024-03-27,Bi-weekly pay
+TXN-00485,1972.24,EXPENSE,Transport,2025-01-02,Uber to office
+TXN-00486,13958.89,INCOME,Freelance,2025-10-02,Client project payment
+TXN-00487,3720.63,INCOME,Dividend,2024-12-08,Annual dividend payout
+TXN-00488,13238.44,INCOME,Rental,2025-04-22,Property rental
+TXN-00489,137.82,EXPENSE,Insurance,2024-12-07,Life insurance premium
+TXN-00490,158.69,EXPENSE,Entertainment,2024-09-22,Movie tickets
+TXN-00491,547.98,EXPENSE,Education,2024-03-23,Books
+TXN-00492,744.28,EXPENSE,Transport,2024-10-13,Fuel refill
+TXN-00493,1532.15,EXPENSE,Transport,2024-12-17,Taxi fare
+TXN-00494,5282.17,INCOME,Investment,2024-01-08,Mutual fund return
+TXN-00495,8435.95,INCOME,Investment,2024-12-06,Mutual fund return
+TXN-00496,563.26,EXPENSE,Shopping,2025-11-06,Home supplies
+TXN-00497,556.50,EXPENSE,Insurance,2025-09-26,Car insurance
+TXN-00498,1415.09,EXPENSE,Shopping,2024-09-02,Home supplies
+TXN-00499,14184.54,INCOME,Bonus,2024-10-08,Referral bonus
+TXN-00500,3856.86,INCOME,Freelance,2024-02-14,Dev contract
+TXN-00501,5842.40,INCOME,Salary,2025-09-06,Monthly salary
+TXN-00502,208.52,EXPENSE,Utilities,2024-12-10,Gas bill
+TXN-00503,9388.54,INCOME,Dividend,2024-12-14,Annual dividend payout
+TXN-00504,14714.81,INCOME,Freelance,2024-08-08,Design work
+TXN-00505,1900.30,EXPENSE,Shopping,2024-02-19,Electronics
+TXN-00506,1969.26,EXPENSE,Utilities,2024-08-27,Water bill
+TXN-00507,193.40,EXPENSE,Insurance,2025-04-12,Home insurance
+TXN-00508,301.02,EXPENSE,Healthcare,2025-03-26,Health insurance premium
+TXN-00509,9423.68,INCOME,Bonus,2024-10-02,Performance bonus
+TXN-00510,11173.46,INCOME,Dividend,2025-07-27,Annual dividend payout
+TXN-00511,11863.55,INCOME,Investment,2025-12-22,Mutual fund return
+TXN-00512,1034.69,EXPENSE,Entertainment,2024-03-15,Netflix subscription
+TXN-00513,1752.15,EXPENSE,Insurance,2025-08-17,Car insurance
+TXN-00514,1441.60,EXPENSE,Insurance,2025-01-14,Home insurance
+TXN-00515,1052.95,EXPENSE,Utilities,2024-10-13,Electricity bill
+TXN-00516,500.35,EXPENSE,Shopping,2024-01-21,Clothing purchase
+TXN-00517,1732.06,EXPENSE,Shopping,2024-07-04,Clothing purchase
+TXN-00518,13672.92,INCOME,Investment,2025-10-20,Stock dividend
+TXN-00519,1031.18,EXPENSE,Transport,2024-08-30,Taxi fare
+TXN-00520,6502.78,INCOME,Investment,2025-04-11,Bond interest
+TXN-00521,194.27,EXPENSE,Shopping,2025-09-05,Home supplies
+TXN-00522,1875.94,EXPENSE,Shopping,2024-12-15,Electronics
+TXN-00523,190.43,EXPENSE,Healthcare,2024-03-23,Doctor visit
+TXN-00524,1017.16,EXPENSE,Food,2025-02-14,Restaurant dinner
+TXN-00525,553.90,EXPENSE,Transport,2024-12-03,Fuel refill
+TXN-00526,1731.27,EXPENSE,Shopping,2025-08-04,Electronics
+TXN-00527,1015.13,INCOME,Dividend,2024-11-10,Quarterly dividend
+TXN-00528,1098.38,EXPENSE,Shopping,2025-11-18,Clothing purchase
+TXN-00529,2888.85,INCOME,Dividend,2024-02-27,Annual dividend payout
+TXN-00530,1157.68,EXPENSE,Insurance,2025-12-17,Life insurance premium
+TXN-00531,4754.22,INCOME,Rental,2024-12-13,Property rental
+TXN-00532,1207.31,EXPENSE,Entertainment,2025-08-27,Concert tickets
+TXN-00533,37.54,EXPENSE,Food,2024-06-10,Grocery shopping
+TXN-00534,197.88,EXPENSE,Entertainment,2024-05-07,Movie tickets
+TXN-00535,1390.00,EXPENSE,Food,2024-11-12,Grocery shopping
+TXN-00536,7349.64,INCOME,Freelance,2025-11-03,Dev contract
+TXN-00537,772.95,EXPENSE,Insurance,2024-07-28,Car insurance
+TXN-00538,8094.83,INCOME,Salary,2024-02-09,April salary
+TXN-00539,854.85,EXPENSE,Entertainment,2025-10-19,Movie tickets
+TXN-00540,4576.70,INCOME,Rental,2024-12-13,Apartment rent income
+TXN-00541,1290.99,EXPENSE,Transport,2025-05-18,Uber to office
+TXN-00542,290.14,EXPENSE,Education,2024-02-28,Workshop fee
+TXN-00543,1040.40,EXPENSE,Food,2024-09-19,Coffee shop
+TXN-00544,1096.52,EXPENSE,Utilities,2025-05-10,Electricity bill
+TXN-00545,9563.52,INCOME,Freelance,2025-03-07,Design work
+TXN-00546,7831.54,INCOME,Bonus,2025-01-01,Referral bonus
+TXN-00547,739.72,EXPENSE,Food,2024-09-29,Team lunch
+TXN-00548,398.15,EXPENSE,Entertainment,2024-04-24,Concert tickets
+TXN-00549,14233.28,INCOME,Dividend,2025-12-25,Quarterly dividend
+TXN-00550,10213.67,INCOME,Dividend,2024-04-17,Quarterly dividend
+TXN-00551,5361.56,INCOME,Salary,2025-10-25,March salary
+TXN-00552,892.92,EXPENSE,Food,2025-06-02,Coffee shop
+TXN-00553,910.00,EXPENSE,Insurance,2025-02-03,Life insurance premium
+TXN-00554,8884.17,INCOME,Rental,2025-08-24,Apartment rent income
+TXN-00555,339.11,EXPENSE,Insurance,2024-01-06,Home insurance
+TXN-00556,459.88,EXPENSE,Healthcare,2024-01-22,Health insurance premium
+TXN-00557,1571.39,INCOME,Dividend,2025-02-23,Annual dividend payout
+TXN-00558,3489.99,INCOME,Freelance,2024-02-02,Design work
+TXN-00559,1938.02,EXPENSE,Food,2024-06-11,Team lunch
+TXN-00560,1421.19,EXPENSE,Food,2025-01-06,Grocery shopping
+TXN-00561,1112.61,EXPENSE,Entertainment,2025-06-23,Concert tickets
+TXN-00562,822.02,EXPENSE,Entertainment,2025-07-30,Concert tickets
+TXN-00563,964.97,EXPENSE,Entertainment,2025-10-02,Netflix subscription
+TXN-00564,7539.66,INCOME,Bonus,2024-02-15,Referral bonus
+TXN-00565,1067.95,EXPENSE,Shopping,2025-07-10,Electronics
+TXN-00566,2077.69,INCOME,Investment,2025-05-08,Stock dividend
+TXN-00567,8613.97,INCOME,Rental,2025-05-26,Apartment rent income
+TXN-00568,772.49,INCOME,Bonus,2024-11-24,Referral bonus
+TXN-00569,602.55,EXPENSE,Utilities,2024-06-26,Gas bill
+TXN-00570,14473.95,INCOME,Bonus,2024-09-03,Year-end bonus
+TXN-00571,794.71,EXPENSE,Shopping,2024-12-16,Clothing purchase
+TXN-00572,1410.54,EXPENSE,Utilities,2025-12-15,Gas bill
+TXN-00573,1457.98,EXPENSE,Education,2025-01-31,Online course
+TXN-00574,14815.12,INCOME,Investment,2025-01-11,Bond interest
+TXN-00575,708.52,EXPENSE,Shopping,2024-02-04,Electronics
+TXN-00576,13427.22,INCOME,Freelance,2025-02-25,Design work
+TXN-00577,4202.48,INCOME,Rental,2025-10-21,Apartment rent income
+TXN-00578,1989.07,EXPENSE,Healthcare,2025-05-14,Health insurance premium
+TXN-00579,2838.74,INCOME,Dividend,2025-04-01,Quarterly dividend
+TXN-00580,14143.68,INCOME,Rental,2025-11-10,Apartment rent income
+TXN-00581,430.94,EXPENSE,Food,2024-01-13,Coffee shop
+TXN-00582,432.33,EXPENSE,Healthcare,2025-10-14,Doctor visit
+TXN-00583,240.25,EXPENSE,Education,2025-10-17,Online course
+TXN-00584,754.58,EXPENSE,Transport,2024-09-15,Monthly bus pass
+TXN-00585,54.93,EXPENSE,Healthcare,2024-05-08,Health insurance premium
+TXN-00586,1550.68,EXPENSE,Insurance,2025-04-01,Life insurance premium
+TXN-00587,14673.46,INCOME,Dividend,2024-01-16,Annual dividend payout
+TXN-00588,11987.23,INCOME,Bonus,2024-03-02,Year-end bonus
+TXN-00589,554.79,EXPENSE,Utilities,2025-03-06,Electricity bill
+TXN-00590,208.93,EXPENSE,Insurance,2025-11-17,Life insurance premium
+TXN-00591,896.16,EXPENSE,Insurance,2025-10-30,Home insurance
+TXN-00592,11392.49,INCOME,Freelance,2025-09-30,Design work
+TXN-00593,14287.46,INCOME,Dividend,2025-02-23,Annual dividend payout
+TXN-00594,11032.28,INCOME,Salary,2024-04-30,Monthly salary
+TXN-00595,764.52,EXPENSE,Utilities,2025-05-08,Internet subscription
+TXN-00596,1273.32,EXPENSE,Food,2024-05-08,Coffee shop
+TXN-00597,1708.97,EXPENSE,Insurance,2025-06-16,Life insurance premium
+TXN-00598,1179.85,EXPENSE,Shopping,2024-10-18,Electronics
+TXN-00599,7346.74,INCOME,Rental,2025-05-25,Apartment rent income
+TXN-00600,1806.95,EXPENSE,Entertainment,2024-02-09,Netflix subscription
+TXN-00601,157.62,EXPENSE,Healthcare,2025-04-07,Health insurance premium
+TXN-00602,7922.12,INCOME,Dividend,2024-02-05,Quarterly dividend
+TXN-00603,1867.46,EXPENSE,Transport,2024-06-30,Taxi fare
+TXN-00604,144.51,EXPENSE,Food,2024-08-26,Grocery shopping
+TXN-00605,5711.64,INCOME,Bonus,2025-06-09,Year-end bonus
+TXN-00606,1468.06,EXPENSE,Education,2025-07-21,Online course
+TXN-00607,730.33,EXPENSE,Transport,2025-11-17,Fuel refill
+TXN-00608,14470.43,INCOME,Salary,2024-12-05,March salary
+TXN-00609,614.31,EXPENSE,Utilities,2024-10-16,Water bill
+TXN-00610,1722.81,EXPENSE,Healthcare,2024-05-06,Health insurance premium
+TXN-00611,1831.43,EXPENSE,Food,2024-11-22,Grocery shopping
+TXN-00612,1040.19,EXPENSE,Utilities,2025-09-07,Water bill
+TXN-00613,9913.00,INCOME,Dividend,2025-03-07,Annual dividend payout
+TXN-00614,110.86,EXPENSE,Utilities,2024-03-09,Internet subscription
+TXN-00615,212.24,EXPENSE,Utilities,2024-12-08,Gas bill
+TXN-00616,10558.33,INCOME,Dividend,2024-05-31,Annual dividend payout
+TXN-00617,714.38,INCOME,Freelance,2024-04-12,Consulting fee
+TXN-00618,881.75,EXPENSE,Healthcare,2025-04-06,Health insurance premium
+TXN-00619,336.56,EXPENSE,Utilities,2024-04-01,Electricity bill
+TXN-00620,6799.09,INCOME,Dividend,2025-10-26,Quarterly dividend
+TXN-00621,1384.83,EXPENSE,Education,2025-01-24,Books
+TXN-00622,9574.57,INCOME,Dividend,2024-03-28,Annual dividend payout
+TXN-00623,1756.14,EXPENSE,Shopping,2024-07-10,Clothing purchase
+TXN-00624,6788.08,INCOME,Investment,2025-12-21,Mutual fund return
+TXN-00625,552.35,EXPENSE,Shopping,2024-10-30,Electronics
+TXN-00626,856.10,EXPENSE,Healthcare,2024-09-03,Health insurance premium
+TXN-00627,9844.30,INCOME,Dividend,2025-09-28,Annual dividend payout
+TXN-00628,295.72,EXPENSE,Education,2024-05-19,Workshop fee
+TXN-00629,10962.65,INCOME,Investment,2025-01-09,Stock dividend
+TXN-00630,4669.48,INCOME,Bonus,2025-04-01,Year-end bonus
+TXN-00631,6017.83,INCOME,Investment,2024-11-18,Bond interest
+TXN-00632,4877.97,INCOME,Salary,2025-02-28,March salary
+TXN-00633,931.60,EXPENSE,Education,2024-01-02,Books
+TXN-00634,285.43,EXPENSE,Food,2024-03-02,Coffee shop
+TXN-00635,1829.03,EXPENSE,Shopping,2025-03-19,Electronics
+TXN-00636,1664.20,EXPENSE,Education,2024-10-29,Online course
+TXN-00637,2678.11,INCOME,Rental,2024-03-25,Apartment rent income
+TXN-00638,1131.66,EXPENSE,Healthcare,2024-11-20,Doctor visit
+TXN-00639,510.23,EXPENSE,Shopping,2024-11-10,Electronics
+TXN-00640,725.18,EXPENSE,Entertainment,2024-11-15,Netflix subscription
+TXN-00641,1756.35,EXPENSE,Education,2024-11-23,Books
+TXN-00642,1688.31,EXPENSE,Transport,2025-12-26,Uber to office
+TXN-00643,1537.10,INCOME,Investment,2025-02-09,Stock dividend
+TXN-00644,1260.57,EXPENSE,Education,2024-04-04,Books
+TXN-00645,9893.06,INCOME,Dividend,2025-11-14,Quarterly dividend
+TXN-00646,595.52,EXPENSE,Insurance,2025-10-22,Home insurance
+TXN-00647,472.22,EXPENSE,Utilities,2024-10-09,Internet subscription
+TXN-00648,1263.69,EXPENSE,Education,2024-07-31,Online course
+TXN-00649,9922.36,INCOME,Rental,2025-11-04,Apartment rent income
+TXN-00650,2361.07,INCOME,Bonus,2025-01-12,Year-end bonus
+TXN-00651,1827.18,EXPENSE,Food,2025-08-06,Coffee shop
+TXN-00652,340.57,EXPENSE,Education,2025-12-20,Workshop fee
+TXN-00653,11948.46,INCOME,Bonus,2025-08-14,Referral bonus
+TXN-00654,3355.99,INCOME,Freelance,2024-03-10,Consulting fee
+TXN-00655,412.25,EXPENSE,Food,2025-11-24,Grocery shopping
+TXN-00656,8203.67,INCOME,Rental,2024-02-25,Property rental
+TXN-00657,1255.80,INCOME,Bonus,2024-02-20,Performance bonus
+TXN-00658,925.68,EXPENSE,Education,2024-03-02,Online course
+TXN-00659,1394.91,EXPENSE,Healthcare,2025-11-23,Pharmacy
+TXN-00660,1162.56,EXPENSE,Insurance,2024-09-12,Life insurance premium
+TXN-00661,187.59,EXPENSE,Transport,2025-03-03,Monthly bus pass
+TXN-00662,2599.21,INCOME,Freelance,2024-12-17,Design work
+TXN-00663,6784.37,INCOME,Bonus,2024-02-05,Performance bonus
+TXN-00664,2416.21,INCOME,Freelance,2024-03-05,Dev contract
+TXN-00665,8456.28,INCOME,Dividend,2024-07-23,Quarterly dividend
+TXN-00666,9697.66,INCOME,Investment,2024-10-07,Mutual fund return
+TXN-00667,1692.41,EXPENSE,Food,2024-03-25,Team lunch
+TXN-00668,12135.10,INCOME,Investment,2025-06-17,Bond interest
+TXN-00669,12879.64,INCOME,Investment,2025-08-07,Stock dividend
+TXN-00670,8562.28,INCOME,Salary,2025-04-10,March salary
+TXN-00671,836.12,EXPENSE,Insurance,2024-06-30,Car insurance
+TXN-00672,1534.81,EXPENSE,Shopping,2024-02-07,Home supplies
+TXN-00673,1885.47,EXPENSE,Education,2024-05-26,Workshop fee
+TXN-00674,633.47,EXPENSE,Education,2024-02-14,Workshop fee
+TXN-00675,676.25,EXPENSE,Healthcare,2025-10-19,Health insurance premium
+TXN-00676,444.30,EXPENSE,Entertainment,2024-05-12,Netflix subscription
+TXN-00677,1241.98,EXPENSE,Entertainment,2025-06-04,Movie tickets
+TXN-00678,1578.62,EXPENSE,Food,2025-02-07,Team lunch
+TXN-00679,1243.06,EXPENSE,Insurance,2024-08-17,Home insurance
+TXN-00680,624.32,EXPENSE,Insurance,2024-10-05,Car insurance
+TXN-00681,1975.35,EXPENSE,Entertainment,2025-05-15,Concert tickets
+TXN-00682,793.33,EXPENSE,Insurance,2024-09-19,Life insurance premium
+TXN-00683,9124.63,INCOME,Investment,2024-10-23,Mutual fund return
+TXN-00684,2533.60,INCOME,Rental,2025-08-27,Apartment rent income
+TXN-00685,3955.23,INCOME,Rental,2024-02-22,Property rental
+TXN-00686,186.19,EXPENSE,Utilities,2025-02-17,Water bill
+TXN-00687,1666.44,EXPENSE,Insurance,2025-10-23,Life insurance premium
+TXN-00688,12469.13,INCOME,Bonus,2025-06-17,Year-end bonus
+TXN-00689,2757.61,INCOME,Freelance,2024-06-04,Consulting fee
+TXN-00690,3515.88,INCOME,Bonus,2024-02-17,Referral bonus
+TXN-00691,5505.85,INCOME,Freelance,2025-01-02,Client project payment
+TXN-00692,1096.20,EXPENSE,Transport,2025-01-06,Uber to office
+TXN-00693,246.69,EXPENSE,Healthcare,2025-08-03,Doctor visit
+TXN-00694,11644.14,INCOME,Freelance,2025-02-21,Design work
+TXN-00695,1147.24,EXPENSE,Insurance,2024-09-22,Car insurance
+TXN-00696,6645.00,INCOME,Dividend,2024-03-02,Quarterly dividend
+TXN-00697,14183.28,INCOME,Investment,2025-03-12,Bond interest
+TXN-00698,229.98,EXPENSE,Shopping,2025-05-12,Electronics
+TXN-00699,7383.53,INCOME,Salary,2025-05-12,March salary
+TXN-00700,12999.21,INCOME,Bonus,2024-01-13,Performance bonus
+TXN-00701,1527.70,EXPENSE,Transport,2024-04-24,Monthly bus pass
+TXN-00702,1327.25,EXPENSE,Transport,2025-07-11,Taxi fare
+TXN-00703,1654.34,EXPENSE,Entertainment,2024-12-20,Netflix subscription
+TXN-00704,81.89,EXPENSE,Insurance,2025-06-10,Car insurance
+TXN-00705,120.18,EXPENSE,Entertainment,2025-09-29,Movie tickets
+TXN-00706,1937.98,EXPENSE,Food,2024-05-05,Grocery shopping
+TXN-00707,261.44,EXPENSE,Food,2024-01-16,Coffee shop
+TXN-00708,12031.57,INCOME,Investment,2024-02-11,Bond interest
+TXN-00709,1520.18,EXPENSE,Healthcare,2025-11-11,Doctor visit
+TXN-00710,1118.67,EXPENSE,Education,2025-09-02,Books
+TXN-00711,2006.75,INCOME,Investment,2025-04-23,Mutual fund return
+TXN-00712,4608.02,INCOME,Rental,2025-10-03,Apartment rent income
+TXN-00713,853.89,EXPENSE,Food,2025-01-10,Team lunch
+TXN-00714,8615.56,INCOME,Freelance,2024-04-19,Design work
+TXN-00715,287.74,EXPENSE,Transport,2024-02-22,Taxi fare
+TXN-00716,11523.41,INCOME,Freelance,2025-03-12,Design work
+TXN-00717,848.21,EXPENSE,Insurance,2025-05-10,Car insurance
+TXN-00718,528.17,EXPENSE,Food,2025-11-12,Grocery shopping
+TXN-00719,1749.10,EXPENSE,Insurance,2025-06-01,Car insurance
+TXN-00720,1003.45,EXPENSE,Insurance,2025-05-23,Home insurance
+TXN-00721,13213.78,INCOME,Salary,2024-01-28,Bi-weekly pay
+TXN-00722,9686.56,INCOME,Freelance,2024-02-19,Dev contract
+TXN-00723,4050.77,INCOME,Freelance,2024-01-22,Client project payment
+TXN-00724,1666.68,EXPENSE,Insurance,2025-09-10,Car insurance
+TXN-00725,5227.76,INCOME,Rental,2024-07-11,Property rental
+TXN-00726,1517.69,EXPENSE,Shopping,2025-07-25,Clothing purchase
+TXN-00727,7955.23,INCOME,Rental,2025-08-12,Property rental
+TXN-00728,3839.73,INCOME,Investment,2024-12-16,Mutual fund return
+TXN-00729,183.70,EXPENSE,Insurance,2024-01-13,Car insurance
+TXN-00730,9133.69,INCOME,Salary,2024-04-29,April salary
+TXN-00731,1399.87,EXPENSE,Entertainment,2025-10-19,Netflix subscription
+TXN-00732,2410.46,INCOME,Rental,2025-11-11,Property rental
+TXN-00733,7089.74,INCOME,Dividend,2025-07-24,Annual dividend payout
+TXN-00734,1517.83,EXPENSE,Shopping,2024-10-27,Electronics
+TXN-00735,119.69,EXPENSE,Insurance,2024-01-17,Car insurance
+TXN-00736,5244.04,INCOME,Bonus,2024-10-25,Referral bonus
+TXN-00737,838.78,EXPENSE,Food,2024-07-01,Restaurant dinner
+TXN-00738,1875.27,EXPENSE,Utilities,2024-04-30,Gas bill
+TXN-00739,1845.61,EXPENSE,Utilities,2025-06-01,Internet subscription
+TXN-00740,8217.84,INCOME,Investment,2024-10-12,Bond interest
+TXN-00741,5289.74,INCOME,Investment,2025-08-12,Mutual fund return
+TXN-00742,11042.66,INCOME,Salary,2024-09-25,March salary
+TXN-00743,780.61,EXPENSE,Transport,2025-01-18,Uber to office
+TXN-00744,223.06,EXPENSE,Education,2025-04-17,Online course
+TXN-00745,6680.10,INCOME,Salary,2025-11-03,March salary
+TXN-00746,1739.97,EXPENSE,Insurance,2025-01-01,Home insurance
+TXN-00747,11739.82,INCOME,Investment,2024-07-10,Mutual fund return
+TXN-00748,3962.32,INCOME,Dividend,2025-04-13,Annual dividend payout
+TXN-00749,233.76,EXPENSE,Insurance,2024-05-14,Car insurance
+TXN-00750,3300.49,INCOME,Salary,2024-08-02,Bi-weekly pay
+TXN-00751,5078.80,INCOME,Bonus,2024-12-15,Year-end bonus
+TXN-00752,391.01,EXPENSE,Entertainment,2024-03-26,Concert tickets
+TXN-00753,629.10,EXPENSE,Food,2024-11-04,Coffee shop
+TXN-00754,7316.30,INCOME,Bonus,2024-04-29,Referral bonus
+TXN-00755,2008.15,INCOME,Rental,2025-09-27,Property rental
+TXN-00756,707.25,EXPENSE,Entertainment,2025-10-24,Netflix subscription
+TXN-00757,1730.35,EXPENSE,Education,2025-01-05,Online course
+TXN-00758,612.88,EXPENSE,Utilities,2024-07-25,Water bill
+TXN-00759,14764.20,INCOME,Salary,2024-09-17,April salary
+TXN-00760,13293.26,INCOME,Freelance,2025-08-15,Consulting fee
+TXN-00761,14875.98,INCOME,Bonus,2024-09-30,Referral bonus
+TXN-00762,1372.43,EXPENSE,Transport,2025-04-02,Taxi fare
+TXN-00763,775.91,EXPENSE,Education,2024-03-17,Workshop fee
+TXN-00764,916.22,EXPENSE,Education,2025-06-05,Books
+TXN-00765,748.20,INCOME,Rental,2024-12-31,Property rental
+TXN-00766,5655.31,INCOME,Salary,2025-03-20,Monthly salary
+TXN-00767,2126.87,INCOME,Freelance,2025-02-23,Dev contract
+TXN-00768,4162.64,INCOME,Rental,2025-05-22,Property rental
+TXN-00769,2155.38,INCOME,Bonus,2025-05-14,Referral bonus
+TXN-00770,564.39,EXPENSE,Food,2024-05-19,Restaurant dinner
+TXN-00771,1930.50,EXPENSE,Shopping,2025-11-01,Electronics
+TXN-00772,8785.75,INCOME,Bonus,2024-05-27,Performance bonus
+TXN-00773,1094.86,EXPENSE,Utilities,2024-09-21,Water bill
+TXN-00774,11733.75,INCOME,Salary,2024-05-06,April salary
+TXN-00775,1415.75,EXPENSE,Food,2024-08-27,Grocery shopping
+TXN-00776,6777.78,INCOME,Investment,2024-05-11,Bond interest
+TXN-00777,800.96,EXPENSE,Entertainment,2024-02-19,Concert tickets
+TXN-00778,13266.78,INCOME,Rental,2024-05-23,Apartment rent income
+TXN-00779,14585.54,INCOME,Salary,2024-04-03,March salary
+TXN-00780,1037.18,INCOME,Rental,2025-10-26,Property rental
+TXN-00781,10491.18,INCOME,Dividend,2024-01-04,Quarterly dividend
+TXN-00782,7423.63,INCOME,Salary,2024-02-29,Monthly salary
+TXN-00783,1309.34,EXPENSE,Education,2024-05-29,Workshop fee
+TXN-00784,5580.70,INCOME,Dividend,2025-04-26,Annual dividend payout
+TXN-00785,423.54,EXPENSE,Shopping,2024-12-29,Clothing purchase
+TXN-00786,8470.35,INCOME,Freelance,2024-04-03,Consulting fee
+TXN-00787,1380.23,EXPENSE,Entertainment,2025-03-23,Movie tickets
+TXN-00788,13185.39,INCOME,Investment,2025-04-05,Bond interest
+TXN-00789,1797.31,EXPENSE,Shopping,2025-04-29,Home supplies
+TXN-00790,10678.54,INCOME,Salary,2025-02-27,March salary
+TXN-00791,256.77,EXPENSE,Shopping,2024-01-14,Home supplies
+TXN-00792,12884.40,INCOME,Salary,2025-02-09,Bi-weekly pay
+TXN-00793,1691.68,EXPENSE,Shopping,2024-01-13,Clothing purchase
+TXN-00794,618.70,EXPENSE,Shopping,2025-09-24,Electronics
+TXN-00795,8154.25,INCOME,Salary,2024-10-16,April salary
+TXN-00796,808.69,EXPENSE,Shopping,2025-11-11,Home supplies
+TXN-00797,346.87,EXPENSE,Transport,2025-07-26,Taxi fare
+TXN-00798,11536.92,INCOME,Rental,2024-12-08,Apartment rent income
+TXN-00799,1686.67,EXPENSE,Insurance,2025-05-05,Home insurance
+TXN-00800,12977.31,INCOME,Bonus,2024-01-19,Referral bonus
+TXN-00801,1446.82,EXPENSE,Utilities,2025-01-20,Water bill
+TXN-00802,979.70,EXPENSE,Healthcare,2024-10-30,Health insurance premium
+TXN-00803,7201.21,INCOME,Bonus,2025-12-02,Referral bonus
+TXN-00804,10293.97,INCOME,Salary,2024-11-28,April salary
+TXN-00805,1921.03,EXPENSE,Insurance,2025-03-29,Life insurance premium
+TXN-00806,10991.46,INCOME,Salary,2024-12-07,April salary
+TXN-00807,8548.58,INCOME,Salary,2025-04-06,Monthly salary
+TXN-00808,439.97,EXPENSE,Education,2024-12-11,Workshop fee
+TXN-00809,14859.43,INCOME,Freelance,2024-10-10,Client project payment
+TXN-00810,755.00,EXPENSE,Shopping,2025-01-12,Clothing purchase
+TXN-00811,1419.39,EXPENSE,Transport,2025-10-01,Fuel refill
+TXN-00812,11697.83,INCOME,Investment,2025-01-01,Mutual fund return
+TXN-00813,8956.69,INCOME,Bonus,2024-09-11,Year-end bonus
+TXN-00814,5472.64,INCOME,Freelance,2024-03-06,Client project payment
+TXN-00815,1762.52,EXPENSE,Food,2025-03-29,Coffee shop
+TXN-00816,860.26,EXPENSE,Shopping,2024-02-26,Home supplies
+TXN-00817,128.12,EXPENSE,Utilities,2025-05-17,Water bill
+TXN-00818,10730.93,INCOME,Bonus,2025-01-15,Referral bonus
+TXN-00819,9843.10,INCOME,Investment,2025-11-26,Mutual fund return
+TXN-00820,1387.29,EXPENSE,Healthcare,2025-09-07,Pharmacy
+TXN-00821,3984.81,INCOME,Freelance,2025-11-21,Consulting fee
+TXN-00822,1336.65,EXPENSE,Transport,2025-11-13,Monthly bus pass
+TXN-00823,3936.32,INCOME,Investment,2024-01-29,Stock dividend
+TXN-00824,993.63,EXPENSE,Insurance,2024-11-26,Life insurance premium
+TXN-00825,3387.64,INCOME,Freelance,2024-09-19,Client project payment
+TXN-00826,707.17,EXPENSE,Healthcare,2025-09-29,Doctor visit
+TXN-00827,14161.24,INCOME,Freelance,2025-01-04,Client project payment
+TXN-00828,9636.43,INCOME,Freelance,2025-08-17,Dev contract
+TXN-00829,1644.16,EXPENSE,Healthcare,2024-02-11,Pharmacy
+TXN-00830,337.39,EXPENSE,Healthcare,2024-07-16,Health insurance premium
+TXN-00831,1778.22,EXPENSE,Healthcare,2024-01-02,Health insurance premium
+TXN-00832,508.74,INCOME,Dividend,2024-06-27,Quarterly dividend
+TXN-00833,13073.58,INCOME,Investment,2025-04-13,Stock dividend
+TXN-00834,3426.48,INCOME,Rental,2024-09-09,Property rental
+TXN-00835,1198.66,EXPENSE,Transport,2025-11-24,Monthly bus pass
+TXN-00836,10354.75,INCOME,Investment,2025-11-26,Bond interest
+TXN-00837,4460.63,INCOME,Dividend,2025-03-02,Annual dividend payout
+TXN-00838,381.38,EXPENSE,Entertainment,2024-01-29,Movie tickets
+TXN-00839,12826.08,INCOME,Salary,2025-07-04,Bi-weekly pay
+TXN-00840,260.81,EXPENSE,Transport,2025-08-08,Fuel refill
+TXN-00841,1488.66,EXPENSE,Shopping,2025-01-25,Clothing purchase
+TXN-00842,13214.05,INCOME,Freelance,2024-08-27,Client project payment
+TXN-00843,5264.07,INCOME,Rental,2025-12-20,Property rental
+TXN-00844,11965.85,INCOME,Bonus,2024-01-07,Year-end bonus
+TXN-00845,14528.32,INCOME,Investment,2025-06-26,Bond interest
+TXN-00846,551.01,EXPENSE,Healthcare,2024-03-30,Pharmacy
+TXN-00847,775.56,EXPENSE,Insurance,2025-10-01,Home insurance
+TXN-00848,1002.63,EXPENSE,Food,2024-02-01,Restaurant dinner
+TXN-00849,211.11,EXPENSE,Insurance,2025-06-02,Car insurance
+TXN-00850,2964.65,INCOME,Freelance,2024-06-17,Dev contract
+TXN-00851,135.86,EXPENSE,Transport,2024-02-26,Taxi fare
+TXN-00852,560.97,EXPENSE,Education,2025-09-02,Online course
+TXN-00853,7476.51,INCOME,Rental,2024-02-20,Property rental
+TXN-00854,1616.41,EXPENSE,Healthcare,2025-04-07,Pharmacy
+TXN-00855,1636.65,EXPENSE,Entertainment,2024-09-10,Netflix subscription
+TXN-00856,7891.57,INCOME,Rental,2025-05-07,Property rental
+TXN-00857,2715.26,INCOME,Freelance,2024-02-09,Dev contract
+TXN-00858,1234.08,EXPENSE,Entertainment,2025-09-12,Concert tickets
+TXN-00859,3592.40,INCOME,Investment,2025-01-19,Bond interest
+TXN-00860,12348.54,INCOME,Bonus,2025-11-28,Year-end bonus
+TXN-00861,542.21,EXPENSE,Shopping,2025-09-01,Clothing purchase
+TXN-00862,351.40,EXPENSE,Education,2025-06-07,Online course
+TXN-00863,1165.47,EXPENSE,Education,2024-07-02,Workshop fee
+TXN-00864,487.79,EXPENSE,Entertainment,2025-04-30,Netflix subscription
+TXN-00865,9784.64,INCOME,Freelance,2025-06-23,Client project payment
+TXN-00866,54.86,EXPENSE,Education,2024-02-06,Online course
+TXN-00867,228.76,EXPENSE,Utilities,2025-01-10,Water bill
+TXN-00868,5055.27,INCOME,Rental,2025-06-20,Apartment rent income
+TXN-00869,28.97,EXPENSE,Transport,2025-08-13,Fuel refill
+TXN-00870,1267.94,EXPENSE,Insurance,2025-06-24,Car insurance
+TXN-00871,7375.55,INCOME,Dividend,2024-03-24,Annual dividend payout
+TXN-00872,329.77,EXPENSE,Food,2024-07-25,Grocery shopping
+TXN-00873,995.18,EXPENSE,Education,2024-08-05,Books
+TXN-00874,1227.53,EXPENSE,Utilities,2025-03-02,Gas bill
+TXN-00875,118.11,EXPENSE,Food,2024-04-26,Grocery shopping
+TXN-00876,604.58,INCOME,Rental,2024-01-15,Property rental
+TXN-00877,14666.33,INCOME,Salary,2025-01-20,Monthly salary
+TXN-00878,526.91,EXPENSE,Education,2025-07-11,Online course
+TXN-00879,647.35,EXPENSE,Shopping,2025-10-08,Electronics
+TXN-00880,12070.58,INCOME,Dividend,2024-10-09,Annual dividend payout
+TXN-00881,2602.86,INCOME,Investment,2024-11-01,Stock dividend
+TXN-00882,826.81,EXPENSE,Shopping,2024-07-16,Home supplies
+TXN-00883,1658.80,EXPENSE,Food,2024-08-28,Restaurant dinner
+TXN-00884,4357.51,INCOME,Salary,2024-02-19,Bi-weekly pay
+TXN-00885,962.95,EXPENSE,Entertainment,2025-06-22,Concert tickets
+TXN-00886,637.91,EXPENSE,Food,2024-07-23,Coffee shop
+TXN-00887,7929.10,INCOME,Dividend,2024-07-07,Quarterly dividend
+TXN-00888,1623.77,EXPENSE,Food,2025-10-05,Grocery shopping
+TXN-00889,1472.26,EXPENSE,Healthcare,2025-03-27,Doctor visit
+TXN-00890,6601.64,INCOME,Dividend,2024-09-20,Quarterly dividend
+TXN-00891,8167.52,INCOME,Rental,2025-10-10,Apartment rent income
+TXN-00892,1951.15,EXPENSE,Shopping,2025-10-26,Electronics
+TXN-00893,12690.29,INCOME,Rental,2024-10-10,Property rental
+TXN-00894,10885.26,INCOME,Investment,2024-01-14,Bond interest
+TXN-00895,1937.52,INCOME,Bonus,2024-01-16,Performance bonus
+TXN-00896,918.52,EXPENSE,Entertainment,2025-01-06,Concert tickets
+TXN-00897,8847.13,INCOME,Rental,2024-01-02,Property rental
+TXN-00898,1280.96,EXPENSE,Insurance,2024-09-12,Home insurance
+TXN-00899,123.60,EXPENSE,Education,2024-12-30,Online course
+TXN-00900,450.06,EXPENSE,Transport,2025-01-23,Monthly bus pass
+TXN-00901,135.63,EXPENSE,Healthcare,2025-12-20,Doctor visit
+TXN-00902,2710.27,INCOME,Freelance,2024-04-30,Design work
+TXN-00903,1616.25,EXPENSE,Food,2025-07-21,Team lunch
+TXN-00904,390.87,EXPENSE,Healthcare,2025-06-30,Doctor visit
+TXN-00905,439.01,EXPENSE,Healthcare,2025-01-28,Doctor visit
+TXN-00906,12374.47,INCOME,Investment,2025-08-24,Mutual fund return
+TXN-00907,9968.46,INCOME,Rental,2025-01-20,Apartment rent income
+TXN-00908,974.79,EXPENSE,Transport,2025-07-09,Monthly bus pass
+TXN-00909,1933.71,EXPENSE,Shopping,2024-11-18,Home supplies
+TXN-00910,639.57,EXPENSE,Entertainment,2024-06-08,Netflix subscription
+TXN-00911,4219.75,INCOME,Bonus,2025-11-27,Year-end bonus
+TXN-00912,919.92,EXPENSE,Healthcare,2024-01-20,Doctor visit
+TXN-00913,1311.20,EXPENSE,Shopping,2024-03-18,Home supplies
+TXN-00914,225.77,EXPENSE,Entertainment,2024-10-02,Netflix subscription
+TXN-00915,561.67,EXPENSE,Entertainment,2024-05-10,Movie tickets
+TXN-00916,1179.96,EXPENSE,Transport,2024-09-29,Taxi fare
+TXN-00917,9768.85,INCOME,Freelance,2025-12-07,Consulting fee
+TXN-00918,1366.07,INCOME,Freelance,2025-04-09,Dev contract
+TXN-00919,463.39,EXPENSE,Shopping,2025-01-23,Clothing purchase
+TXN-00920,7070.37,INCOME,Salary,2024-12-27,Bi-weekly pay
+TXN-00921,61.83,EXPENSE,Education,2025-10-02,Online course
+TXN-00922,5937.37,INCOME,Dividend,2024-06-02,Quarterly dividend
+TXN-00923,8712.50,INCOME,Freelance,2025-10-12,Dev contract
+TXN-00924,694.39,EXPENSE,Insurance,2024-04-21,Car insurance
+TXN-00925,13529.79,INCOME,Investment,2024-02-05,Bond interest
+TXN-00926,9774.85,INCOME,Investment,2024-03-30,Mutual fund return
+TXN-00927,10274.29,INCOME,Salary,2025-08-04,Bi-weekly pay
+TXN-00928,1093.08,INCOME,Salary,2025-12-15,Monthly salary
+TXN-00929,1009.04,EXPENSE,Shopping,2025-08-18,Electronics
+TXN-00930,1590.54,EXPENSE,Shopping,2025-09-29,Home supplies
+TXN-00931,1572.26,INCOME,Investment,2025-12-11,Stock dividend
+TXN-00932,1613.71,EXPENSE,Transport,2025-02-10,Monthly bus pass
+TXN-00933,98.55,EXPENSE,Shopping,2025-04-08,Clothing purchase
+TXN-00934,1157.40,EXPENSE,Transport,2024-10-16,Monthly bus pass
+TXN-00935,1696.80,EXPENSE,Education,2024-09-27,Workshop fee
+TXN-00936,7728.96,INCOME,Dividend,2024-03-25,Quarterly dividend
+TXN-00937,1573.14,EXPENSE,Utilities,2025-11-01,Gas bill
+TXN-00938,9446.70,INCOME,Freelance,2025-03-26,Design work
+TXN-00939,1491.98,EXPENSE,Transport,2025-08-28,Uber to office
+TXN-00940,2814.75,INCOME,Freelance,2024-07-21,Design work
+TXN-00941,423.18,EXPENSE,Transport,2024-01-10,Uber to office
+TXN-00942,1029.27,INCOME,Rental,2025-11-02,Apartment rent income
+TXN-00943,4652.18,INCOME,Freelance,2024-02-23,Consulting fee
+TXN-00944,9553.81,INCOME,Rental,2025-03-24,Apartment rent income
+TXN-00945,7700.54,INCOME,Bonus,2024-07-20,Performance bonus
+TXN-00946,326.76,EXPENSE,Education,2024-12-17,Books
+TXN-00947,2191.49,INCOME,Rental,2025-05-16,Apartment rent income
+TXN-00948,749.85,EXPENSE,Shopping,2025-12-08,Clothing purchase
+TXN-00949,1294.20,EXPENSE,Insurance,2025-09-10,Life insurance premium
+TXN-00950,1206.43,EXPENSE,Healthcare,2025-01-11,Health insurance premium
+TXN-00951,13136.08,INCOME,Bonus,2025-03-13,Referral bonus
+TXN-00952,3417.90,INCOME,Rental,2025-12-09,Apartment rent income
+TXN-00953,1015.45,INCOME,Salary,2024-03-28,April salary
+TXN-00954,7573.74,INCOME,Freelance,2025-11-03,Dev contract
+TXN-00955,950.42,EXPENSE,Healthcare,2024-03-17,Health insurance premium
+TXN-00956,1160.14,INCOME,Bonus,2025-10-16,Performance bonus
+TXN-00957,672.05,EXPENSE,Entertainment,2024-10-22,Movie tickets
+TXN-00958,631.76,EXPENSE,Insurance,2024-05-05,Life insurance premium
+TXN-00959,2986.31,INCOME,Salary,2025-04-13,March salary
+TXN-00960,1190.59,EXPENSE,Insurance,2025-10-22,Life insurance premium
+TXN-00961,542.95,EXPENSE,Food,2025-04-18,Restaurant dinner
+TXN-00962,3006.65,INCOME,Freelance,2024-08-23,Client project payment
+TXN-00963,350.65,EXPENSE,Entertainment,2024-11-14,Concert tickets
+TXN-00964,882.13,EXPENSE,Entertainment,2024-02-03,Netflix subscription
+TXN-00965,1307.45,EXPENSE,Insurance,2025-04-19,Car insurance
+TXN-00966,1332.20,EXPENSE,Transport,2024-11-29,Fuel refill
+TXN-00967,283.25,EXPENSE,Utilities,2025-10-26,Internet subscription
+TXN-00968,292.92,EXPENSE,Utilities,2025-12-26,Gas bill
+TXN-00969,377.30,EXPENSE,Transport,2024-07-26,Monthly bus pass
+TXN-00970,8368.21,INCOME,Investment,2025-11-15,Bond interest
+TXN-00971,1561.09,EXPENSE,Education,2025-07-19,Online course
+TXN-00972,2283.33,INCOME,Freelance,2024-06-15,Design work
+TXN-00973,1627.55,EXPENSE,Transport,2024-06-22,Uber to office
+TXN-00974,1985.02,EXPENSE,Entertainment,2024-06-24,Netflix subscription
+TXN-00975,401.69,EXPENSE,Shopping,2025-09-20,Home supplies
+TXN-00976,560.98,EXPENSE,Food,2024-10-15,Grocery shopping
+TXN-00977,1399.85,INCOME,Dividend,2024-03-26,Annual dividend payout
+TXN-00978,1379.65,EXPENSE,Transport,2025-09-22,Fuel refill
+TXN-00979,7940.52,INCOME,Rental,2025-12-15,Apartment rent income
+TXN-00980,1994.80,EXPENSE,Entertainment,2025-11-02,Netflix subscription
+TXN-00981,1325.65,INCOME,Dividend,2025-11-18,Annual dividend payout
+TXN-00982,1797.83,EXPENSE,Shopping,2025-07-26,Electronics
+TXN-00983,651.63,EXPENSE,Transport,2025-06-23,Uber to office
+TXN-00984,1578.21,EXPENSE,Food,2024-10-19,Restaurant dinner
+TXN-00985,96.50,EXPENSE,Healthcare,2024-07-17,Health insurance premium
+TXN-00986,13986.50,INCOME,Dividend,2025-08-16,Quarterly dividend
+TXN-00987,10210.23,INCOME,Investment,2025-08-19,Mutual fund return
+TXN-00988,681.83,EXPENSE,Shopping,2025-04-09,Clothing purchase
+TXN-00989,2610.89,INCOME,Bonus,2024-06-18,Year-end bonus
+TXN-00990,905.71,EXPENSE,Food,2025-11-07,Restaurant dinner
+TXN-00991,929.41,EXPENSE,Insurance,2025-06-29,Life insurance premium
+TXN-00992,12910.97,INCOME,Freelance,2024-04-27,Consulting fee
+TXN-00993,653.77,EXPENSE,Shopping,2024-08-09,Home supplies
+TXN-00994,3785.91,INCOME,Investment,2025-11-03,Bond interest
+TXN-00995,49.37,EXPENSE,Food,2024-06-11,Coffee shop
+TXN-00996,14228.11,INCOME,Investment,2025-07-18,Mutual fund return
+TXN-00997,980.55,EXPENSE,Transport,2024-05-17,Fuel refill
+TXN-00998,3913.70,INCOME,Dividend,2024-01-15,Annual dividend payout
+TXN-00999,8233.24,INCOME,Dividend,2024-09-13,Quarterly dividend
+TXN-01000,10782.53,INCOME,Rental,2025-04-21,Apartment rent income

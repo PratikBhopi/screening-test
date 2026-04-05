@@ -1,6 +1,6 @@
-amount,type,category,transactionDate,description
-2500.00,INCOME,Salary,2024-03-01,Valid row
--100.00,EXPENSE,Transport,2024-03-02,Negative amount - should fail
-500.00,TRANSFER,Food,2024-03-03,Bad type - should fail
-300.00,EXPENSE,Utilities,2024-03-07,Valid row
-,INCOME,Salary,2024-03-08,Missing amount - should fail
+transactionRef,amount,type,category,transactionDate,description
+TXN-2024-010,2500.00,INCOME,Salary,2024-03-01,Valid row
+TXN-2024-011,-100.00,EXPENSE,Transport,2024-03-02,Negative amount - should fail
+TXN-2024-012,500.00,TRANSFER,Food,2024-03-03,Bad type - should fail
+TXN-2024-013,300.00,EXPENSE,Utilities,2024-03-07,Valid row
+TXN-2024-014,,INCOME,Salary,2024-03-08,Missing amount - should fail

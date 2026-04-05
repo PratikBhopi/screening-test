@@ -8,16 +8,15 @@ const prisma = require('../models');
  * @param {string} data.filename    - Original filename from the upload
  * @param {Buffer} data.fileBuffer  - Raw file buffer for async processing
  * @param {string} data.mimetype    - MIME type of the uploaded file
- * @param {string} data.mode        - 'atomic' | 'partial'
  * @param {number} data.totalRows   - Row count determined after parsing
  * @returns {Object} Created ImportJob (without fileBuffer)
  */
-async function createJob({ uploadedBy, filename, fileBuffer, mimetype, mode, totalRows = 0 }) {
+async function createJob({ uploadedBy, filename, fileBuffer, mimetype, totalRows = 0 }) {
   return prisma.importJob.create({
-    data: { uploadedBy, filename, fileBuffer, mimetype, mode, totalRows },
+    data: { uploadedBy, filename, fileBuffer, mimetype, totalRows },
     select: {
       id: true, uploadedBy: true, filename: true, mimetype: true,
-      status: true, mode: true, totalRows: true,
+      status: true, totalRows: true,
       savedCount: true, failedCount: true, errorLog: true,
       startedAt: true, completedAt: true, createdAt: true
     }
@@ -55,7 +54,7 @@ async function findByUserId(userId, page = 1, limit = 20) {
       take: limit,
       select: {
         id: true, uploadedBy: true, filename: true, mimetype: true,
-        status: true, mode: true, totalRows: true,
+        status: true, totalRows: true,
         savedCount: true, failedCount: true, errorLog: true,
         startedAt: true, completedAt: true, createdAt: true
       }
@@ -81,7 +80,7 @@ async function updateStatus(id, patch) {
     data: patch,
     select: {
       id: true, uploadedBy: true, filename: true, mimetype: true,
-      status: true, mode: true, totalRows: true,
+      status: true, totalRows: true,
       savedCount: true, failedCount: true, errorLog: true,
       startedAt: true, completedAt: true, createdAt: true
     }

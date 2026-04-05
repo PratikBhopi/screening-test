@@ -1,9 +1,12 @@
 const jwt = require('jsonwebtoken');
 const AppError = require('../errors/AppError');
 const { isBlacklisted } = require('../utils/tokenBlacklist');
+const userRepository = require('../repositories/user.repository');
+require('dotenv').config();
 
-// Verifies the JWT and populates req.user. Role checking is handled separately by authorize.js
-function authenticate(req, res, next) {
+const JWT_SECRET = process.env.JWT_SECRET || 'secret';
+
+async function authenticate(req, res, next) {
   try {
     const authHeader = req.headers.authorization;
 
@@ -12,10 +15,15 @@ function authenticate(req, res, next) {
     }
 
     const token = authHeader.split(' ')[1];
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'secret');
+    const decoded = jwt.verify(token, JWT_SECRET);
 
     if (decoded.jwt_id && isBlacklisted(decoded.jwt_id)) {
       throw new AppError('Token has been invalidated. Please log in again.', 401);
+    }
+
+    const user = await userRepository.findById(decoded.userId);
+    if (!user || user.status !== 'ACTIVE') {
+      throw new AppError('Account is inactive or suspended. Contact your administrator.', 403);
     }
 
     req.user = decoded;

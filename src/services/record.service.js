@@ -11,10 +11,18 @@ const { toRecordDto } = require('../dtos/record.dto');
  * @returns {Object}
  */
 async function createRecord(data, requestingUser) {
-
   data.createdById = requestingUser.userId;
 
-  const record = await recordRepository.create(data);
+  let record;
+  try {
+    record = await recordRepository.create(data);
+  } catch (err) {
+    // P2002 = unique constraint violation — transactionRef already exists
+    if (err.code === 'P2002' && err.meta?.target?.includes('transactionRef')) {
+      throw new AppError(`A record with transactionRef '${data.transactionRef}' already exists`, 409);
+    }
+    throw err;
+  }
 
   await auditService.log({
     userId: requestingUser.userId,

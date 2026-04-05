@@ -12,8 +12,9 @@
  *         application/json:
  *           schema:
  *             type: object
- *             required: [amount, type, category, transactionDate]
+ *             required: [transactionRef, amount, type, category, transactionDate]
  *             properties:
+ *               transactionRef: { type: string, description: "Required unique business reference (e.g. invoice or bank ref)" }
  *               amount: { type: number }
  *               type: { type: string, enum: [INCOME, EXPENSE] }
  *               category: { type: string }

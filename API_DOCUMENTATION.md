@@ -162,6 +162,7 @@ Admin only.
 **Request**
 ```json
 {
+  "transactionRef": "TXN-2025-001",
   "amount": 5000,
   "type": "INCOME",
   "category": "Salary",
@@ -170,6 +171,7 @@ Admin only.
 }
 ```
 
+- `transactionRef` — required, unique business reference (e.g. invoice number, bank ref), max 100 chars
 - `amount` — positive number
 - `type` — `INCOME` or `EXPENSE`
 - `category` — 1–100 chars, free-form string
@@ -401,9 +403,7 @@ All roles. Returns all dashboard blocks in one request. VIEWER receives only the
 
 All bulk import endpoints are Admin only. Accepted file formats: CSV, XLSX.
 
-Two processing modes (set via `?mode=` query param):
-- `atomic` (default) — all rows must pass validation or nothing is saved
-- `partial` — saves valid rows, skips invalid ones and returns a per-row error report
+All bulk import endpoints are Admin only. Accepted file formats: CSV, XLSX. All imports are atomic — if any row fails validation, nothing is saved.
 
 ---
 
@@ -433,7 +433,7 @@ If the file exceeds 1MB or 1000 rows, the endpoint returns 400 and tells you to 
 ---
 
 ### POST /bulk-records/async
-Asynchronous import. Files up to 10MB. Stores the file, creates a job, and returns immediately. Processing happens in the background.
+Asynchronous import. Files up to 10MB. Stores the file, creates a job, and returns immediately. Processing happens in the background. Always runs in atomic mode — if any row fails validation, the entire import is rejected and the job is marked `FAILED`.
 
 **Request** — same as sync, `multipart/form-data`
 
@@ -462,7 +462,6 @@ Poll this after an async import to check progress.
     "id": "uuid",
     "filename": "transactions_q1.csv",
     "status": "COMPLETED",
-    "mode": "partial",
     "totalRows": 980,
     "savedCount": 975,
     "failedCount": 5,
@@ -474,7 +473,7 @@ Poll this after an async import to check progress.
 }
 ```
 
-Possible `status` values: `PENDING`, `PROCESSING`, `COMPLETED`, `PARTIAL`, `FAILED`
+Possible `status` values: `PENDING`, `PROCESSING`, `COMPLETED`, `FAILED`
 
 Returns 404 if the job doesn't exist or belongs to a different user.
 

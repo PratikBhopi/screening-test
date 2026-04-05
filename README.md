@@ -8,8 +8,8 @@ A backend system for a multi-role finance dashboard. Built with **Node.js**, **E
 
 For deep-dives into the architecture and data models, please refer to the following:
 
-- **[Database Schema Documentation](./schema_documentation.md)**: ER diagrams, Enum definitions, and model structures.
-- **[Core Features & Architecture](./core_features.md)**: Insights into JWT blacklisting, bulk import workflows, secure file parsing, and scalability tradeoffs.
+- **[Database Schema Documentation](./SCHEMA_DOCUMENTATION.md)**: ER diagrams, Enum definitions, and model structures.
+- **[Core Features & Architecture](./CORE_FEATURES.md)**: Insights into JWT blacklisting, bulk import workflows, secure file parsing, and scalability tradeoffs.
 
 ---
 
@@ -129,25 +129,36 @@ npm run dev
 
 ---
 
-## 📉 Assumptions & Tradeoffs
+## Assumptions & Tradeoffs
 
-| Topic | Note |
-|-------|------|
-| **JWT Blacklist** | Currently in-process (Memory). Production path to **Redis** is documented in [Core Features](./core_features.md). |
-| **Imports** | Sync (<1MB) for speed; Async (<10MB) for server reliability. Production uses **BullMQ/SQS**. |
-| **Categories** | Denormalized (String) for high-speed SQL-level aggregations without JOIN overhead. |
-| **Soft Delete** | Only on `FinancialRecord` to maintain audit trail integrity. |
+**JWT Blacklist** — in-process Map keyed by `jti`. Works fine for a single instance. Redis with TTL would be the swap for production (same interface, different storage).
+
+**Bulk Import Queue** — plain in-memory array with `setImmediate` to keep the event loop free. Jobs are lost on restart. BullMQ or SQS would fix that in production.
+
+**Categories** — stored as a plain string on each record rather than a separate table. Avoids JOIN overhead on aggregation queries. Dashboard `GROUP BY category` runs entirely at the SQL level.
+
+**Soft Delete** — only on `FinancialRecord`. Hard deletes would break the audit log foreign keys and make financial history unrecoverable.
+
+**Temporary Passwords** — returned in the register response for convenience in this environment. In production they'd go via email only and never appear in an API response.
+
+**Trends Query** — time-series bucketing (monthly/weekly) is done in Node.js rather than via `$queryRaw` with MySQL's `DATE_FORMAT`. Prisma's `groupBy` can't express computed date expressions, and the bounded date window keeps the in-memory set small. For a multi-year dataset, `$queryRaw` with `DATE_FORMAT` would be the right move.
 
 ---
 
-## ✅ Assignment Checklist
+## In Production
 
-- ✅ **User and Role Management** (ADMIN/ANALYST/VIEWER)
-- ✅ **Financial Records CRUD** & **Filtering**
-- ✅ **Dashboard Summary APIs** (Income/Expense/Net)
-- ✅ **Insights & Period Comparison**
-- ✅ **Role-Based Access Control** (Routes + DTOs)
-- ✅ **JWT Authentication** & **Logout Blacklisting**
-- ✅ **Audit Logging** (Non-volatile change snapshots)
-- ✅ **Bulk Imports** (Sync/Async with Job Tracking)
-- ✅ **Interactive Documentation** (Swagger)
+A few things would change before this goes live. The in-memory JWT blacklist would move to Redis with TTL — same interface, just persistent and shared across instances. The import queue would swap to BullMQ so jobs survive restarts and workers can scale independently. Auth endpoints would get rate limiting to prevent brute force. The MySQL instance would move to a managed service with read replicas to handle dashboard query load without touching the write path. File buffers stored in `ImportJob` would move to S3 — only the object key would live in the DB.
+
+---
+
+## Assignment Checklist
+
+- User and Role Management (ADMIN/ANALYST/VIEWER)
+- Financial Records CRUD and filtering
+- Dashboard Summary APIs (income, expenses, net balance)
+- Insights and period comparison
+- Role-Based Access Control at route, service, and DTO level
+- JWT Authentication with logout blacklisting
+- Audit Logging with before/after snapshots
+- Bulk Imports — sync and async with job tracking
+- Interactive API documentation (Swagger)

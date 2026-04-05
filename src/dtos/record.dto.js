@@ -10,6 +10,7 @@ const toRecordDto = (record, role = 'VIEWER') => {
 
   const dto = {
     id: record.id,
+    transactionRef: record.transactionRef ?? null,
     amount: record.amount,
     type: record.type,
     category: record.category ?? null,

@@ -25,6 +25,10 @@ This document explains the core technical features of the FinTrack API, followin
   - **Single-Instance**: Not shared across multiple server processes.
 - **Production Solution**: **Redis**. By swapping the Map for a Redis store with TTLs (Time-To-Live), the blacklist becomes persistent and shared across a cluster of servers.
 
+DATA FLOW:
+![alt text](docs/images/dfd-auth.png)
+
+
 ---
 
 ## 3. Smarter Pagination
@@ -44,9 +48,16 @@ This document explains the core technical features of the FinTrack API, followin
 1. **Synchronous Import (Small Files < 1MB / 1k rows)**:
    - Processed immediately within the request-response cycle.
    - Provides instant feedback (Saved count vs. Failed count).
+
+  Data Flow Diagram:
+  ![alt text](docs/images/dfd-bulk-import-sync.png)
+
 2. **Asynchronous Import (Large Files < 10MB)**:
    - **The Workflow**: Server accepts the file, creates a `PENDING` job, and returns a **202 Accepted** with a `jobId`.
    - **Queueing**: Uses an in-process queue with `setImmediate` to yield back to the Event Loop. This ensures the server can handle other HTTP requests *while* processing the file in the background.
+  
+  Data Flow Diagram:
+  ![alt text](docs/images/dfd-bulk-import-async.png)
 
 ### Scalability & Tradeoffs:
 - **Scalability**: Keeps the main server responsive even during heavy I/O tasks.
@@ -93,8 +104,13 @@ This document explains the core technical features of the FinTrack API, followin
 ## 9. Heavy-Lifting at the SQL Level
 **The Problem**: Calculating dashboard totals for 1 million records in Node.js would consume gigabytes of RAM.
 - **The Solution**: 
-  - All aggregation logic (`SUM`, `COUNT`, `GROUP BY`) is pushed to the MySQL engine via Prisma's `groupBy` and `aggregate` functions.
+  - Simple aggregations (`SUM`, `COUNT`, `GROUP BY category`) are pushed entirely to MySQL via Prisma's `aggregate` and `groupBy` functions — no records are loaded into Node for these.
   - Dashboard queries run concurrently via `Promise.all`, reducing total latency to the speed of the single slowest query.
+- **Exception — Time-Series Trends**:
+  - MySQL's date bucketing (`DATE_FORMAT`, `YEARWEEK`) cannot be expressed through Prisma's `groupBy` API, which only accepts model fields — not computed expressions.
+  - Using `$queryRaw` with `DATE_FORMAT` was considered but avoided to keep the query layer type-safe and database-agnostic.
+  - Instead, the trends query fetches only `amount`, `type`, and `transactionDate` for the bounded date window, then buckets in Node.js by ISO week or calendar month.
+  - This is acceptable because the date window is always bounded (e.g. last 6 months), so the record set is small. For a dataset with millions of records over years, `$queryRaw` with `DATE_FORMAT` would be the right call.
 
 ---
 

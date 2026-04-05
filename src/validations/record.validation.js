@@ -3,11 +3,8 @@
  */
 const { z } = require('zod');
 
-/*
- * transactionDate has no default: silently defaulting to now() would mask missing data from callers.
- * Every record must explicitly state when the transaction occurred.
- */
 exports.createRecordSchema = z.object({
+  transactionRef: z.string().trim().min(1).max(100), // required unique identifier per transaction
   amount: z.number().positive("Amount must be greater than 0"),
   type: z.enum(['INCOME', 'EXPENSE']),
   category: z.string().trim().min(1, "Category is required").max(100),

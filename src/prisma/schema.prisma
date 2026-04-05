@@ -48,14 +48,12 @@ enum TransactionType {
  * PENDING     = job created, waiting in queue
  * PROCESSING  = worker has picked it up
  * COMPLETED   = all rows saved successfully
- * PARTIAL     = some rows saved, some failed (partial mode only)
- * FAILED      = unrecoverable error or atomic mode with validation errors
+ * FAILED      = validation errors or system error — nothing was saved
  */
 enum ImportJobStatus {
   PENDING
   PROCESSING
   COMPLETED
-  PARTIAL
   FAILED
 }
 
@@ -95,6 +93,12 @@ model User {
  * FinancialRecord
  * The core ledger. Every money movement is one row.
  *
+ * transactionRef is a caller-supplied business-level identifier (e.g. an
+ * invoice number, bank reference, or receipt ID). It is optional but unique
+ * when provided — this prevents the same real-world transaction from being
+ * entered twice. The uniqueness constraint is scoped globally; if two admins
+ * try to insert the same ref, the second one gets a 409.
+ *
  * category is stored as a plain string (e.g. "Salary", "AWS Bill").
  * There is no Category table or foreign key — this avoids JOINs in
  * aggregation queries and lets callers freely name their categories.
@@ -110,6 +114,7 @@ model User {
  */
 model FinancialRecord {
   id              String          @id @default(uuid())
+  transactionRef  String?         @unique // optional business-level dedup key
   amount          Decimal         @db.Decimal(19, 4)
   type            TransactionType
   category        String          // free-form string, e.g. "Salary", "Transport"
@@ -130,6 +135,7 @@ model FinancialRecord {
   @@index([category])
   @@index([deletedAt])
   @@index([type])
+  @@index([transactionRef])
 }
 
 /*
@@ -178,11 +184,8 @@ model AuditLog {
 // storage and only the reference would be stored here.
 //
 // errorLog stores the full array of row-level validation errors as JSON.
-// For files within the 50MB cap this is acceptable. In production with
-// very large files this would move to a separate table or S3 object.
-//
-// mode is stored as a string so the async worker knows which processing
-// mode was requested at upload time (atomic vs partial).
+// Processing is always atomic — if any row fails, nothing is saved and
+// the job is marked FAILED with the full error log.
 model ImportJob {
   id         String          @id @default(uuid())
   uploadedBy String
@@ -193,7 +196,6 @@ model ImportJob {
   mimetype   String
 
   status      ImportJobStatus @default(PENDING)
-  mode        String          @default("atomic")
 
   totalRows   Int  @default(0)
   savedCount  Int  @default(0)

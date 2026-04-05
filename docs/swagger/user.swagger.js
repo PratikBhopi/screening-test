@@ -101,7 +101,7 @@
  *             type: object
  *             required: [status]
  *             properties:
- *               status: { type: string, enum: [ACTIVE, INACTIVE] }
+ *               status: { type: string, enum: [ACTIVE, INACTIVE, SUSPENDED] }
  *     responses:
  *       200:
  *         description: Status updated successfully

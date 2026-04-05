@@ -2,14 +2,10 @@
  * @swagger
  * /bulk-records:
  *   post:
- *     summary: Synchronous bulk import (max 1MB/1000 rows)
+ *     summary: Synchronous bulk import (max 1MB/1000 rows) — atomic
  *     tags: [Bulk Records]
  *     security:
  *       - BearerAuth: []
- *     parameters:
- *       - in: query
- *         name: mode
- *         schema: { type: string, enum: [atomic, partial], default: atomic }
  *     requestBody:
  *       required: true
  *       content:
@@ -20,23 +16,31 @@
  *               file: { type: string, format: binary }
  *     responses:
  *       201:
- *         description: Import completed
+ *         description: Import completed — all rows saved
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success: { type: boolean }
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     totalRows: { type: integer }
+ *                     savedCount: { type: integer }
+ *                     errors: { type: array, items: { type: object } }
  *       400:
- *         description: File too large or invalid rows
+ *         description: File too large, invalid format, or validation errors
  */
 
 /**
  * @swagger
  * /bulk-records/async:
  *   post:
- *     summary: Asynchronous bulk import (max 10MB)
+ *     summary: Asynchronous bulk import (max 10MB) — atomic
  *     tags: [Bulk Records]
  *     security:
  *       - BearerAuth: []
- *     parameters:
- *       - in: query
- *         name: mode
- *         schema: { type: string, enum: [atomic, partial], default: atomic }
  *     requestBody:
  *       required: true
  *       content:

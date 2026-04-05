@@ -33,13 +33,14 @@ const options = {
             username: { type: 'string' },
             email: { type: 'string', format: 'email' },
             role: { type: 'string', enum: ['ADMIN', 'ANALYST', 'VIEWER'] },
-            status: { type: 'string', enum: ['ACTIVE', 'INACTIVE'] },
+            status: { type: 'string', enum: ['ACTIVE', 'INACTIVE', 'SUSPENDED'] },
           },
         },
         FinancialRecord: {
           type: 'object',
           properties: {
             id: { type: 'string', format: 'uuid' },
+            transactionRef: { type: 'string' },
             amount: { type: 'string' },
             type: { type: 'string', enum: ['INCOME', 'EXPENSE'] },
             category: { type: 'string' },
@@ -52,7 +53,7 @@ const options = {
           type: 'object',
           properties: {
             id: { type: 'string', format: 'uuid' },
-            status: { type: 'string', enum: ['PENDING', 'PROCESSING', 'COMPLETED', 'PARTIAL', 'FAILED'] },
+            status: { type: 'string', enum: ['PENDING', 'PROCESSING', 'COMPLETED', 'FAILED'] },
             filename: { type: 'string' },
             totalRows: { type: 'integer' },
             savedCount: { type: 'integer' },
