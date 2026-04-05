@@ -28,6 +28,9 @@ app.use('/api/v1/records', authenticate, requirePasswordChange, recordRoutes);
 app.use('/api/v1/bulk-records', authenticate, requirePasswordChange, bulkRecordRoutes);
 app.use('/api/v1/dashboard', authenticate, requirePasswordChange, dashboardRoutes);
 
+
+app.get('/',(req,res)=>{res.send("The Server is running fine. Welcome to FinTrack")})
+
 // global error handler
 app.use((err, req, res, next) => {
   if (err.isOperational) {
